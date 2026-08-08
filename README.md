@@ -1,402 +1,781 @@
 <!--
-  ██████╗ ██╗   ██╗██████╗ ███████╗██████╗ ██████╗ ██╗   ██╗███╗   ██╗██╗  ██╗
-  ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██║   ██║████╗  ██║██║ ██╔╝
-  ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██████╔╝██║   ██║██╔██╗ ██║█████╔╝
-  ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██╔═══╝ ██║   ██║██║╚██╗██║██╔═██╗
-  ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██║     ╚██████╔╝██║ ╚████║██║  ██╗
-   ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
-  README for Tuhin Das — github.com/ethnicbnb
-  Keep README.md, CV.pdf, and assets/cyberpunk-banner.gif together when publishing.
+===============================================================================
+                              TUHIN DAS
+     MECHANICAL ENGINEERING // QUALITY // IT // AUTOMATION // DIGITAL OPS
+                         github.com/ethnicbnb
+===============================================================================
 -->
 
-<!-- ANIMATED BANNER -->
-<div align="center">
-<img src="./assets/cyberpunk-banner.gif" width="100%" alt="Animated cyberpunk banner — Tuhin Das" />
-</div>
-
-<!-- ANIMATED TYPING HEADER -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=false&width=750&lines=OPERATOR%3A+TUHIN+DAS+%2F%2F+SYSTEM+ONLINE+%E2%96%A0;MECHANICAL+ENGINEERING+%E2%97%86+QUALITY+SYSTEMS;PRECISION+MANUFACTURING+%E2%97%86+AUTOMATION;DIGITAL+OPERATIONS+%26+WORKFLOW+QA;B.TECH+%7C+AUTOMOBILE+DIPLOMA+%7C+TATA+CUMMINS;AI+%2B+ENGINEERING+%2F%2F+FULL+STACK+OPERATOR)](https://github.com/ethnicbnb)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,20,24&text=TUHIN%20DAS&fontColor=00E5FF&fontSize=52&fontAlignY=38&desc=ENGINEERING%20%2F%2F%20QUALITY%20%2F%2F%20DIGITAL%20SYSTEMS&descAlignY=60&descSize=17&animation=fadeIn" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono\&weight=700\&size=23\&duration=2800\&pause=700\&color=00E5FF\&center=true\&vCenter=true\&width=850\&lines=SYSTEM+BOOT+%2F%2F+TUHIN+DAS+ONLINE;MECHANICAL+ENGINEERING+%2F%2F+QUALITY+SYSTEMS;MANUFACTURING+%2F%2F+IT+%2F%2F+DIGITAL+OPERATIONS;AUTOMATION+%2F%2F+AI+%2F%2F+WORKFLOW+QA;ENGINEERING+MINDSET+%2B+DIGITAL+EXECUTION;BUILD+%3E+TEST+%3E+OPTIMIZE+%3E+IMPROVE)](https://github.com/ethnicbnb)
+
+### `ENGINEERING THE PHYSICAL WORLD // AUTOMATING THE DIGITAL ONE`
 
 </div>
 
-<!-- CONTACT BADGE ROW -->
+---
+
 <div align="center">
 
-[![Email](https://img.shields.io/badge/EMAIL-tuhindas9073%40gmail.com-0D0221?style=for-the-badge&logo=gmail&logoColor=FF2A9C&labelColor=0D0221)](mailto:tuhindas9073@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WHATSAPP-%2B91%209073828969-0D0221?style=for-the-badge&logo=whatsapp&logoColor=25D366&labelColor=0D0221)](https://wa.me/919073828969)
-[![My Works](https://img.shields.io/badge/MY%20WORKS-CLOUD%20DOCS-0D0221?style=for-the-badge&logo=googledrive&logoColor=00E5FF&labelColor=0D0221)](https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q)
-[![Download CV](https://img.shields.io/badge/DOWNLOAD%20CV-PDF%20RESUME-0D0221?style=for-the-badge&logo=adobeacrobatreader&logoColor=FF2A9C&labelColor=0D0221)](https://drive.google.com/file/d/12-rsZG-FzekzAvW0uSfnT5cOcWOYRpOT/view?usp=drive_link)
-</div>
+[![Email](https://img.shields.io/badge/EMAIL-TUHIN_DAS-0D1117?style=for-the-badge\&logo=gmail\&logoColor=EA4335)](mailto:tuhindas9073@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WHATSAPP-CONTACT-0D1117?style=for-the-badge\&logo=whatsapp\&logoColor=25D366)](https://wa.me/919073828969)
+[![Portfolio](https://img.shields.io/badge/MY_WORKS-CLOUD_PORTFOLIO-0D1117?style=for-the-badge\&logo=googledrive\&logoColor=00E5FF)](https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q)
+[![Resume](https://img.shields.io/badge/RESUME-VIEW_CV-0D1117?style=for-the-badge\&logo=adobeacrobatreader\&logoColor=FF2A9C)](https://drive.google.com/file/d/12-rsZG-FzekzAvW0uSfnT5cOcWOYRpOT/view?usp=drive_link)
 
 <br>
 
-<!-- IDENTITY CARD -->
-
-<div align="center">
-
-| `SYSTEM PARAMETER` | `OPERATOR TELEMETRY DATA` |
-| :-- | :-- |
-| `OPERATOR` | **TUHIN DAS** |
-| `PRIMARY ROLE` | **Business Development Executive & IT/QA Lead** |
-| `ACADEMIC CORE` | **B.Tech Mechanical Engineering** *(Pursuing)* · **Diploma Automobile Eng.** *(Completed)* |
-| `SYSTEM STATUS` | `[████████████████████]` **ONLINE // READY FOR HIRE** |
+![System](https://img.shields.io/badge/SYSTEM-ONLINE-00E5FF?style=flat-square\&labelColor=0D1117)
+![Open To Work](https://img.shields.io/badge/OPEN_TO_WORK-YES-25D366?style=flat-square\&labelColor=0D1117)
+![Focus](https://img.shields.io/badge/FOCUS-ENGINEERING_%2B_TECH-FF2A9C?style=flat-square\&labelColor=0D1117)
 
 </div>
 
 ---
 
-## `╔═[ PROFILE SUMMARY ]═╗`
+# `> WHO_AM_I`
 
-High-performing engineering professional pursuing a **B.Tech in Mechanical Engineering** alongside a Diploma in **Automobile Engineering**. Combines hands-on manufacturing expertise with advanced digital operations skills, bringing a multidisciplinary approach to mechanical design, quality inspection, IT infrastructure, and backend workflow optimization.
-
-Demonstrated track record of delivering operational excellence across high-precision environments — from engine cylinder head machining at **[Tata Cummins](https://www.cummins.com/en-in/en/in/company/india-companies/tata-cummins-pvt-limited)** and rubber calendering operations at **[CEAT](https://www.ceat.com/)** to IT administration, QA manual testing, and digital platform development for **[Ethnicbnb](https://ethnicbnb.com/)** and **[Puremilk](https://puremilk.co.in/)**. Proven ability to bridge technical engineering teams with business stakeholders to streamline workflows and drive quality assurance.
-
-> `>> SYSTEM STATE // READY FOR MECHANICAL ENGINEERING, QUALITY ASSURANCE & DIGITAL OPERATIONS ROLES`
-
----
-
-## `╔═[ CORE COMPETENCIES ]═╗`
-
-<div align="center">
-
-![Precision Machining](https://img.shields.io/badge/PRECISION%20MACHINING-95%25-00E5FF?style=for-the-badge&labelColor=0D0221)
-![Quality Assurance](https://img.shields.io/badge/QUALITY%20ASSURANCE-90%25-FF2A9C?style=for-the-badge&labelColor=0D0221)
-![IT Infrastructure](https://img.shields.io/badge/IT%20INFRASTRUCTURE-88%25-25D366?style=for-the-badge&labelColor=0D0221)
-![Digital Operations](https://img.shields.io/badge/DIGITAL%20OPERATIONS-92%25-FCC624?style=for-the-badge&labelColor=0D0221)
-![AI & Automation](https://img.shields.io/badge/AI%20%26%20AUTOMATION-85%25-7A3EE8?style=for-the-badge&labelColor=0D0221)
-
-</div>
-
----
-
-## `╔═[ PROFESSIONAL EXPERIENCE ]═╗`
-
-<details open>
-<summary><strong>[01] // NEW ZEALAND FRESH &amp; NATURAL (INDIA) PRIVATE LIMITED</strong> — Business Development Executive · Sep 2025 — Present</summary>
-
-<br>
-
-**Operational Directives & Impact**
-
-- **IT Infrastructure Leadership**: Directed organization-wide IT operations, overseeing hardware diagnostics, network troubleshooting, and software maintenance to ensure 99.9% operational uptime.
-- **Platform Development & QA**: Spearheaded quality assurance for **[Ethnicbnb](https://ethnicbnb.com/)**, designing backend booking workflows, executing comprehensive manual testing, and delivering UI/UX enhancements.
-- **Cross-Functional Bridge**: Served as technical liaison between developer teams and operational management to define functional requirements and optimize user workflows.
-- **Brand Strategy Execution**: Managed digital promotional campaigns and marketing collateral design for **[Puremilk](https://puremilk.co.in/)** across online and field distribution channels.
-
-**Skills Acquired**
-
-`Backend Workflow Architecture` · `Quality Assurance & Testing` · `System Administration` · `UI/UX Optimization` · `Requirements Engineering` · `IT Infrastructure Support` · `Git` · `Cloud Hosting Management` · `CI/CD Automation` · `WhatsApp Automation` · `Digital Marketing`
-
-</details>
-
-<details open>
-<summary><strong>[02] // TATA CUMMINS PRIVATE LIMITED</strong> — MFG.STDT. Trainee · Feb 2024 — Feb 2025</summary>
-
-<br>
-
-**Operational Directives & Impact**
-
-- **Precision Machining**: Executed CNC machining operations on high-tolerance engine cylinder head manufacturing lines.
-- **Quality Control Inspection**: Conducted rigorous dimensional, surface finish, and flaw inspection using precision metrology tools to achieve zero-defect standards.
-- **Process Optimization**: Collaborated with senior Quality Assurance engineers to audit production parameters and maintain standard operating procedures (SOPs).
-
-**Skills Acquired**
-
-`Precision CNC Machining` · `Dimensional Metrology` · `Quality Inspection` · `5S & Kaizen Protocols` · `Defect Analysis`
-
-</details>
-
-<details open>
-<summary><strong>[03] // CAVI ELETTRICI E AFFINI TORINO LIMITED (CEAT)</strong> — Production Engineer (NATS) · Dec 2023 — Feb 2024</summary>
-
-<br>
-
-**Operational Directives & Impact**
-
-- **Calendering Line Operations**: Operated high-capacity 4-roll calendering machinery, ensuring precise gauge thickness control at let-off and feed stations.
-- **Material Quality Assurance**: Oversaw raw rubber compound inventory management and performed quality validation on textile reinforcement fabrics for tire manufacturing.
-
-**Skills Acquired**
-
-`Process Engineering` · `Precision Calendering` · `Inventory Management` · `Raw Material Quality Control`
-
-</details>
-
----
-
-## `╔═[ TECHNICAL SKILLS ]═╗`
-
-<div align="center">
-
-[![SolidWorks](https://img.shields.io/badge/SOLIDWORKS-0D0221?style=for-the-badge&logo=dassaultsystemes&logoColor=FF2A9C&labelColor=0D0221)](https://www.solidworks.com/)
-[![Linux](https://img.shields.io/badge/LINUX-0D0221?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=0D0221)](https://kernel.org/)
-[![Git](https://img.shields.io/badge/GIT-0D0221?style=for-the-badge&logo=git&logoColor=F05032&labelColor=0D0221)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GITHUB-0D0221?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0221)](https://github.com/ethnicbnb)
-[![Python](https://img.shields.io/badge/PYTHON-0D0221?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=0D0221)](https://python.org/)
-[![OpenAI](https://img.shields.io/badge/OPENAI-0D0221?style=for-the-badge&logo=openai&logoColor=412991&labelColor=0D0221)](https://openai.com/)
-[![Google Gemini](https://img.shields.io/badge/GOOGLE%20GEMINI-0D0221?style=for-the-badge&logo=google&logoColor=8E75B2&labelColor=0D0221)](https://gemini.google.com/)
-[![Claude](https://img.shields.io/badge/ANTHROPIC%20CLAUDE-0D0221?style=for-the-badge&logo=anthropic&logoColor=CC785C&labelColor=0D0221)](https://claude.ai/)
-[![Obsidian](https://img.shields.io/badge/OBSIDIAN-0D0221?style=for-the-badge&logo=obsidian&logoColor=7A3EE8&labelColor=0D0221)](https://obsidian.md/)
-[![Webflow](https://img.shields.io/badge/WEBFLOW-0D0221?style=for-the-badge&logo=webflow&logoColor=4353FF&labelColor=0D0221)](https://webflow.com/)
-
-</div>
-
-| Category | Technical Competencies |
-| :-- | :-- |
-| `MANUFACTURING & CAD` | `CNC Machining` · `SolidWorks` · `Tyre Calendering` · `Rubber Technology` · `Automobile Systems` |
-| `QUALITY & METROLOGY` | `Dimensional Gauging` · `5S Framework` · `Kaizen` · `HIRA Analysis` · `Zero-Defect QA` |
-| `SOFTWARE & SYSTEMS` | `Linux Administration` · `Antigravity IDE` · `Git & GitHub` · `HMI Operations` · `Python` · `Cloud Hosting` |
-| `AI & AUTOMATION` | `Generative AI` · `Prompt Engineering` · `Gemini` · `ChatGPT` · `Claude` · `MCP Protocol` · `RAG Systems` |
-| `SOFT SKILLS` | `Technical Leadership` · `Cross-Functional Collaboration` · `Problem Solving` · `Adaptability` |
-
----
-
-## `╔═[ EDUCATION ]═╗`
-
-| Level | Institution | Programme / Status |
-| :-- | :-- | :-- |
-| `B.TECH` | [Techno Engineering College Banipur](https://tiem.edu.in/) | B.Tech in Mechanical Engineering · **Pursuing** |
-| `DIPLOMA` | [Ranaghat Government Polytechnic](https://polytechnic.wbtetsd.gov.in/ranaghatgovpoly) | Diploma in Automobile Engineering · **Completed** |
-| `SCHOOL` | Sodepur Chandrachur Vidyapith for Boys | Madhyamik (Class 10) · **Completed** |
-
----
-
-## `╔═[ CERTIFICATIONS ]═╗`
-
-<div align="center">
-
-[![TCS iON](https://img.shields.io/badge/TCS%20iON-Career%20Edge%20Young%20Professional-00E5FF?style=for-the-badge&logo=tata&logoColor=0D0221&labelColor=00E5FF)](https://www.tcsion.com/courses/career-edge-young-professional/)
-[![Turtlemint](https://img.shields.io/badge/TURTLEMINT-POSP%20General%20Insurance-FF2A9C?style=for-the-badge&logo=shield&logoColor=0D0221&labelColor=FF2A9C)](https://www.turtlemint.com/)
-[![SolidWorks](https://img.shields.io/badge/SOLIDWORKS-Certified%20Professional%20Training-FCC624?style=for-the-badge&logo=dassaultsystemes&logoColor=0D0221&labelColor=FCC624)](https://www.solidworks.com/sw/support/certifications.htm)
-
-</div>
-
----
-
-## `╔═[ EXTRACURRICULAR ACTIVITIES ]═╗`
-
-**Annual Engineering & Science Exhibitions**
-
-### `2015 // SEASONAL DYNAMICS`
-- **Project**: Engineered visual demonstration models showcasing atmospheric physics, solar illumination angles, and seasonal climate transformations.
-
-### `2016 // CHEMICAL TRANSFORMATIONS`
-- **Project**: Conducted interactive laboratory demonstrations illustrating fluid phase shifts, molecular density, and chemical reaction dynamics.
-
-### `2017 // THERMODYNAMIC SYSTEMS`
-- **Project**: Designed and demonstrated functional prototype models highlighting convective heat transfer mechanisms and thermal energy efficiency in water heaters.
-
----
-
-## `╔═[ CONTRIBUTION MAP ]═╗`
-
-<div align="center">
-
-<!-- Contribution Snake — generated via GitHub Actions (see .github/workflows/snake.yml) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ethnicbnb/ethnicbnb/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ethnicbnb/ethnicbnb/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/ethnicbnb/ethnicbnb/output/github-contribution-grid-snake-dark.svg">
-</picture>
-
-</div>
-
-> **[!] Activate the Snake:** Add `.github/workflows/snake.yml` to your `ethnicbnb/ethnicbnb` profile repo and trigger the workflow once. See the workflow file below.
-
-<details>
-<summary><strong>[>] snake.yml — GitHub Actions Workflow (click to expand)</strong></summary>
-
-```yaml
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk/svg-only@v3
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=00E5FF
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```text
++------------------------------------------------------------------+
+|                       OPERATOR PROFILE                           |
++------------------------------------------------------------------+
+| NAME          : TUHIN DAS                                       |
+| ROLE          : BUSINESS DEVELOPMENT EXECUTIVE & IT / QA         |
+| ENGINEERING   : MECHANICAL ENGINEERING                           |
+| SPECIALTY     : QUALITY // MANUFACTURING // DIGITAL OPERATIONS   |
+| INTERESTS     : AUTOMATION // AI // SOFTWARE // SYSTEMS          |
+| STATUS        : [####################] ONLINE                    |
++------------------------------------------------------------------+
 ```
 
+I am an engineering professional combining **mechanical engineering, manufacturing, quality assurance, IT infrastructure, software testing and digital operations**.
+
+My experience ranges from working in **high-precision manufacturing environments at Tata Cummins and CEAT** to supporting **digital platforms, IT systems, QA workflows, business operations and automation**.
+
+I enjoy working at the intersection of **engineering and technology** — solving practical problems, improving processes, testing systems and using digital tools to make operations more efficient.
+
+> `MISSION // BUILD RELIABLE SYSTEMS // IMPROVE PROCESSES // SOLVE REAL PROBLEMS`
+
+---
+
+# `> SYSTEM_CAPABILITIES`
+
+<div align="center">
+
+![Mechanical Engineering](https://img.shields.io/badge/MECHANICAL_ENGINEERING-00E5FF?style=for-the-badge\&labelColor=0D1117)
+![Manufacturing](https://img.shields.io/badge/MANUFACTURING-FF2A9C?style=for-the-badge\&labelColor=0D1117)
+![Quality](https://img.shields.io/badge/QUALITY_ASSURANCE-25D366?style=for-the-badge\&labelColor=0D1117)
+![Digital Operations](https://img.shields.io/badge/DIGITAL_OPERATIONS-FCC624?style=for-the-badge\&labelColor=0D1117)
+![Automation](https://img.shields.io/badge/AUTOMATION-7A3EE8?style=for-the-badge\&labelColor=0D1117)
+![AI](https://img.shields.io/badge/AI_SYSTEMS-FF6B35?style=for-the-badge\&labelColor=0D1117)
+
+</div>
+
+| SYSTEM            | CAPABILITIES                                                                   |
+| :---------------- | :----------------------------------------------------------------------------- |
+| `MECHANICAL`      | CNC Machining // Automobile Systems // Manufacturing Processes // SolidWorks   |
+| `QUALITY`         | Dimensional Inspection // Metrology // 5S // Kaizen // HIRA // Defect Analysis |
+| `IT SYSTEMS`      | Linux // Hardware Support // Network Troubleshooting // Cloud Hosting          |
+| `SOFTWARE QA`     | Manual Testing // Workflow Testing // Bug Reporting // UI/UX Review            |
+| `DEVELOPMENT`     | Git // GitHub // Python // Backend Workflow Understanding                      |
+| `AI & AUTOMATION` | ChatGPT // Gemini // Claude // Prompt Engineering // RAG // MCP                |
+| `OPERATIONS`      | Documentation // Process Optimization // Requirements // Digital Marketing     |
+
+---
+
+# `> EXPERIENCE_LOG`
+
+<details open>
+
+<summary><strong>[01] NEW ZEALAND FRESH & NATURAL (INDIA) PRIVATE LIMITED</strong> // Business Development Executive // Sep 2025 - Present</summary>
+
+<br>
+
+### `SYSTEM FUNCTIONS`
+
+* Manage and support day-to-day **IT infrastructure, computers, networking and software systems**.
+* Support development and quality assurance activities for digital platforms including **Ethnicbnb**.
+* Perform **manual QA testing** of user journeys, booking processes, backend workflows and UI functionality.
+* Coordinate with developers to identify bugs, communicate requirements and improve workflows.
+* Support website, cloud-hosting and technical operations.
+* Assist with **Puremilk** digital marketing, promotional creatives and operational technology.
+* Explore **AI and automation tools** for improving repetitive business workflows.
+* Maintain documentation and bridge communication between technical and business teams.
+
+### `SKILL MODULES`
+
+`IT SUPPORT` // `MANUAL QA` // `BACKEND WORKFLOWS` // `GIT`
+
+`CLOUD HOSTING` // `UI/UX TESTING` // `REQUIREMENT ANALYSIS`
+
+`DIGITAL OPERATIONS` // `AUTOMATION` // `DIGITAL MARKETING`
+
 </details>
-
----
-
-## `╔═[ GITHUB STATS ]═╗`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ethnicbnb&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=00E5FF&icon_color=FF2A9C&text_color=FFFFFF&ring_color=FF2A9C" alt="Tuhin Das GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ethnicbnb&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=00E5FF&text_color=FFFFFF" alt="Tuhin Das Top Languages" height="165" />
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=ethnicbnb&theme=radical&hide_border=true&background=0D0221&ring=FF2A9C&fire=00E5FF&currStreakLabel=FCC624&sideLabels=00E5FF&dates=FFFFFF&stroke=00E5FF)](https://github.com/ethnicbnb)
-
-[![Profile Views](https://komarev.com/ghpvc/?username=ethnicbnb&style=for-the-badge&color=FF2A9C&label=PROFILE+VIEWS&labelColor=0D0221)](https://github.com/ethnicbnb)
-[![Followers](https://img.shields.io/github/followers/ethnicbnb?style=for-the-badge&color=00E5FF&label=FOLLOWERS&labelColor=0D0221)](https://github.com/ethnicbnb?tab=followers)
-
-</div>
-
----
-
-## `╔═[ TERMINAL GAMES ]═╗`
-
-> `>>` **Click any badge below to launch a game in your browser!**
-
-<div align="center">
-
-[![PLAY SNAKE](https://img.shields.io/badge/%5B%E2%97%86%5D%20SNAKE-Classic%20Snake%20Game-00E5FF?style=for-the-badge&labelColor=0D0221)](https://playsnake.org/)
-[![PLAY TETRIS](https://img.shields.io/badge/%5B%E2%96%A3%5D%20TETRIS-Official%20Tetris-FFD700?style=for-the-badge&labelColor=0D0221)](https://tetris.com/play-tetris)
-[![PLAY PAC-MAN](https://img.shields.io/badge/%5B%E2%97%89%5D%20PAC--MAN-Classic%20Arcade-FF2A9C?style=for-the-badge&labelColor=0D0221)](https://freegames.org/pac-man/)
-[![PLAY 2048](https://img.shields.io/badge/%5B%23%5D%202048-Number%20Puzzle-25D366?style=for-the-badge&labelColor=0D0221)](https://play2048.co/)
-[![PLAY CHESS](https://img.shields.io/badge/%5B%E2%99%9F%5D%20CHESS-Chess%20vs%20AI-7A3EE8?style=for-the-badge&labelColor=0D0221)](https://www.chess.com/play/computer)
-[![SPACE INVADERS](https://img.shields.io/badge/%5B%E2%96%B2%5D%20SPACE%20INVADERS-Retro%20Shooter-F05032?style=for-the-badge&labelColor=0D0221)](https://freegames.org/space-invaders/)
-[![CROSSWORD](https://img.shields.io/badge/%5B%E2%96%A6%5D%20CROSSWORD-Word%20Puzzle-FCC624?style=for-the-badge&labelColor=0D0221)](https://www.nytimes.com/crosswords/game/mini)
-[![MINESWEEPER](https://img.shields.io/badge/%5B%E2%97%8F%5D%20MINESWEEPER-Classic%20Logic-CC785C?style=for-the-badge&labelColor=0D0221)](https://minesweeper.online/)
-[![PLAY SUDOKU](https://img.shields.io/badge/%5B%3D%5D%20SUDOKU-Number%20Logic-00E5FF?style=for-the-badge&labelColor=0D0221)](https://sudoku.com/)
-[![PLAY WORDLE](https://img.shields.io/badge/%5B%E2%96%A1%5D%20WORDLE-Word%20Guess-FF2A9C?style=for-the-badge&labelColor=0D0221)](https://www.nytimes.com/games/wordle/index.html)
-
-</div>
 
 ---
 
 <details open>
-<summary><strong>[GAME] CLICK TO START: CYBERSPACE QUEST // INTERACTIVE TERMINAL MINI-GAME</strong></summary>
+
+<summary><strong>[02] TATA CUMMINS PRIVATE LIMITED</strong> // Manufacturing Student Trainee // Feb 2024 - Feb 2025</summary>
 
 <br>
 
+### `SYSTEM FUNCTIONS`
+
+* Worked on **engine cylinder-head manufacturing operations**.
+* Operated and supported precision CNC machining processes.
+* Performed dimensional and surface-quality inspection.
+* Used precision measuring and gauging instruments.
+* Followed manufacturing SOPs and quality-control procedures.
+* Worked with production and quality teams to identify machining and process issues.
+* Applied **5S, Kaizen and continuous-improvement principles** within the manufacturing environment.
+
+### `SKILL MODULES`
+
+`CNC MACHINING` // `CYLINDER HEAD MANUFACTURING`
+
+`DIMENSIONAL INSPECTION` // `METROLOGY`
+
+`QUALITY CONTROL` // `5S` // `KAIZEN` // `DEFECT ANALYSIS`
+
+</details>
+
+---
+
+<details open>
+
+<summary><strong>[03] CEAT LIMITED</strong> // Production Engineer - NATS // Dec 2023 - Feb 2024</summary>
+
+<br>
+
+### `SYSTEM FUNCTIONS`
+
+* Worked with **4-roll tyre calendering machinery**.
+* Monitored material feeding, let-off operations and process parameters.
+* Supported gauge and thickness control.
+* Handled rubber compounds and textile reinforcement materials.
+* Supported raw-material inventory and production operations.
+* Assisted with quality monitoring during tyre manufacturing processes.
+
+### `SKILL MODULES`
+
+`PRODUCTION ENGINEERING` // `TYRE MANUFACTURING`
+
+`CALENDERING` // `RUBBER PROCESSING`
+
+`MATERIAL HANDLING` // `QUALITY CONTROL` // `INVENTORY MANAGEMENT`
+
+</details>
+
+---
+
+# `> PROJECT_SYSTEMS`
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+<h3>ETHNICBNB // PLATFORM QA</h3>
+
+<strong>Platform Operations & Quality Assurance</strong>
+
+<br><br>
+
+* Booking workflow testing
+* Backend process validation
+* Bug identification
+* Functional testing
+* UI/UX improvement
+* Developer coordination
+* Hosting and deployment support
+
+<br>
+
+<a href="https://ethnicbnb.com/">
+<img src="https://img.shields.io/badge/OPEN-ETHNICBNB-00E5FF?style=for-the-badge&labelColor=0D1117">
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>PUREMILK // DIGITAL OPERATIONS</h3>
+
+<strong>Digital & Technical Operations</strong>
+
+<br><br>
+
+* Website support
+* Digital promotions
+* Marketing creatives
+* Technical troubleshooting
+* Customer workflow analysis
+* Automation exploration
+
+<br>
+
+<a href="https://puremilk.co.in/">
+<img src="https://img.shields.io/badge/OPEN-PUREMILK-FF2A9C?style=for-the-badge&labelColor=0D1117">
+</a>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# `> TECH_ARSENAL`
+
+<div align="center">
+
+### `ENGINEERING`
+
+![SolidWorks](https://img.shields.io/badge/SOLIDWORKS-0D1117?style=for-the-badge\&logo=dassaultsystemes\&logoColor=FF2A9C)
+![Manufacturing](https://img.shields.io/badge/CNC_MACHINING-0D1117?style=for-the-badge\&logoColor=00E5FF)
+![Automobile](https://img.shields.io/badge/AUTOMOBILE_ENGINEERING-0D1117?style=for-the-badge\&logoColor=FCC624)
+
+### `SYSTEMS & DEVELOPMENT`
+
+![Linux](https://img.shields.io/badge/LINUX-0D1117?style=for-the-badge\&logo=linux\&logoColor=FCC624)
+![Git](https://img.shields.io/badge/GIT-0D1117?style=for-the-badge\&logo=git\&logoColor=F05032)
+![GitHub](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge\&logo=github\&logoColor=FFFFFF)
+![Python](https://img.shields.io/badge/PYTHON-0D1117?style=for-the-badge\&logo=python\&logoColor=3776AB)
+![VS Code](https://img.shields.io/badge/VS_CODE-0D1117?style=for-the-badge\&logo=visualstudiocode\&logoColor=007ACC)
+
+### `AI SYSTEMS`
+
+![ChatGPT](https://img.shields.io/badge/CHATGPT-0D1117?style=for-the-badge\&logo=openai\&logoColor=FFFFFF)
+![Gemini](https://img.shields.io/badge/GEMINI-0D1117?style=for-the-badge\&logo=googlegemini\&logoColor=8E75B2)
+![Claude](https://img.shields.io/badge/CLAUDE-0D1117?style=for-the-badge\&logo=anthropic\&logoColor=CC785C)
+![RAG](https://img.shields.io/badge/RAG_SYSTEMS-0D1117?style=for-the-badge\&logoColor=00E5FF)
+![MCP](https://img.shields.io/badge/MCP_PROTOCOL-0D1117?style=for-the-badge\&logoColor=FF2A9C)
+
+### `DIGITAL OPERATIONS`
+
+![Obsidian](https://img.shields.io/badge/OBSIDIAN-0D1117?style=for-the-badge\&logo=obsidian\&logoColor=7C3AED)
+![Google Drive](https://img.shields.io/badge/GOOGLE_DRIVE-0D1117?style=for-the-badge\&logo=googledrive\&logoColor=4285F4)
+![Webflow](https://img.shields.io/badge/WEBFLOW-0D1117?style=for-the-badge\&logo=webflow\&logoColor=4353FF)
+
+</div>
+
+---
+
+# `> EDUCATION_DATABASE`
+
+| LEVEL       | INSTITUTION                            | PROGRAMME / STATUS                      |
+| :---------- | :------------------------------------- | :-------------------------------------- |
+| `B.TECH`    | Techno Engineering College Banipur     | Mechanical Engineering // **Pursuing**  |
+| `DIPLOMA`   | Ranaghat Government Polytechnic        | Automobile Engineering // **Completed** |
+| `SECONDARY` | Sodepur Chandrachur Vidyapith for Boys | Madhyamik // **Completed**              |
+
+---
+
+# `> CERTIFICATION_DATABASE`
+
+<div align="center">
+
+![TCS](https://img.shields.io/badge/TCS_iON-CAREER_EDGE-00E5FF?style=for-the-badge\&labelColor=0D1117)
+![SolidWorks](https://img.shields.io/badge/SOLIDWORKS-PROFESSIONAL_TRAINING-FCC624?style=for-the-badge\&labelColor=0D1117)
+![Turtlemint](https://img.shields.io/badge/TURTLEMINT-POSP_GENERAL_INSURANCE-FF2A9C?style=for-the-badge\&labelColor=0D1117)
+
+</div>
+
+<br>
+
+* **TCS iON Career Edge - Young Professional**
+* **SolidWorks Professional Training**
+* **Turtlemint POSP - General Insurance**
+
+---
+
+# `> ENGINEERING_ARCHIVE`
+
+### `[2015] // SEASONAL DYNAMICS`
+
+Built science exhibition models demonstrating:
+
+`ATMOSPHERIC CONDITIONS`
+
+`SOLAR ILLUMINATION`
+
+`SEASONAL CHANGES`
+
+---
+
+### `[2016] // CHEMICAL TRANSFORMATIONS`
+
+Created interactive demonstrations covering:
+
+`FLUID BEHAVIOUR`
+
+`DENSITY`
+
+`CHEMICAL REACTIONS`
+
+`PHASE CHANGES`
+
+---
+
+### `[2017] // THERMODYNAMIC SYSTEMS`
+
+Designed prototype demonstrations covering:
+
+`HEAT TRANSFER`
+
+`CONVECTION`
+
+`WATER HEATING`
+
+`THERMAL EFFICIENCY`
+
+---
+
+# `> GITHUB_TELEMETRY`
+
+<div align="center">
+
+<img height="170"
+src="https://github-readme-stats.vercel.app/api?username=ethnicbnb&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=FF2A9C&text_color=FFFFFF&ring_color=00E5FF"
+alt="Tuhin Das GitHub Statistics"
+/>
+
+<img height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=ethnicbnb&layout=compact&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=FFFFFF"
+alt="Tuhin Das Top Languages"
+/>
+
+<br>
+
+<img
+src="https://streak-stats.demolab.com?user=ethnicbnb&hide_border=true&background=0D1117&ring=FF2A9C&fire=00E5FF&currStreakLabel=FCC624&sideLabels=00E5FF&dates=FFFFFF"
+alt="Tuhin Das GitHub Streak"
+/>
+
+<br><br>
+
+[![Profile Views](https://komarev.com/ghpvc/?username=ethnicbnb\&style=for-the-badge\&color=FF2A9C\&label=PROFILE+VIEWS\&labelColor=0D1117)](https://github.com/ethnicbnb)
+
+[![Followers](https://img.shields.io/github/followers/ethnicbnb?style=for-the-badge\&logo=github\&color=00E5FF\&label=FOLLOWERS\&labelColor=0D1117)](https://github.com/ethnicbnb?tab=followers)
+
+</div>
+
+---
+
+# `> LIVE_SYSTEM_ACTIVITY`
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ethnicbnb\&bg_color=0D1117\&color=00E5FF\&line=FF2A9C\&point=FFFFFF\&area=true\&hide_border=true)](https://github.com/ethnicbnb)
+
+</div>
+
+---
+
+# `> TERMINAL_GAME`
+
+<div align="center">
+
+### `CYBERSPACE ENGINEERING QUEST // VERSION 4.0`
+
+`SELECT A MISSION // OPEN THE MODULE`
+
+</div>
+
 ```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║         [ SYSTEM BOOT // CYBERSPACE ENGINEERING QUEST v2.0 ]               ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║  Mission Directive: Choose an operational pathway to optimize metrics.      ║
-║                                                                            ║
-║  [1] CYLINDER HEAD MACHINING   --> Execute precision CNC run & QA audit.   ║
-║  [2] CALENDERING LINE CONTROL  --> Adjust 4-roll gap & thermal friction.   ║
-║  [3] ETHNICBNB QA TESTING      --> Full booking workflow audit.            ║
-║  [4] AI PROMPT ENGINEERING     --> Optimize language model directives.     ║
-║  [5] GITHUB CI/CD PIPELINE     --> Deploy code to production system.       ║
-╚══════════════════════════════════════════════════════════════════════════════╝
++--------------------------------------------------------------------+
+|              CYBERSPACE ENGINEERING QUEST v4.0                     |
++--------------------------------------------------------------------+
+|                                                                    |
+|  [01] CNC MACHINING        [####################] READY            |
+|  [02] QUALITY CONTROL      [####################] READY            |
+|  [03] SOFTWARE QA          [####################] READY            |
+|  [04] AI AUTOMATION        [####################] READY            |
+|  [05] SYSTEM DEPLOYMENT    [####################] READY            |
+|                                                                    |
+|  OPERATOR      : TUHIN DAS                                        |
+|  ACCESS LEVEL  : ENGINEER                                         |
+|  SYSTEM STATUS : ONLINE                                           |
+|                                                                    |
++--------------------------------------------------------------------+
 ```
 
 <details>
-<summary><strong>[>] PATH [1]: EXECUTE CYLINDER HEAD MACHINING RUN</strong></summary>
+
+<summary><strong>[01] START CNC PRECISION CHALLENGE</strong></summary>
+
 <br>
 
 ```text
->>> INITIALIZING CNC MACHINING ROUTINE...
->>> LOADING TOOL OFFSETS: T01 — ∅12mm CARBIDE END MILL
->>> VERIFYING DIMENSIONAL GAUGING ON BORE #3...
->>> RESULT: 0.002mm TOLERANCE ACHIEVED! ZERO DEFECTS DETECTED.
->>> +500 QUALITY POINTS AWARDED // SYSTEM PERFORMANCE OPTIMAL.
->>> TATA CUMMINS APPROVAL STAMP: [✓ PASS]
-```
-</details>
+> CONNECTING TO CNC CONTROL SYSTEM...
 
-<details>
-<summary><strong>[>] PATH [2]: CALIBRATE CALENDERING LINE</strong></summary>
-<br>
+BOOTING...
 
-```text
->>> ADJUSTING 4-ROLL GAP GAUGE AT LET-OFF STATION...
->>> STABILIZING RUBBER COMPOUND TEMPERATURE: 85°C TARGET
->>> MONITORING TEXTILE REINFORCEMENT FABRIC ALIGNMENT...
->>> RESULT: PERFECT ADHESION & FABRIC THICKNESS ACHIEVED!
->>> +600 MANUFACTURING POINTS AWARDED // PRODUCTION LINE STABLE.
->>> CEAT QUALITY STAMP: [✓ PASS]
-```
-</details>
+[##------------------] 10%
+[######--------------] 30%
+[##########----------] 50%
+[##############------] 70%
+[##################--] 90%
+[####################] 100%
 
-<details>
-<summary><strong>[>] PATH [3]: AUDIT ETHNICBNB BOOKING WORKFLOW</strong></summary>
-<br>
+SYSTEM READY.
 
-```text
->>> RUNNING AUTOMATED & MANUAL QA SCENARIOS...
->>> TEST CASE 47: BOOKING CONFIRMATION EMAIL — [✓ PASS]
->>> TEST CASE 48: PAYMENT GATEWAY TIMEOUT — BUG IDENTIFIED!
->>> PATCH DEPLOYED: RETRY LOGIC IMPLEMENTED IN BACKEND
->>> RESULT: BUG RESOLVED & UI/UX ENHANCED FOR LIVE DEPLOYMENT!
->>> +750 DIGITAL OPERATIONS POINTS AWARDED // 100% UPTIME ACHIEVED.
-```
-</details>
+> LOAD COMPONENT
 
-<details>
-<summary><strong>[>] PATH [4]: AI PROMPT ENGINEERING MODULE</strong></summary>
-<br>
+STATUS...................... OK
 
-```text
->>> LOADING LANGUAGE MODEL: GEMINI 2.5 PRO
->>> CRAFTING SYSTEM PROMPT FOR QUALITY INSPECTION AI...
->>> FINE-TUNING RAG PIPELINE WITH ENGINEERING CORPUS...
->>> HALLUCINATION RATE: 0.3% (WITHIN ACCEPTABLE THRESHOLD)
->>> RESULT: AI SYSTEM ACCURACY 97.4% ON TEST DATASET!
->>> +850 AI ENGINEERING POINTS AWARDED // MODEL DEPLOYED.
-```
-</details>
+> VERIFY TOOL OFFSET
 
-<details>
-<summary><strong>[>] PATH [5]: GITHUB CI/CD PIPELINE DEPLOYMENT</strong></summary>
-<br>
+TOOL ID..................... T01
+OFFSET STATUS............... VERIFIED
 
-```text
->>> TRIGGERING GITHUB ACTIONS WORKFLOW...
->>> [1/5] DEPENDENCY INSTALL ............... [✓ DONE]
->>> [2/5] UNIT TESTS (42/42 PASSING) ........ [✓ DONE]
->>> [3/5] DOCKER IMAGE BUILD ............... [✓ DONE]
->>> [4/5] STAGING ENVIRONMENT DEPLOY ........ [✓ DONE]
->>> [5/5] PRODUCTION DEPLOYMENT ............. [✓ DONE]
->>> RESULT: ZERO DOWNTIME DEPLOYMENT COMPLETE!
->>> +1000 DEVOPS POINTS AWARDED // ALL SYSTEMS NOMINAL.
-```
-</details>
+> START MACHINING CYCLE
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  [ CONGRATULATIONS // ALL OPERATIONAL DIRECTIVES SUCCESSFULLY EXECUTED ]   ║
-║  TOTAL SCORE: 3700 POINTS // RANK: S-TIER OPERATOR                         ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+ROUGHING.................... COMPLETE
+SEMI-FINISHING.............. COMPLETE
+FINISHING................... COMPLETE
+
+> DIMENSIONAL INSPECTION
+
+BORE #1..................... PASS
+BORE #2..................... PASS
+BORE #3..................... PASS
+SURFACE QUALITY............. PASS
+
+RESULT:
+
+PRECISION COMPONENT ACCEPTED
+
+ENGINEERING XP.............. +500
+QUALITY XP.................. +250
+
+ACHIEVEMENT UNLOCKED:
+
+[ PRECISION OPERATOR ]
 ```
 
 </details>
 
 ---
 
+<details>
+
+<summary><strong>[02] START QUALITY CONTROL PROTOCOL</strong></summary>
+
+<br>
+
+```text
+> INITIALIZING QUALITY CONTROL TERMINAL...
+
+TARGET DIMENSION............ 42.000 mm
+MEASURED VALUE.............. 42.006 mm
+UPPER LIMIT................. 42.010 mm
+LOWER LIMIT................. 41.990 mm
+
+> ANALYZING DATA...
+
+[####################] 100%
+
+STATUS:
+
+MEASUREMENT WITHIN TOLERANCE
+
+DEFECT STATUS............... NONE
+INSPECTION STATUS........... PASS
+COMPONENT STATUS............ ACCEPTED
+
+QUALITY XP.................. +500
+
+ACHIEVEMENT UNLOCKED:
+
+[ ZERO DEFECT MINDSET ]
+```
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>[03] START SOFTWARE QA BUG HUNT</strong></summary>
+
+<br>
+
+```text
+> BOOTING QA TEST ENVIRONMENT...
+
+ENVIRONMENT................. STAGING
+TEST SUITE.................. BOOKING WORKFLOW
+
+EXECUTING TEST CASES...
+
+TEST #01 LOGIN.............. PASS
+TEST #02 SEARCH............. PASS
+TEST #03 PROPERTY PAGE...... PASS
+TEST #04 BOOKING FORM....... PASS
+TEST #05 PAYMENT............ FAIL
+TEST #06 CONFIRMATION....... BLOCKED
+
+WARNING:
+
+PAYMENT FAILURE MESSAGE IS UNCLEAR.
+
+> LOG BUG
+
+BUG ID...................... QA-005
+SEVERITY.................... MEDIUM
+REPRODUCIBLE................ YES
+
+> PATCH RECEIVED
+
+RETESTING PAYMENT FLOW...
+
+PAYMENT..................... PASS
+CONFIRMATION................ PASS
+
+FINAL STATUS:
+
+ALL CRITICAL WORKFLOWS PASS
+
+QA XP....................... +750
+
+ACHIEVEMENT UNLOCKED:
+
+[ BUG HUNTER ]
+```
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>[04] START AI AUTOMATION LAB</strong></summary>
+
+<br>
+
+```text
+> SCANNING BUSINESS WORKFLOW...
+
+REPETITIVE TASK DETECTED.
+
+INPUT:
+Structured operational information.
+
+CURRENT PROCESS:
+Manual review and repeated formatting.
+
+> BUILD AUTOMATION PIPELINE
+
+[01] DEFINE INPUT SCHEMA................. COMPLETE
+[02] DESIGN PROMPT....................... COMPLETE
+[03] CREATE PROCESSING LOGIC............. COMPLETE
+[04] VALIDATE OUTPUT..................... COMPLETE
+[05] ADD HUMAN REVIEW.................... COMPLETE
+[06] DOCUMENT WORKFLOW................... COMPLETE
+
+> RUN TEST
+
+INPUT RECEIVED........................... OK
+PROCESSING............................... OK
+VALIDATION............................... OK
+OUTPUT GENERATED......................... OK
+
+RESULT:
+
+MANUAL WORKFLOW -> ASSISTED DIGITAL WORKFLOW
+
+AUTOMATION XP............................ +850
+
+ACHIEVEMENT UNLOCKED:
+
+[ AI AUGMENTED ENGINEER ]
+```
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>[05] START SYSTEM DEPLOYMENT PROTOCOL</strong></summary>
+
+<br>
+
+```text
+> git status
+
+On branch main
+working tree clean
+
+> git pull
+
+Already up to date.
+
+> INITIALIZING VALIDATION
+
+DEPENDENCY CHECK............. PASS
+CONFIGURATION CHECK.......... PASS
+QA CHECK..................... PASS
+BUILD........................ PASS
+
+> DEPLOY
+
+[####----------------] 20%
+[########------------] 40%
+[############--------] 60%
+[################----] 80%
+[####################] 100%
+
+DEPLOYMENT COMPLETE.
+
+> POST DEPLOYMENT CHECK
+
+APPLICATION.................. ONLINE
+DATABASE..................... ONLINE
+API.......................... ONLINE
+FRONTEND..................... ONLINE
+
+SYSTEM STATUS:
+
+ALL SYSTEMS OPERATIONAL
+
+DEPLOYMENT XP................ +900
+
+ACHIEVEMENT UNLOCKED:
+
+[ SYSTEM DEPLOYED ]
+```
+
+</details>
+
+---
+
+```text
++--------------------------------------------------------------------+
+|                       QUEST SCOREBOARD                             |
++--------------------------------------------------------------------+
+|                                                                    |
+| CNC PRECISION XP................................. 750              |
+| QUALITY CONTROL XP............................... 500              |
+| SOFTWARE QA XP................................... 750              |
+| AI AUTOMATION XP................................. 850              |
+| DEPLOYMENT XP.................................... 900              |
+|                                                                    |
+| TOTAL XP......................................... 3750             |
+|                                                                    |
+| FINAL RANK....................................... S-TIER           |
+| OPERATOR STATUS.................................. ONLINE           |
+|                                                                    |
++--------------------------------------------------------------------+
+```
+
+---
+
+# `> ARCADE_GATEWAY`
+
 <div align="center">
 
-![System Status](https://img.shields.io/badge/SYSTEM%20STATUS-ONLINE-00E5FF?style=for-the-badge&labelColor=0D0221)
-![Open to Work](https://img.shields.io/badge/OPEN%20TO%20WORK-YES-25D366?style=for-the-badge&labelColor=0D0221)
-![Available](https://img.shields.io/badge/AVAILABLE-IMMEDIATELY-FF2A9C?style=for-the-badge&labelColor=0D0221)
+### `EXTERNAL GAME TERMINALS`
+
+[![Snake](https://img.shields.io/badge/PLAY-SNAKE-00E5FF?style=for-the-badge\&labelColor=0D1117)](https://playsnake.org/)
+[![Tetris](https://img.shields.io/badge/PLAY-TETRIS-FCC624?style=for-the-badge\&labelColor=0D1117)](https://tetris.com/play-tetris)
+[![Chess](https://img.shields.io/badge/PLAY-CHESS-7A3EE8?style=for-the-badge\&labelColor=0D1117)](https://www.chess.com/play/computer)
+[![2048](https://img.shields.io/badge/PLAY-2048-25D366?style=for-the-badge\&labelColor=0D1117)](https://play2048.co/)
+[![Minesweeper](https://img.shields.io/badge/PLAY-MINESWEEPER-FF2A9C?style=for-the-badge\&labelColor=0D1117)](https://minesweeper.online/)
 
 </div>
 
+---
+
+# `> CURRENT_OBJECTIVES`
+
+```text
+SYSTEM LEARNING MATRIX
+
+[PASS] Mechanical Engineering
+[PASS] Manufacturing Operations
+[PASS] Quality Assurance
+[PASS] Digital Operations
+[PASS] IT Infrastructure
+[PASS] Manual Software Testing
+[PASS] Git & GitHub
+[PASS] AI-Assisted Workflows
+
+[LOAD] Python Automation
+[LOAD] AI + Engineering Applications
+[LOAD] Advanced Software QA
+[LOAD] Engineering Design
+[LOAD] Workflow Automation
+[LOAD] Cloud & Deployment Systems
+```
+
+---
+
+# `> OPERATING_PHILOSOPHY`
+
+```text
+DEFINE THE PROBLEM
+        |
+        v
+UNDERSTAND THE SYSTEM
+        |
+        v
+BUILD THE SOLUTION
+        |
+        v
+TEST THE OUTPUT
+        |
+        v
+IDENTIFY FAILURE
+        |
+        v
+IMPROVE THE PROCESS
+        |
+        v
+DEPLOY WITH CONFIDENCE
+```
+
+> `ENGINEERING IS NOT ONLY ABOUT BUILDING THINGS.`
+
+> `IT IS ABOUT BUILDING THINGS THAT WORK RELIABLY.`
+
+---
+
+# `> CONNECT_WITH_OPERATOR`
+
 <div align="center">
 
-```
-QUALITY // WORKFLOWS // CONTINUOUS IMPROVEMENT // END OF TRANSMISSION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### `AVAILABLE FOR ENGINEERING // QA // IT // DIGITAL OPERATIONS // AUTOMATION`
+
+<br>
+
+[![Email](https://img.shields.io/badge/CONTACT-EMAIL-00E5FF?style=for-the-badge\&logo=gmail\&logoColor=FFFFFF\&labelColor=0D1117)](mailto:tuhindas9073@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/CONTACT-WHATSAPP-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=FFFFFF\&labelColor=0D1117)](https://wa.me/919073828969)
+[![GitHub](https://img.shields.io/badge/FOLLOW-GITHUB-FF2A9C?style=for-the-badge\&logo=github\&logoColor=FFFFFF\&labelColor=0D1117)](https://github.com/ethnicbnb)
+[![Resume](https://img.shields.io/badge/VIEW-RESUME-FCC624?style=for-the-badge\&logo=adobeacrobatreader\&logoColor=FFFFFF\&labelColor=0D1117)](https://drive.google.com/file/d/12-rsZG-FzekzAvW0uSfnT5cOcWOYRpOT/view?usp=drive_link)
+
+<br><br>
+
+```text
++==============================================================+
+|                                                              |
+|                     TUHIN DAS                                |
+|                                                              |
+|        ENGINEER // BUILDER // TESTER // PROBLEM SOLVER       |
+|                                                              |
+|                 SYSTEM STATUS: ONLINE                        |
+|                                                              |
++==============================================================+
+
+> SESSION ACTIVE_
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=4000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=TRANSMISSION+COMPLETE+%2F%2F+ALL+SYSTEMS+NOMINAL;TUHIN+DAS+%2F%2F+ONLINE+%2F%2F+READY+FOR+HIRE;QUALITY+%7C+PRECISION+%7C+INNOVATION;%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25)](https://github.com/ethnicbnb)
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=12,20,24" />
 
 </div>
