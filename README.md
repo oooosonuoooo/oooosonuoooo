@@ -27,35 +27,18 @@
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/oooosonuoooo/Wall-Blazer"><img src="./assets/project-wall-blazer.svg" width="100%" alt="Wall Blazer live wallpaper engine"></a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/oooosonuoooo/SysSentinel"><img src="./assets/project-syssentinel.svg" width="100%" alt="SysSentinel system watchdog"></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/oooosonuoooo/Universal-Controller"><img src="./assets/project-universal-controller.svg" width="100%" alt="Universal Controller terminal control surface"></a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/oooosonuoooo/kali-brightness"><img src="./assets/project-kali-glass.svg" width="100%" alt="Kali Glass brightness and night mode controller"></a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/oooosonuoooo/Wall-Blazer"><img src="./assets/project-wall-blazer.svg" width="49%" alt="Wall Blazer live wallpaper engine"></a>
+  <a href="https://github.com/oooosonuoooo/SysSentinel"><img src="./assets/project-syssentinel.svg" width="49%" alt="SysSentinel system watchdog"></a>
+  <br>
+  <a href="https://github.com/oooosonuoooo/Universal-Controller"><img src="./assets/project-universal-controller.svg" width="49%" alt="Universal Controller terminal control surface"></a>
+  <a href="https://github.com/oooosonuoooo/kali-brightness"><img src="./assets/project-kali-glass.svg" width="49%" alt="Kali Glass brightness and night mode controller"></a>
+</div>
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://ethnicbnb.com"><img src="./assets/fieldwork-ethnicbnb.svg" width="100%" alt="EthnicBNB booking workflow, manual QA and UI UX work"></a>
-    </td>
-    <td width="50%">
-      <a href="https://puremilk.co.in"><img src="./assets/fieldwork-puremilk.svg" width="100%" alt="PureMilk digital operations, campaigns and automation work"></a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://ethnicbnb.com"><img src="./assets/fieldwork-ethnicbnb.svg" width="49%" alt="EthnicBNB booking workflow, manual QA and UI UX work"></a>
+  <a href="https://puremilk.co.in"><img src="./assets/fieldwork-puremilk.svg" width="49%" alt="PureMilk digital operations, campaigns and automation work"></a>
+</div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
