@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 230" width="570" height="230" role="img" aria-labelledby="title desc">
+  <title id="title">Universal Controller project card</title>
+  <desc id="desc">Universal Controller is an AI-assisted control plane built with Go, a terminal interface, and HTTP.</desc>
+  <defs>
+    <linearGradient id="uc-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd166"/><stop offset="0.42" stop-color="#ff4fd8"/><stop offset="1" stop-color="#66e3ff"/></linearGradient>
+    <linearGradient id="uc-core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+    <pattern id="uc-grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#ffd166" stroke-width="0.5" opacity="0.1"/></pattern>
+    <filter id="uc-glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="uc-card"><rect x="1" y="1" width="568" height="228" rx="18"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.tag{fill:#101329;stroke:#a6accd;stroke-opacity:.38}.core{animation:uc-pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.flow{animation:uc-flow 3s linear infinite}.ring{animation:uc-spin 11s linear infinite;transform-origin:461px 116px}
+      @keyframes uc-pulse{50%{transform:scale(1.12);opacity:.72}}@keyframes uc-flow{to{stroke-dashoffset:-36}}@keyframes uc-spin{to{transform:rotate(-360deg)}}
+      @media (prefers-reduced-motion:reduce){.core,.flow,.ring{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="568" height="228" rx="18" fill="#070815" stroke="url(#uc-edge)" stroke-width="2"/>
+  <g clip-path="url(#uc-card)">
+    <rect x="1" y="1" width="568" height="228" fill="url(#uc-grid)"/>
+    <path d="M318 -10L365 70L336 121L387 231" fill="none" stroke="#ffd166" stroke-width="18" opacity="0.035"/>
+    <path d="M366 -10L414 72L385 123L436 231" fill="none" stroke="#ff4fd8" stroke-width="6" opacity="0.045"/>
+  </g>
+
+  <g class="ui">
+    <text x="24" y="29" class="mono" fill="#ffd166" font-size="10" font-weight="700" letter-spacing="2.1">03 // COMMAND LAYER</text>
+    <circle cx="318" cy="25" r="3" fill="#ff4fd8" filter="url(#uc-glow)"/>
+    <path d="M24 40H326" stroke="#a6accd" stroke-width="1" stroke-dasharray="2 7" opacity="0.3"/>
+    <text x="24" y="72" fill="#f7f7ff" font-size="23" font-weight="900" letter-spacing="0.7">UNIVERSAL</text>
+    <text x="24" y="96" fill="#f7f7ff" font-size="23" font-weight="900" letter-spacing="0.7">CONTROLLER</text>
+    <text x="24" y="124" class="mono" fill="#ff4fd8" font-size="11" font-weight="800" letter-spacing="1.75">AI-ASSISTED CONTROL PLANE</text>
+    <g transform="translate(24 151)">
+      <rect class="tag" width="54" height="27" rx="7"/><text x="27" y="18" class="mono" fill="#66e3ff" font-size="10" font-weight="700" text-anchor="middle">GO</text>
+      <rect class="tag" x="62" width="56" height="27" rx="7"/><text x="90" y="18" class="mono" fill="#f7f7ff" font-size="10" font-weight="700" text-anchor="middle">TUI</text>
+      <rect class="tag" x="126" width="64" height="27" rx="7"/><text x="158" y="18" class="mono" fill="#ffd166" font-size="10" font-weight="700" text-anchor="middle">HTTP</text>
+    </g>
+    <path d="M24 207H286L296 197H326" fill="none" stroke="#ffd166" stroke-width="1.5" opacity="0.78"/>
+    <text x="24" y="215" class="mono" fill="#a6accd" font-size="8" letter-spacing="1.5">INPUT // ROUTE // CONTROL</text>
+  </g>
+
+  <g>
+    <circle class="ring" cx="461" cy="116" r="82" fill="none" stroke="#a6accd" stroke-width="1" stroke-dasharray="2 8" opacity="0.38"/>
+    <path class="flow" d="M461 72V50H519M497 116H538M461 160V184H515M425 116H376M435 90L402 64M435 142L402 169" fill="none" stroke="#66e3ff" stroke-width="1.6" stroke-dasharray="7 5"/>
+    <g fill="#101329" stroke="#66e3ff" stroke-width="1.5">
+      <rect x="508" y="42" width="36" height="18" rx="5"/><rect x="528" y="107" width="30" height="18" rx="5"/><rect x="505" y="176" width="39" height="18" rx="5"/><rect x="368" y="107" width="30" height="18" rx="5"/><rect x="385" y="52" width="31" height="18" rx="5"/><rect x="385" y="160" width="31" height="18" rx="5"/>
+    </g>
+    <g fill="#ffd166"><circle cx="526" cy="51" r="2.5"/><circle cx="543" cy="116" r="2.5"/><circle cx="524" cy="185" r="2.5"/><circle cx="383" cy="116" r="2.5"/><circle cx="400" cy="61" r="2.5"/><circle cx="400" cy="169" r="2.5"/></g>
+    <path d="M461 72L497 93L497 137L461 160L425 137V93Z" fill="#101329" stroke="url(#uc-edge)" stroke-width="2.2"/>
+    <path d="M461 88L484 101V129L461 144L438 129V101Z" fill="url(#uc-core)" opacity="0.72"/>
+    <path class="core" d="M461 98L476 107V124L461 134L446 124V107Z" fill="#070815" stroke="#66e3ff" stroke-width="2" filter="url(#uc-glow)"/>
+    <path d="M455 111H467M461 105V117M453 124H456M466 124H469" stroke="#f7f7ff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

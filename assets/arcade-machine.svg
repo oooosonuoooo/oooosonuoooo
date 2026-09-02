@@ -65,7 +65,7 @@
 
   <!-- Arcade Header -->
   <g class="score-float">
-    <text x="50" y="55" fill="#f72585" class="font-mono" font-size="16" letter-spacing="3" filter="url(#glow)">★ RETRO ARCADE ZONE ★</text>
+    <text x="50" y="55" fill="#f72585" class="font-mono" font-size="16" letter-spacing="3" filter="url(#glow)">PROFILE ARCADE // RUN 01</text>
     <text x="50" y="80" fill="#ffffff" class="font-mono" font-size="20" font-weight="900" letter-spacing="2">CONTRIBUTION GAMING STATION</text>
   </g>
 
@@ -93,8 +93,8 @@
   <g transform="translate(530, 45)">
     <rect x="0" y="0" width="220" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
     <text x="15" y="25" fill="#58a6ff" class="font-mono" font-size="12" letter-spacing="1">ARCADE METRICS</text>
-    <text x="15" y="48" fill="#00f2fe" class="font-mono" font-size="13">GAMES : PACMAN • SNAKE</text>
-    <text x="15" y="68" fill="#00f2fe" class="font-mono" font-size="13">MODE  : BREAKOUT • CRT</text>
+    <text x="15" y="48" fill="#00f2fe" class="font-mono" font-size="13">GAMES : PAC-MAN / SNAKE</text>
+    <text x="15" y="68" fill="#00f2fe" class="font-mono" font-size="13">MODE  : BREAKOUT / CRT</text>
     <text x="15" y="94" fill="#39d353" class="font-mono coin-blink" font-size="13" font-weight="bold">PRESS [START] TO PLAY</text>
   </g>
 </svg>

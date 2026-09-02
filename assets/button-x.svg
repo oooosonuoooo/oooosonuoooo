@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">Open X profile</title>
+  <desc id="desc">A neon button with a vector X mark labeled Follow on X.</desc>
+  <defs>
+    <linearGradient id="x-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4fd8"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#66e3ff"/></linearGradient>
+    <filter id="x-glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="x-clip"><rect x="1" y="1" width="258" height="62" rx="13"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.edge{animation:x-dash 4.8s linear infinite}.mark{animation:x-pulse 2.6s ease-in-out infinite}
+      @keyframes x-dash{to{stroke-dashoffset:-48}}@keyframes x-pulse{50%{opacity:.58}}
+      @media (prefers-reduced-motion:reduce){.edge,.mark{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="258" height="62" rx="13" fill="#070815" stroke="#101329" stroke-width="2"/>
+  <g clip-path="url(#x-clip)">
+    <path d="M0 64L64 0H92L28 64ZM196 64L260 0V28L224 64Z" fill="#ff4fd8" opacity="0.08"/>
+    <path d="M186 0L250 64M212 0L260 48" stroke="#66e3ff" stroke-width="1" opacity="0.1"/>
+  </g>
+  <rect class="edge" x="2" y="2" width="256" height="60" rx="12" fill="none" stroke="url(#x-edge)" stroke-width="1.5" stroke-dasharray="72 188"/>
+  <g transform="translate(17 12)">
+    <path d="M4 3H13L22 15L32 3H38L25 19L39 37H30L20 24L9 37H3L17 20Z" fill="#f7f7ff"/>
+    <path class="mark" d="M1 8V1H8M40 32V39H33" fill="none" stroke="#ff4fd8" stroke-width="1.5" filter="url(#x-glow)"/>
+  </g>
+  <g class="ui">
+    <text x="72" y="29" fill="#f7f7ff" font-size="15" font-weight="800" letter-spacing="1.5">FOLLOW ON X</text>
+    <text x="72" y="45" class="mono" fill="#ff4fd8" font-size="9" font-weight="700" letter-spacing="2.4">LIVE SIGNAL</text>
+    <path d="M220 25L228 32L220 39M207 32H228" fill="none" stroke="#f7f7ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

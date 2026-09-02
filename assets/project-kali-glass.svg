@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 230" width="570" height="230" role="img" aria-labelledby="title desc">
+  <title id="title">Kali Glass project card</title>
+  <desc id="desc">Kali Glass is an X11 display control project built with Python, PyQt5, and xrandr.</desc>
+  <defs>
+    <linearGradient id="kg-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e3ff"/><stop offset="0.5" stop-color="#f7f7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="kg-glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e3ff" stop-opacity="0.28"/><stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.15"/><stop offset="1" stop-color="#ff4fd8" stop-opacity="0.3"/></linearGradient>
+    <pattern id="kg-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#66e3ff" stroke-width="0.5" opacity="0.11"/></pattern>
+    <filter id="kg-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="kg-card"><rect x="1" y="1" width="568" height="228" rx="18"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.tag{fill:#101329;stroke:#a6accd;stroke-opacity:.38}.pane-a{animation:kg-float-a 5s ease-in-out infinite}.pane-b{animation:kg-float-b 6s ease-in-out infinite}.cursor{animation:kg-cursor 1.4s steps(1,end) infinite}.trace{animation:kg-trace 5s linear infinite}
+      @keyframes kg-float-a{50%{transform:translate(-4px,5px)}}@keyframes kg-float-b{50%{transform:translate(5px,-4px)}}@keyframes kg-cursor{50%{opacity:.15}}@keyframes kg-trace{to{stroke-dashoffset:-44}}
+      @media (prefers-reduced-motion:reduce){.pane-a,.pane-b,.cursor,.trace{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="568" height="228" rx="18" fill="#070815" stroke="url(#kg-edge)" stroke-width="2"/>
+  <g clip-path="url(#kg-card)">
+    <rect x="1" y="1" width="568" height="228" fill="url(#kg-grid)"/>
+    <path d="M342 -10L360 -10L280 240H262ZM523 -10H548L468 240H443Z" fill="#66e3ff" opacity="0.045"/>
+  </g>
+
+  <g class="ui">
+    <text x="24" y="29" class="mono" fill="#66e3ff" font-size="10" font-weight="700" letter-spacing="2.1">04 // DISPLAY LAYER</text>
+    <circle cx="315" cy="25" r="3" fill="#f7f7ff" filter="url(#kg-glow)"/>
+    <path d="M24 40H326" stroke="#a6accd" stroke-width="1" stroke-dasharray="2 7" opacity="0.3"/>
+    <text x="24" y="76" fill="#f7f7ff" font-size="27" font-weight="900" letter-spacing="1.4">KALI GLASS</text>
+    <text x="24" y="107" class="mono" fill="#66e3ff" font-size="13" font-weight="800" letter-spacing="2.2">X11 DISPLAY</text>
+    <text x="24" y="128" class="mono" fill="#a6accd" font-size="13" font-weight="700" letter-spacing="1.9">CONTROL</text>
+    <g transform="translate(24 158)">
+      <rect class="tag" width="82" height="27" rx="7"/><text x="41" y="18" class="mono" fill="#66e3ff" font-size="10" font-weight="700" text-anchor="middle">PYTHON</text>
+      <rect class="tag" x="90" width="70" height="27" rx="7"/><text x="125" y="18" class="mono" fill="#ff4fd8" font-size="10" font-weight="700" text-anchor="middle">PYQT5</text>
+      <rect class="tag" x="168" width="78" height="27" rx="7"/><text x="207" y="18" class="mono" fill="#ffd166" font-size="10" font-weight="700" text-anchor="middle">XRANDR</text>
+    </g>
+    <path class="trace" d="M24 207H286L296 197H326" fill="none" stroke="#66e3ff" stroke-width="1.5" stroke-dasharray="13 5"/>
+    <text x="24" y="215" class="mono" fill="#a6accd" font-size="8" letter-spacing="1.5">FOCUS // FRAME // DISPLAY</text>
+  </g>
+
+  <g>
+    <path d="M373 55L395 33H531L547 49V164L525 186H389L373 170Z" fill="url(#kg-glass)" stroke="#66e3ff" stroke-width="1.6"/>
+    <path d="M382 64L402 44H523L538 57V156L518 176H397L382 163Z" fill="#101329" fill-opacity="0.72" stroke="#f7f7ff" stroke-opacity="0.32"/>
+    <g class="pane-a">
+      <rect x="401" y="59" width="105" height="67" rx="5" fill="#070815" stroke="#8b5cf6" stroke-width="1.5"/>
+      <path d="M401 72H506" stroke="#8b5cf6"/><circle cx="410" cy="66" r="2" fill="#ff4fd8"/><circle cx="417" cy="66" r="2" fill="#ffd166"/>
+      <path d="M414 88H468M414 98H488M414 108H452" stroke="#66e3ff" stroke-width="2" opacity="0.72"/>
+      <rect class="cursor" x="457" y="104" width="7" height="5" fill="#f7f7ff"/>
+    </g>
+    <g class="pane-b">
+      <rect x="430" y="104" width="94" height="56" rx="5" fill="#101329" stroke="#ff4fd8" stroke-width="1.5"/>
+      <path d="M430 116H524" stroke="#ff4fd8"/><circle cx="439" cy="110" r="2" fill="#66e3ff"/>
+      <path d="M443 132L452 141L470 123" fill="none" stroke="#66e3ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M481 130H512M481 140H504" stroke="#a6accd" stroke-width="2"/>
+    </g>
+    <path d="M389 186L381 199H538L525 186" fill="#101329" stroke="#a6accd" stroke-width="1.5"/>
+    <path d="M370 91H355V140H370M547 77H558V122H547" fill="none" stroke="#ff4fd8" stroke-width="2" filter="url(#kg-glow)"/>
+    <circle cx="558" cy="134" r="3" fill="#ffd166"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">Open resume</title>
+  <desc id="desc">A neon button with a vector document mark labeled Resume PDF.</desc>
+  <defs>
+    <linearGradient id="resume-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e3ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="resume-glow" x="-40%" y="-100%" width="180%" height="300%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="resume-clip"><rect x="1" y="1" width="258" height="62" rx="13"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.edge{animation:resume-dash 5s linear infinite}.pulse{animation:resume-pulse 2.4s ease-in-out infinite}
+      @keyframes resume-dash{to{stroke-dashoffset:-48}}@keyframes resume-pulse{50%{opacity:.45}}
+      @media (prefers-reduced-motion:reduce){.edge,.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="258" height="62" rx="13" fill="#070815" stroke="#101329" stroke-width="2"/>
+  <g clip-path="url(#resume-clip)">
+    <path d="M0 64L64 0H92L28 64ZM205 64L260 9V38L234 64Z" fill="#66e3ff" opacity="0.08"/>
+    <path d="M91 0L139 64" stroke="#8b5cf6" stroke-width="1" opacity="0.18"/>
+  </g>
+  <rect class="edge" x="2" y="2" width="256" height="60" rx="12" fill="none" stroke="url(#resume-edge)" stroke-width="1.5" stroke-dasharray="72 188"/>
+  <g transform="translate(17 12)">
+    <path d="M6 1H26L36 11V39H6Z" fill="#101329" stroke="#66e3ff" stroke-width="1.8"/>
+    <path d="M26 1V11H36" fill="none" stroke="#66e3ff" stroke-width="1.8"/>
+    <path d="M13 20H29M13 26H29M13 32H23" stroke="#a6accd" stroke-width="1.6" stroke-linecap="round"/>
+    <path class="pulse" d="M2 7V0H9M40 33V40H33" fill="none" stroke="#ffd166" stroke-width="1.5" filter="url(#resume-glow)"/>
+  </g>
+  <g class="ui">
+    <text x="72" y="29" fill="#f7f7ff" font-size="15" font-weight="800" letter-spacing="1.6">RESUME</text>
+    <text x="72" y="45" class="mono" fill="#66e3ff" font-size="9" font-weight="700" letter-spacing="2.4">OPEN PDF</text>
+    <path d="M220 25L228 32L220 39M207 32H228" fill="none" stroke="#f7f7ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

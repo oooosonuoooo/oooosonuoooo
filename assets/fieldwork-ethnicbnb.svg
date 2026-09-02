@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 150" width="570" height="150" role="img" aria-labelledby="title desc">
+  <title id="title">Ethnicbnb fieldwork card</title>
+  <desc id="desc">Ethnicbnb fieldwork focused on booking workflows, manual quality assurance, and user interface and experience.</desc>
+  <defs>
+    <linearGradient id="eb-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e3ff"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+    <pattern id="eb-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#66e3ff" stroke-width="0.5" opacity="0.1"/></pattern>
+    <filter id="eb-glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="eb-clip"><rect x="1" y="1" width="568" height="148" rx="16"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.route{animation:eb-route 4s linear infinite}.pin{animation:eb-pin 2.3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes eb-route{to{stroke-dashoffset:-42}}@keyframes eb-pin{50%{transform:translateY(-4px)}}
+      @media (prefers-reduced-motion:reduce){.route,.pin{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="568" height="148" rx="16" fill="#070815" stroke="url(#eb-edge)" stroke-width="2"/>
+  <g clip-path="url(#eb-clip)"><rect x="1" y="1" width="568" height="148" fill="url(#eb-grid)"/><path d="M310 -10L335 -10L275 160H250Z" fill="#8b5cf6" opacity="0.06"/></g>
+  <g class="ui">
+    <text x="22" y="27" class="mono" fill="#66e3ff" font-size="9" font-weight="700" letter-spacing="2">FIELDWORK // 01</text>
+    <path d="M22 37H296" stroke="#a6accd" stroke-width="1" stroke-dasharray="2 6" opacity="0.28"/>
+    <text x="22" y="70" fill="#f7f7ff" font-size="25" font-weight="900" letter-spacing="1.5">ETHNICBNB</text>
+    <text x="22" y="94" class="mono" fill="#ff4fd8" font-size="11" font-weight="800" letter-spacing="1.8">BOOKING WORKFLOWS</text>
+    <g class="mono" font-size="9" font-weight="700" text-anchor="middle"><rect x="22" y="109" width="92" height="24" rx="6" fill="#101329" stroke="#66e3ff" stroke-opacity="0.45"/><text x="68" y="125" fill="#66e3ff">MANUAL QA</text><rect x="122" y="109" width="70" height="24" rx="6" fill="#101329" stroke="#8b5cf6" stroke-opacity="0.55"/><text x="157" y="125" fill="#f7f7ff">UI / UX</text></g>
+  </g>
+  <g>
+    <circle cx="448" cy="75" r="53" fill="#101329" stroke="#8b5cf6" stroke-opacity="0.45"/>
+    <path class="route" d="M382 105C400 82 409 54 437 55C469 56 476 91 520 45" fill="none" stroke="#66e3ff" stroke-width="2" stroke-dasharray="7 7"/>
+    <g class="pin">
+      <path d="M437 37C425 37 417 45 417 56C417 70 437 85 437 85S457 70 457 56C457 45 449 37 437 37Z" fill="#ff4fd8" stroke="#f7f7ff" stroke-width="1.5"/>
+      <circle cx="437" cy="56" r="6" fill="#070815"/>
+    </g>
+    <rect x="469" y="73" width="70" height="48" rx="7" fill="#070815" stroke="#66e3ff"/>
+    <path d="M469 84H539M480 95H523M480 105H514" stroke="#a6accd" stroke-width="1.5"/>
+    <path d="M522 111L528 116L537 104" fill="none" stroke="#ffd166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#eb-glow)"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">Open LinkedIn profile</title>
+  <desc id="desc">A neon button with a vector in mark labeled LinkedIn.</desc>
+  <defs>
+    <linearGradient id="linkedin-edge" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#66e3ff"/></linearGradient>
+    <filter id="linkedin-glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="linkedin-clip"><rect x="1" y="1" width="258" height="62" rx="13"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.edge{animation:linkedin-dash 5.4s linear infinite}.signal{animation:linkedin-signal 2.2s ease-in-out infinite}
+      @keyframes linkedin-dash{to{stroke-dashoffset:-48}}@keyframes linkedin-signal{50%{opacity:.35;transform:translateX(4px)}}
+      @media (prefers-reduced-motion:reduce){.edge,.signal{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="258" height="62" rx="13" fill="#070815" stroke="#101329" stroke-width="2"/>
+  <g clip-path="url(#linkedin-clip)">
+    <path d="M-4 57L53 0H82L18 64ZM201 64L260 5V35L231 64Z" fill="#8b5cf6" opacity="0.09"/>
+    <circle cx="222" cy="32" r="35" fill="none" stroke="#66e3ff" stroke-width="1" opacity="0.1"/>
+  </g>
+  <rect class="edge" x="2" y="2" width="256" height="60" rx="12" fill="none" stroke="url(#linkedin-edge)" stroke-width="1.5" stroke-dasharray="72 188"/>
+  <g transform="translate(17 12)">
+    <rect x="2" y="2" width="36" height="36" rx="7" fill="#66e3ff"/>
+    <circle cx="11" cy="13" r="3" fill="#070815"/>
+    <path d="M8 19H14V32H8ZM18 19H24V21.5C26 19.4 28 18.4 31 18.4C36 18.4 38 21.7 38 27V32H32V27.6C32 24.8 31 23.5 28.7 23.5C26 23.5 24 25.2 24 28V32H18Z" fill="#070815" transform="translate(-1 0)"/>
+    <path class="signal" d="M1 7V1H7M39 33V39H33" fill="none" stroke="#ff4fd8" stroke-width="1.5" filter="url(#linkedin-glow)"/>
+  </g>
+  <g class="ui">
+    <text x="72" y="29" fill="#f7f7ff" font-size="15" font-weight="800" letter-spacing="1.4">LINKEDIN</text>
+    <text x="72" y="45" class="mono" fill="#66e3ff" font-size="9" font-weight="700" letter-spacing="2.4">CONNECT</text>
+    <path d="M220 25L228 32L220 39M207 32H228" fill="none" stroke="#f7f7ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

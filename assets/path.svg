@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-labelledby="title desc">
+  <title id="title">Sonu's engineering and business experience path</title>
+  <desc id="desc">A neon timeline showing production engineering at CEAT, manufacturing training at Tata Cummins, and business development and digital systems at NZ Fresh and Natural.</desc>
+  <defs>
+    <linearGradient id="path-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e3ff"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+    <linearGradient id="path-rail" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#66e3ff"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+    <pattern id="path-grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#66e3ff" stroke-width="0.5" opacity="0.09"/></pattern>
+    <filter id="path-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="path-clip"><rect x="1" y="1" width="1198" height="248" rx="20"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.rail{animation:path-flow 5.5s linear infinite}.beacon{animation:path-pulse 2.3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.scan{animation:path-scan 7s ease-in-out infinite}
+      @keyframes path-flow{to{stroke-dashoffset:-78}}@keyframes path-pulse{50%{opacity:.5;transform:scale(.72)}}@keyframes path-scan{0%,12%{transform:translateX(-900px)}72%,100%{transform:translateX(900px)}}
+      @media (prefers-reduced-motion:reduce){.rail,.beacon,.scan{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="248" rx="20" fill="#070815" stroke="url(#path-edge)" stroke-width="2"/>
+  <g clip-path="url(#path-clip)">
+    <rect x="1" y="1" width="1198" height="248" fill="url(#path-grid)"/>
+    <path d="M-60 238L178 0H230L-8 238ZM970 250L1200 20V76L1026 250Z" fill="#8b5cf6" opacity="0.05"/>
+    <rect class="scan" x="400" y="0" width="400" height="250" fill="url(#path-edge)" opacity="0.035"/>
+  </g>
+  <g class="ui">
+    <path d="M438 17H474L484 7H716L726 17H762" fill="none" stroke="#66e3ff" stroke-width="1.2" opacity="0.7"/>
+    <text x="600" y="16" class="mono" fill="#66e3ff" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2.1">FIELD LOG // EXPERIENCE</text>
+    <text x="600" y="33" class="mono" fill="#a6accd" font-size="7.5" font-weight="700" text-anchor="middle" letter-spacing="1.05">DIPLOMA // AUTOMOBILE ENGINEERING</text>
+    <text x="600" y="47" class="mono" fill="#66e3ff" font-size="7.5" font-weight="700" text-anchor="middle" letter-spacing="1.05">B.TECH // MECHANICAL ENGINEERING // CURRENT</text>
+  </g>
+  <path d="M84 128H1116" stroke="#101329" stroke-width="12" stroke-linecap="round"/>
+  <path class="rail" d="M84 128H1116" stroke="url(#path-rail)" stroke-width="2.2" stroke-dasharray="28 10" stroke-linecap="round"/>
+
+  <g class="ui">
+    <g transform="translate(258 128)">
+      <circle r="26" fill="#070815" stroke="#66e3ff" stroke-width="2"/>
+      <path d="M-10 -2H10V10H-10ZM-7 -2V-8H7V-2M-4 3H4" fill="none" stroke="#66e3ff" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle class="beacon" r="6" fill="#66e3ff" opacity="0.25" filter="url(#path-glow)"/>
+      <path d="M0 -26V-45" stroke="#66e3ff" stroke-width="1.5"/>
+      <rect x="-168" y="-100" width="336" height="55" rx="10" fill="#101329" stroke="#66e3ff" stroke-opacity="0.55"/>
+      <text y="-81" fill="#f7f7ff" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="1.4">CEAT</text>
+      <text y="-66" class="mono" fill="#66e3ff" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1.2">PRODUCTION ENGINEER (NATS)</text>
+      <text y="-52" class="mono" fill="#a6accd" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.4">DEC 2023 - FEB 2024</text>
+    </g>
+    <g transform="translate(600 128)">
+      <circle r="26" fill="#070815" stroke="#ffd166" stroke-width="2"/>
+      <path d="M-11 -8H11V8H-11ZM-6 12H6M0 8V12" fill="none" stroke="#ffd166" stroke-width="1.7" stroke-linecap="round"/>
+      <circle class="beacon" r="6" fill="#ffd166" opacity="0.25" filter="url(#path-glow)" style="animation-delay:.7s"/>
+      <path d="M0 26V45" stroke="#ffd166" stroke-width="1.5"/>
+      <rect x="-168" y="45" width="336" height="55" rx="10" fill="#101329" stroke="#ffd166" stroke-opacity="0.55"/>
+      <text y="64" fill="#f7f7ff" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="1.4">TATA CUMMINS</text>
+      <text y="79" class="mono" fill="#ffd166" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1.2">MFG. STUDENT TRAINEE</text>
+      <text y="93" class="mono" fill="#a6accd" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.4">FEB 2024 - FEB 2025</text>
+    </g>
+    <g transform="translate(942 128)">
+      <circle r="26" fill="#070815" stroke="#ff4fd8" stroke-width="2"/>
+      <path d="M-10 6L-3 -1L3 4L11 -7M6 -7H11V-2" fill="none" stroke="#ff4fd8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle class="beacon" r="6" fill="#ff4fd8" opacity="0.25" filter="url(#path-glow)" style="animation-delay:1.4s"/>
+      <path d="M0 -26V-45" stroke="#ff4fd8" stroke-width="1.5"/>
+      <rect x="-168" y="-100" width="336" height="55" rx="10" fill="#101329" stroke="#ff4fd8" stroke-opacity="0.55"/>
+      <text y="-81" fill="#f7f7ff" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="1.25">NZ FRESH &amp; NATURAL</text>
+      <text y="-66" class="mono" fill="#ff4fd8" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="0.85">BUSINESS DEVELOPMENT + DIGITAL SYSTEMS</text>
+      <text y="-52" class="mono" fill="#a6accd" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.4">SEP 2025 - NOW</text>
+    </g>
+  </g>
+  <circle cx="84" cy="128" r="4" fill="#66e3ff"/><circle cx="1116" cy="128" r="4" fill="#ff4fd8"/>
+  <path d="M30 225H420L430 235H770L780 225H1170" fill="none" stroke="url(#path-rail)" stroke-width="1.5" opacity="0.58"/>
+</svg>
