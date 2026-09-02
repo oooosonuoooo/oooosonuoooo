@@ -110,8 +110,8 @@
         <circle class="pellet" cx="112" cy="103" r="2.5" fill="#f7f7ff"/>
         <circle class="pellet two" cx="127" cy="103" r="2.5" fill="#f7f7ff"/>
         <circle class="pellet three" cx="142" cy="103" r="2.5" fill="#f7f7ff"/>
-        <path d="M157 114V101A11 11 0 0 0 135 101V114L140 110L145 114L151 110Z" fill="#ff4fd8"/>
-        <circle cx="142" cy="102" r="2" fill="#f7f7ff"/><circle cx="151" cy="102" r="2" fill="#f7f7ff"/>
+        <path d="M136 92H157V98H164V113H157V119H136V113H130V98H136Z" fill="none" stroke="#ff4fd8" stroke-width="3"/>
+        <rect x="142" y="100" width="10" height="10" transform="rotate(45 147 105)" fill="#ff4fd8"/>
         <rect class="scan-sweep" x="52" y="0" width="126" height="20" fill="#66e3ff" opacity="0.08"/>
       </g>
       <path d="M45 158H185L196 176H34Z" fill="#101329" stroke="#66e3ff" stroke-width="1.5"/>
