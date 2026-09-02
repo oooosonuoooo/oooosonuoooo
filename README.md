@@ -1,358 +1,383 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=TUHIN%20DAS&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Engineer%20%E2%86%92%20Builder%20%E2%86%92%20Automator&descAlignY=60&descSize=22" width="100%"/>
+<!-- ======================= HERO ANIMATED BANNER ======================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,24,18,31,2&height=220&section=header&text=TUHIN%20DAS&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Mechanical%20Engineer%20%E2%86%92%20Digital%20Systems%20%7C%20Linux%20%7C%20QA%20%7C%20Automation&descAlignY=60&descAlign=50&animation=twinkling">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,24,18,31,2&height=220&section=header&text=TUHIN%20DAS&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Mechanical%20Engineer%20%E2%86%92%20Digital%20Systems%20%7C%20Linux%20%7C%20QA%20%7C%20Automation&descAlignY=60&descAlign=50&animation=twinkling">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,24,18,31,2&height=220&section=header&text=TUHIN%20DAS&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Mechanical%20Engineer%20%E2%86%92%20Digital%20Systems%20%7C%20Linux%20%7C%20QA%20%7C%20Automation&descAlignY=60&descAlign=50&animation=twinkling" width="100%" alt="Tuhin Das Banner">
+</picture>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=26&duration=2200&pause=700&color=00F5FF&background=00000000&center=true&vCenter=true&repeat=true&width=900&height=60&lines=%F0%9F%94%A7+Mechanical+Engineer+%E2%86%92+Digital+Systems;%F0%9F%90%A7+Linux+%7C+Python+%7C+Go+%7C+Shell+%7C+Automation;%F0%9F%8E%AE+Building+tools+that+solve+real+problems;%F0%9F%94%A5+QA+%7C+Automation+%7C+AI+Workflows;%E2%9A%99%EF%B8%8F+Engineering+mindset.+Automation+focus.)](https://git.io/typing-svg)
+<!-- ======================= DYNAMIC TYPING SVG ======================= -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=00F2FE&center=true&vCenter=true&repeat=true&width=900&lines=Mechanical+Engineer+-%3E+Digital+Systems+Architect;Linux+Automation+%7C+Software+QA+%7C+Python+%7C+Go;Building+bulletproof+utilities+%26+eliminating+toil;Engineering+precision.+Zero-defect+mindset." alt="Typing SVG">
+  </a>
+</p>
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=oooosonuoooo.oooosonuoooo&left_color=blueviolet&right_color=cyan&left_text=Profile%20Visits)
-[![GitHub followers](https://img.shields.io/github/followers/oooosonuoooo?label=Followers&style=social)](https://github.com/oooosonuoooo)
+<!-- ======================= ACTION CALL-TO-ACTIONS & STATUS ======================= -->
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/RESUME-DOWNLOAD_PDF-00F2FE?style=for-the-badge&logo=googledrive&logoColor=000&labelColor=0d1117" alt="Download Resume">
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/tuhin-das-728020270" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-TUHIN_DAS-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn">
+  </a>
+  &nbsp;
+  <a href="https://x.com/oooosonuoooo" target="_blank">
+    <img src="https://img.shields.io/badge/X-@oooosonuoooo-white?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117" alt="X (Twitter)">
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/SYSTEM-ONLINE_●-2ea44f?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0d1117" alt="System Online">
+</p>
+
+<!-- ======================= TECH STACK ICON STRIP ======================= -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,kali,bash,py,go,c,git,github,githubactions,docker,postgres,postman&theme=dark&perline=12" alt="Tech Stack">
+</p>
 
 </div>
 
----
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=linux,py,go,bash,git,github,githubactions&theme=dark&perline=7" alt="Skills" width="420"/>
-</div>
+## ⚡ System Telemetry & Mission Directive
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tuhin_Das-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tuhin-das-728020270)
-[![X](https://img.shields.io/badge/X-@oooosonuoooo-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/oooosonuoooo)
-[![Resume](https://img.shields.io/badge/%F0%9F%93%84_Resume-Download_Now-58A6FF?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing)
-[![GitHub](https://img.shields.io/badge/GitHub-oooosonuoooo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oooosonuoooo)
-
-</div>
-
----
-
-## ⚡ `whoami`
-
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="260" alt="Coding GIF"/>
-
-```yaml
-name:        Tuhin Das
-location:    Kolkata, India  🇮🇳
-role:        Engineer / Builder / Tester
-focus:
-  - Linux tooling & automation
-  - Software QA & testing
-  - AI-assisted workflows
-  - Systems — Python — Go
-background:
-  - Mechanical Engineering
-  - Manufacturing & CNC
-  - Quality Control
-  - Digital Operations
-status:      🟢 ONLINE — Building something...
-superpower:  Turning messy manual workflows
-             into clean reliable automation
+```text
+╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+║  OPERATOR TELEMETRY // CODENAME: SONU                                                     ║
+╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+║  OPERATOR       : Tuhin Das                                                               ║
+║  LOCATION       : Kolkata, West Bengal, India [IST / UTC+5:30]                            ║
+║  PRIMARY CORE   : Mechanical Engineering -> Digital Systems -> QA Automation              ║
+║  SPECIALIZATION : Linux Tooling, Automated Testing, Fault Discovery & Daemon Workflows    ║
+║  PHILOSOPHY     : "Eliminate repetitive toil. Validate the edges. Build to endure."      ║
+║  SYSTEM STATUS  : [████████████████████] 100% OPERATIONAL // ALL SYSTEMS GO               ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-> *"Started in the physical world with machines & metal.  
-> Ended up automating the digital one."*
+I transitioned from mechanical engineering, CNC manufacturing, quality inspection, and physical precision into Linux systems, automated testing, systems programming, and robust software tooling.
 
-<br clear="right"/>
+My engineering playbook:
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=oooosonuoooo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=F700FF&text_color=FFFFFF&include_all_commits=true&count_private=true" height="170" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oooosonuoooo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF&text_color=FFFFFF&langs_count=8" height="170" alt="Top Languages"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=oooosonuoooo&theme=tokyonight&hide_border=true&background=0D1117&ring=00F5FF&fire=F700FF&currStreakLabel=00F5FF&sideLabels=FFFFFF&dates=AAAAAA" alt="GitHub Streak" width="600"/>
-
-</div>
-
----
-
-## 🎯 Current Focus — Loading...
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3000&pause=500&color=39D353&background=0D111700&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=160&lines=Linux+desktop+tooling+......+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25+%E2%9C%85;Python+automation+..........+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88---%5D++80%25+%F0%9F%94%A5;Go+%26+terminal+systems+....+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88----%5D++70%25+%F0%9F%9A%80;Software+QA+...............+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88----%5D++70%25+%F0%9F%94%8D;AI-assisted+workflows+....+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88------%5D++60%25+%F0%9F%A4%96;Cloud+%26+deployment+......+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88---------%5D++50%25+%E2%98%81%EF%B8%8F)](https://git.io/typing-svg)
-
-</div>
-
----
-
-## 🛠️ Technology Arsenal
-
-<div align="center">
-
-### ⌨️ Languages & Scripting
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### 🐧 Systems & Tooling
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![systemd](https://img.shields.io/badge/systemd-000000?style=for-the-badge&logo=linux&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-### 🔬 Engineering & QA
-
-![Software QA](https://img.shields.io/badge/Software_QA-Testing-FF6B6B?style=for-the-badge&logo=checkmarx&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-Workflows-00C851?style=for-the-badge&logo=zapier&logoColor=white)
-![AI Workflows](https://img.shields.io/badge/AI_Assisted-Workflows-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)
-![Mechanical Engineering](https://img.shields.io/badge/Mechanical-Engineering-F97316?style=for-the-badge&logo=autodesk&logoColor=white)
-
-</div>
-
----
-
-## 🏗️ Private Commercial Projects
-
-> Source code is private — commercial / NDA protected.
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-### 🏡 [EthnicBNB](https://ethnicbnb.com)
-
-<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="180" alt="Travel"/>
-
-*Travel & Hospitality Platform*
-
-```
-✅ Manual QA & user-flow testing
-✅ Booking workflow validation
-✅ Bug reporting & dev coordination
-✅ UI/UX feedback
-✅ Hosting & deployment support
-✅ Business → Technical translation
+```text
+┌─────────────────────────┐     ┌─────────────────────────┐     ┌─────────────────────────┐
+│  01. DECONSTRUCT PROBLEM│ ──> │  02. ARCHITECT SOLUTION │ ──> │  03. TEST FAILURE MODES │
+└─────────────────────────┘     └─────────────────────────┘     └─────────────────────────┘
+             │                                                               │
+             ▼                                                               ▼
+┌─────────────────────────┐                                     ┌─────────────────────────┐
+│  05. DEPLOY & MONITOR   │ <────────────────────────────────── │  04. AUTOMATE & HARDEN  │
+└─────────────────────────┘                                     └─────────────────────────┘
 ```
 
-</td>
-<td width="50%" align="center">
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
 
-### 🥛 [PureMilk](https://puremilk.co.in)
-
-<img src="https://media.giphy.com/media/26gsspfbt1HfXEkO4/giphy.gif" width="180" alt="Delivery"/>
-
-*Premium Dairy Digital Platform*
-
-```
-✅ Website & technical support
-✅ Operational troubleshooting
-✅ Customer-flow analysis
-✅ Digital promotions & creatives
-✅ Process improvement
-✅ Automation exploration
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🎮 Contribution Arcade
+## 🕹️ Contribution Arcade Zone
 
 <div align="center">
-<img src="https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif" width="80" alt="Game controller"/>
-
-**Every commit is a move. Every push is a power-up.**
+  <img src="./assets/arcade-machine.svg" width="100%" alt="Arcade Machine Banner">
 </div>
 
-### 👾 Pac-Man eats my commits!
+### 👾 01. Pac-Man Contribution Arcade
+
+Pac-Man chomps across the real GitHub contribution heatmap, devouring commits and dodging ghosts in real-time.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph.svg" width="100%">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph-dark.svg" width="100%">
 </picture>
 
+---
+
+### 🐍 02. Contribution Grid Snake
+
+The legendary contribution snake traverses the commit matrix, consuming green contribution dots in an infinite loop.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution Snake animation" src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+---
+
+### 🧱 03. Breakout Brick-Breaker
+
 <details>
-<summary><b>🧱 Breakout — Smash those contributions!</b></summary>
+<summary><b>▶ Click to Expand Breakout Contribution Game</b></summary>
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph.svg">
-  <img alt="Breakout contribution graph" src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph.svg" width="100%">
+  <img alt="Breakout contribution graph" src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph-dark.svg" width="100%">
 </picture>
 
 </details>
 
 ---
 
-## 📈 Activity Graph
+### 🎮 04. Retro Arcade Game Station (Instant Play)
+
+Launch classic arcade games right in your browser:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=oooosonuoooo&bg_color=0D1117&color=00F5FF&line=F700FF&point=FFFFFF&area=true&area_color=00F5FF&hide_border=true&custom_title=Tuhin's%20Contribution%20Timeline" width="95%" alt="Activity Graph"/>
-
-</div>
-
----
-
-## 🏆 Trophies & Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=oooosonuoooo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="Trophies" width="100%"/>
-
-</div>
-
----
-
-## 🚀 Engineering Missions
-
-<details>
-<summary><b>🔍 Mission 01 — Software QA</b></summary>
-<br>
-
-<img align="right" src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="120" alt="Testing"/>
-
-```
-╔══════════════════════════════════════════════╗
-║            MISSION: SOFTWARE QA              ║
-╠══════════════════════════════════════════════╣
-║  ENVIRONMENT.............. STAGING           ║
-║  LOGIN.................... ✅ PASS           ║
-║  SEARCH................... ✅ PASS           ║
-║  BOOKING FLOW............. ⏳ TESTING        ║
-║  PAYMENT.................. ❌ ISSUE FOUND    ║
-║  BUG REPORT............... 📝 CREATED        ║
-║  PATCH.................... 📦 RECEIVED       ║
-║  RETEST................... ✅ PASS           ║
-╠══════════════════════════════════════════════╣
-║  RESULT................... ✅ VERIFIED       ║
-╚══════════════════════════════════════════════╝
-```
-
-**Objective:** Find workflow problems before users find them.
-
-</details>
-
-<details>
-<summary><b>⚙️ Mission 02 — Automation</b></summary>
-<br>
-
-<img align="right" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="120" alt="Automation"/>
-
-```
-╔══════════════════════════════════════════════╗
-║            MISSION: AUTOMATION               ║
-╠══════════════════════════════════════════════╣
-║  MANUAL STEPS............. 😩 TOO MANY       ║
-║  REPETITIVE WORK.......... 🔍 DETECTED       ║
-║  AUTOMATION CANDIDATE..... ✅ YES            ║
-╠══════════════════════════════════════════════╣
-║  BUILD.................... ✅ DONE           ║
-║  TEST..................... ✅ DONE           ║
-║  FIX...................... ✅ DONE           ║
-║  DEPLOY................... ✅ DONE           ║
-╠══════════════════════════════════════════════╣
-║  RESULT................... 🚀 TASK ELIMINATED║
-╚══════════════════════════════════════════════╝
-```
-
-**Objective:** Turn repetitive work into reliable automation.
-
-</details>
-
-<details>
-<summary><b>🛡️ Mission 03 — Reliability Engineering</b></summary>
-<br>
-
-<img align="right" src="https://media.giphy.com/media/ZVik7pIo9KB3fkSA8V/giphy.gif" width="120" alt="Reliability"/>
-
-```
-  🔴 DEFINE PROBLEM
-        │
-        ▼
-  🟡 UNDERSTAND SYSTEM
-        │
-        ▼
-  🔵 BUILD SOLUTION
-        │
-        ▼
-  🟠 TEST FAILURE MODES
-        │
-        ▼
-  🟢 IMPROVE & ITERATE
-        │
-        ▼
-  ✅ DEPLOY WITH CONFIDENCE
-```
-
-**Objective:** Make systems useful, understandable and difficult to break.
-
-</details>
-
----
-
-## 🧠 Engineering Philosophy
-
-<div align="center">
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="60" alt="Brain"/>
-</div>
-
-```
-╔══════════════════════════════════════════════════════════╗
-║                  THE TUHIN DAS FORMULA                   ║
-╠══════════════════════════════════════════════════════════╣
-║                                                          ║
-║   GOOD ENGINEERING  ≠  MORE COMPLEXITY                   ║
-║                                                          ║
-║   GOOD ENGINEERING  =                                    ║
-║       📌 understand the problem                          ║
-║     + 🧹 remove unnecessary steps                        ║
-║     + 🔥 test failure cases                              ║
-║     + 📚 document the system                             ║
-║     + 🔒 make the result reliable                        ║
-║     + ♻️  automate the repetitive parts                  ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-```
-
----
-
-## 💬 Today's Dev Wisdom
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" width="700"/>
-
-</div>
-
----
-
-<div align="center">
-
-### ⚡ `BUILD → TEST → LEARN → FIX → AUTOMATE → REPEAT` ⚡
-
-<br>
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40" alt="wave">
+[![Play Pac-Man](https://img.shields.io/badge/PLAY-PAC--MAN-F59E0B?style=for-the-badge&logo=nintendo&logoColor=black)](https://pacman.live/)
 &nbsp;
-**Thanks for visiting! Let's build something amazing together.**
+[![Play Space Invaders](https://img.shields.io/badge/PLAY-SPACE_INVADERS-EF4444?style=for-the-badge&logo=retroarch&logoColor=white)](https://funhtml5games.com/?play=spaceinvaders)
 &nbsp;
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40" alt="wave">
-
-<br>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=3000&pause=1000&color=F700FF&center=true&vCenter=true&repeat=true&width=600&lines=%F0%9F%94%A7+Engineer+by+mind.+Builder+by+choice.;%F0%9F%90%A7+Linux+is+not+just+an+OS+%E2%80%94+it%27s+a+lifestyle.;%E2%9A%A1+Automate+everything+that+bores+you.;%F0%9F%9A%80+Good+code+solves+problems.+Great+code+prevents+them.)](https://git.io/typing-svg)
+[![Play Retro Snake](https://img.shields.io/badge/PLAY-RETRO_SNAKE-10B981?style=for-the-badge&logo=gnubash&logoColor=white)](https://playsnake.org/)
+&nbsp;
+[![Play 2048](https://img.shields.io/badge/PLAY-2048_PUZZLE-8B5CF6?style=for-the-badge&logo=gameandwatch&logoColor=white)](https://play2048.co/)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+---
+
+### 🔐 05. Interactive Hacker Terminal (Easter Egg)
+
+<details>
+<summary><b>▶ [CONSOLE] Click to Execute System Decryption & Diagnostic Sequence</b></summary>
+
+```text
+[INIT] Authenticating session for user: GUEST_EXPLORER...
+[OK]   Handshake accepted. Root protocol loaded.
+[EXEC] Probing kernel logs & engineering archives...
+
+>> ACCESS GRANTED: CONFIDENTIAL LOG ENTRY #0729
+----------------------------------------------------------------------
+"Quality is never an accident; it is always the result of intelligent
+ effort. We test the boundaries so the software stands unwavering."
+----------------------------------------------------------------------
+
+[PASS] MEMORY INTEGRITY        : 100% NOMINAL
+[PASS] QA COVERAGE             : VERIFIED
+[PASS] LATENCY METRIC          : < 0.8ms
+[PASS] DEPLOYMENT STATUS       : PRODUCTION READY
+
+>> THANK YOU FOR PLAYING! PRESS 'STAR' ON THIS REPO TO SUPPORT THE JOURNEY.
+```
+
+</details>
+
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
+
+## 💼 Private Commercial Projects
+
+Commercial client engagements and proprietary deployments. Source code is closed, but engineering impact is live:
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏨 [EthnicBNB](https://ethnicbnb.com)
+*Boutique hospitality and experiential cultural travel platform.*
+
+<img src="https://img.shields.io/badge/Status-LIVE_IN_PRODUCTION-success?style=flat-square" alt="Status">
+<img src="https://img.shields.io/badge/Domain-Hospitality_QA-informational?style=flat-square" alt="Domain">
+
+**Key Responsibilities & Deliverables:**
+- Comprehensive manual QA & full-spectrum user flow validation
+- Critical booking workflow, reservation integrity & payment sanity testing
+- High-priority defect discovery, logging & dev coordination
+- UI/UX friction analysis, responsive testing across device matrices
+- Deployment verification and technical hosting operations
+
+[**Explore EthnicBNB ➔**](https://ethnicbnb.com)
+
+</td>
+<td width="50%" valign="top">
+
+### 🥛 [PureMilk](https://puremilk.co.in)
+*Direct-to-consumer premium dairy platform & digital ordering ecosystem.*
+
+<img src="https://img.shields.io/badge/Status-LIVE_IN_PRODUCTION-success?style=flat-square" alt="Status">
+<img src="https://img.shields.io/badge/Domain-E--Commerce_Ops-orange?style=flat-square" alt="Domain">
+
+**Key Responsibilities & Deliverables:**
+- End-to-end platform operations, storefront & technical maintenance
+- Customer checkout funnels, delivery dispatch & order pipeline analysis
+- Digital promotions, campaign assets & user acquisition creatives
+- Workflow bottlenecks identification and script-based automation
+- Business requirement translation into technical action items
+
+[**Explore PureMilk ➔**](https://puremilk.co.in)
+
+</td>
+</tr>
+</table>
+
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
+
+## 🛠️ Technology Matrix
+
+<div align="center">
+
+### 💻 Systems, Kernel & Scripting
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![systemd](https://img.shields.io/badge/systemd-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+### ⚙️ CI/CD, QA, Automation & Tooling
+
+![Software QA](https://img.shields.io/badge/Software_QA-Testing-00F2FE?style=for-the-badge&logo=checkmarx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AI Workflows](https://img.shields.io/badge/AI_Assisted-Workflows-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+
+### 📐 Physical & Mechanical Engineering
+
+![Mechanical Engineering](https://img.shields.io/badge/Mechanical_Engineering-Precision_CAD-orange?style=for-the-badge)
+![Manufacturing](https://img.shields.io/badge/Manufacturing-CNC_Machining-critical?style=for-the-badge)
+![Quality Control](https://img.shields.io/badge/Quality_Control-Process_Auditing-blue?style=for-the-badge)
+
+</div>
+
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
+
+## 🎯 Engineering Missions & Operational Case Studies
+
+<details>
+<summary><b>01. Software Quality Assurance & Defect Mitigation</b></summary>
+<br>
+
+```text
+STAGING ENVIRONMENT ........ ONLINE
+USER AUTHENTICATION ........ PASS
+CATALOG SEARCH & FILTER .... PASS
+CHECKOUT / PAYMENT FLOW .... ANOMALY DETECTED (EDGE CASE)
+ISSUE CLASSIFICATION ....... HIGH PRIORITY / RACE CONDITION
+REPRO STEPS & LOGS ......... DISPATCHED TO ENG TEAM
+PATCH APPLIED .............. VERIFIED
+REGRESSION SUITE ........... ZERO DEFECTS FOUND
+```
+
+**Objective:** Expose and eradicate system failures before they touch production customers.
+
+</details>
+
+<details>
+<summary><b>02. Linux Daemon & Task Automation</b></summary>
+<br>
+
+```text
+MANUAL REPETITIVE WORK ..... DETECTED IN OPERATIONAL PIPELINE
+AUTOMATION TARGET .......... BATCH LOG PARSING & HEALTH ALERTS
+PIPELINE ARCHITECTURE ...... SHELL + PYTHON + SYSTEMD TIMER
+ERROR NOTIFICATION ......... INTEGRATED VIA WEBHOOK
+EXECUTION SPEED ............ REDUCED FROM 45 MINS -> 1.2 SECS
+RELIABILITY RATE ........... 99.98%
+```
+
+**Objective:** Convert costly manual toil into silent, ultra-reliable autonomous jobs.
+
+</details>
+
+<details>
+<summary><b>03. Fault Tolerance & Systems Reliability</b></summary>
+<br>
+
+```text
+SYSTEM ARCHITECTURE:
+[ DEFINE PROBLEM ]
+       │
+       ▼
+[ UNDERSTAND SUBSYSTEM INTERFACES ]
+       │
+       ▼
+[ DEVELOP RESILIENT CODE / PIPELINE ]
+       │
+       ▼
+[ STRESS TEST FAILURE BOUNDARIES ]
+       │
+       ▼
+[ REFINE, CONTAINERIZE & AUTOMATE ]
+       │
+       ▼
+[ CONTINUOUS DEPLOYMENT ]
+```
+
+**Objective:** Build systems that are transparent to maintain, intuitive to operate, and resilient under stress.
+
+</details>
+
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
+
+## 📊 Current Tech Trajectory & Mastery
+
+```text
+Linux Desktop & Server Tooling  [████████████████████] 100%
+Python Automation & Scripting   [████████████████────]  80%
+Go & High-Performance CLI       [██████████████──────]  70%
+Software QA & E2E Testing       [██████████████──────]  70%
+AI-Assisted Engineering Work    [████████████────────]  60%
+Containerization & Cloud CI/CD  [██████████──────────]  50%
+```
+
+- Architecting custom Linux command-line utilities and automation tools
+- Expanding end-to-end QA validation suites and API test automation
+- Leveraging AI models for rapid prototyping and workflow streamlining
+- Synthesizing mechanical engineering rigor with modern digital software reliability
+
+<!-- ======================= NEON GLOW DIVIDER ======================= -->
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Divider">
+</p>
+
+## 🌟 Connect & Download Resume
+
+<div align="center">
+
+### Ready to build, test, and automate high-impact systems together?
+
+<a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/📄_DOWNLOAD_RESUME-CLICK_HERE-00F2FE?style=for-the-badge&logo=googledrive&logoColor=000&labelColor=0d1117" alt="Download Resume">
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/tuhin-das-728020270" target="_blank">
+  <img src="https://img.shields.io/badge/💼_CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="Connect on LinkedIn">
+</a>
+&nbsp;
+<a href="https://x.com/oooosonuoooo" target="_blank">
+  <img src="https://img.shields.io/badge/🐦_FOLLOW_ON_X-white?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117" alt="Follow on X">
+</a>
+
+<br><br>
+
+<!-- ======================= WAVY ANIMATED FOOTER ======================= -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,31,18,24,1&height=140&section=footer&animation=twinkling">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,31,18,24,1&height=140&section=footer&animation=twinkling">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,31,18,24,1&height=140&section=footer&animation=twinkling" width="100%" alt="Footer">
+</picture>
+
+**UNDERSTAND • BUILD • TEST • AUTOMATE • REPEAT**  
+*Crafted with engineering precision by Tuhin Das*
+
+</div>
