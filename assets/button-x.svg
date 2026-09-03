@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-labelledby="title desc">
   <title id="title">Open X profile</title>
-  <desc id="desc">A neon button with a vector X mark labeled Follow on X.</desc>
+  <desc id="desc">A neon button with the X vector brand mark labeled Follow on X.</desc>
   <defs>
     <linearGradient id="x-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4fd8"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#66e3ff"/></linearGradient>
     <filter id="x-glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -18,7 +18,8 @@
   </g>
   <rect class="edge" x="2" y="2" width="256" height="60" rx="12" fill="none" stroke="url(#x-edge)" stroke-width="1.5" stroke-dasharray="72 188"/>
   <g transform="translate(17 12)">
-    <path d="M4 3H13L22 15L32 3H38L25 19L39 37H30L20 24L9 37H3L17 20Z" fill="#f7f7ff"/>
+    <!-- Official X brand-toolkit vector, solid white variant; geometry is unmodified. -->
+    <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" transform="translate(5 4.6625) scale(.025)" fill="#f7f7ff"/>
     <path class="mark" d="M1 8V1H8M40 32V39H33" fill="none" stroke="#ff4fd8" stroke-width="1.5" filter="url(#x-glow)"/>
   </g>
   <g class="ui">
