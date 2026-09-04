@@ -24,6 +24,8 @@
 
 <div align="center">
   <img src="./assets/stack.svg" width="100%" alt="Technology stack: Linux, Python, Go, Bash, Git, GitHub Actions, systemd, GTK, X11, software QA and automation">
+  <br>
+  <img src="./assets/creative-suite.svg" width="100%" alt="Creative and engineering skills: photo editing, video editing, marketing automation and SolidWorks 3D CAD">
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
