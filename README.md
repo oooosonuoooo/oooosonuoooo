@@ -1,10 +1,7 @@
 <!-- profile-data-synced: 2026-09-04 -->
 
 <div align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero.svg">
-    <img src="./assets/hero-motion.gif" width="100%" alt="Animated profile banner for Tuhin Das, mechanical engineering student and Linux systems builder">
-  </picture>
+  <img src="./assets/hero.svg" width="100%" alt="Green highway portrait banner for Tuhin Das, mechanical engineering student and Linux systems builder">
 
   <br>
 
