@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-labelledby="title desc">
-  <title id="title">Open resume</title>
-  <desc id="desc">A neon button with a vector document mark labeled Resume PDF.</desc>
+  <title id="title">Open resume folder</title>
+  <desc id="desc">A neon button with a vector document mark labeled Resume.</desc>
   <defs>
     <linearGradient id="resume-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
     <filter id="resume-glow" x="-40%" y="-100%" width="180%" height="300%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -25,7 +25,7 @@
   </g>
   <g class="ui">
     <text x="72" y="29" fill="#f0f6fc" font-size="15" font-weight="800" letter-spacing="1.6">RESUME</text>
-    <text x="72" y="45" class="mono" fill="#58a6ff" font-size="9" font-weight="700" letter-spacing="2.4">OPEN PDF</text>
+    <text x="72" y="45" class="mono" fill="#58a6ff" font-size="9" font-weight="700" letter-spacing="2.4">OPEN FOLDER</text>
     <path d="M220 25L228 32L220 39M207 32H228" fill="none" stroke="#f0f6fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

@@ -3,12 +3,13 @@
 <div align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero.svg">
-    <img src="./assets/hero-motion.gif" width="100%" alt="Animated profile banner for Tuhin Das, Linux systems builder and quality engineer">
+    <img src="./assets/hero-motion.gif" width="100%" alt="Animated profile banner for Tuhin Das, mechanical engineering student and Linux systems builder">
   </picture>
 
   <br>
 
-  <a href="https://drive.google.com/file/d/12-rsZG-FzekzAvW0uSfnT5cOcWOYRpOT/view?usp=sharing"><img src="./assets/button-resume.svg" height="48" alt="Open Tuhin Das resume PDF"></a>
+  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><img src="./assets/button-resume.svg" height="48" alt="Open Tuhin Das resume folder"></a>
+  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><img src="./assets/button-gallery.svg" height="48" alt="Open Tuhin Das work gallery"></a>
   <a href="https://www.linkedin.com/in/tuhin-das-728020270"><img src="./assets/button-linkedin.svg" height="48" alt="Connect with Tuhin Das on LinkedIn"></a>
   <a href="https://x.com/oooosonuoooo"><img src="./assets/button-x.svg" height="48" alt="Follow oooosonuoooo on X"></a>
 </div>
@@ -16,7 +17,7 @@
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <div align="center">
-  <img src="./assets/path.svg" width="100%" alt="Experience path from mechanical engineering through quality work to Linux automation and resilient systems">
+  <img src="./assets/path.svg" width="100%" alt="Learning path from automobile engineering to mechanical engineering and open-source systems">
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
@@ -36,8 +37,8 @@
 </div>
 
 <div align="center">
-  <a href="https://ethnicbnb.com"><img src="./assets/fieldwork-ethnicbnb.svg" width="49%" alt="EthnicBNB booking workflow, manual QA and UI UX work"></a>
-  <a href="https://puremilk.co.in"><img src="./assets/fieldwork-puremilk.svg" width="49%" alt="PureMilk digital operations, campaigns and automation work"></a>
+  <img src="./assets/focus-quality.svg" width="49%" alt="Quality systems focus: test, verify and improve">
+  <img src="./assets/focus-automation.svg" width="49%" alt="Automation lab focus: Linux, agents and tooling">
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
