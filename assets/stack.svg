@@ -3,18 +3,18 @@
   <desc id="desc">A neon cyber interface with proper vector marks for Linux, Python, Go, GNU Bash, Git, GitHub Actions, systemd, GTK, and X.Org, plus software QA and automation.</desc>
   <defs>
     <linearGradient id="stack-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#66e3ff"/>
-      <stop offset="0.5" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#ff4fd8"/>
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#3fb950"/>
     </linearGradient>
     <linearGradient id="stack-sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#66e3ff" stop-opacity="0"/>
-      <stop offset="0.48" stop-color="#66e3ff" stop-opacity="0.55"/>
-      <stop offset="0.52" stop-color="#f7f7ff" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#ff4fd8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#58a6ff" stop-opacity="0.55"/>
+      <stop offset="0.52" stop-color="#f0f6fc" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
     </linearGradient>
     <pattern id="stack-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#66e3ff" stroke-width="0.6" opacity="0.12"/>
+      <path d="M24 0H0V24" fill="none" stroke="#58a6ff" stroke-width="0.6" opacity="0.12"/>
     </pattern>
     <filter id="stack-glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -34,112 +34,112 @@
     <symbol id="logo-systemd" viewBox="0 0 86 26"><path d="M0 0v26h10v-4H4V4h6V0zm76 0v4h6v18h-6v4h10V0z"/><path d="M45 13L63 3v20z"/><circle cx="30" cy="13" r="9"/></symbol>
     <style>
       .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
-      .chip{fill:#101329;stroke:#a6accd;stroke-opacity:.26}.label{fill:#f7f7ff;font-size:14px;font-weight:700;letter-spacing:1.35px}.num{fill:#070815;font-size:10px;font-weight:800;text-anchor:middle}.trace{animation:stack-dash 7s linear infinite}.sweep{animation:stack-sweep 6s ease-in-out infinite}.node{animation:stack-pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .chip{fill:#161b22;stroke:#8b949e;stroke-opacity:.26}.label{fill:#f0f6fc;font-size:14px;font-weight:700;letter-spacing:1.35px}.num{fill:#0d1117;font-size:10px;font-weight:800;text-anchor:middle}.trace{animation:stack-dash 7s linear infinite}.sweep{animation:stack-sweep 6s ease-in-out infinite}.node{animation:stack-pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       @keyframes stack-dash{to{stroke-dashoffset:-96}}@keyframes stack-sweep{0%,15%{transform:translateX(-760px)}70%,100%{transform:translateX(760px)}}@keyframes stack-pulse{0%,100%{opacity:.55;transform:scale(.82)}50%{opacity:1;transform:scale(1.2)}}
       @media (prefers-reduced-motion:reduce){.trace,.sweep,.node{animation:none}}
     </style>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="228" rx="20" fill="#070815" stroke="url(#stack-edge)" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="228" rx="20" fill="#0d1117" stroke="url(#stack-edge)" stroke-width="2"/>
   <g clip-path="url(#stack-clip)">
     <rect x="1" y="1" width="1198" height="228" fill="url(#stack-grid)"/>
-    <path d="M-30 205L190 40H410L590 205H790L1005 28H1230" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.18"/>
-    <path class="trace" d="M18 52H195L216 31H447M930 31H1111L1180 100V194" fill="none" stroke="#66e3ff" stroke-width="1.4" stroke-dasharray="8 8" opacity="0.5"/>
+    <path d="M-30 205L190 40H410L590 205H790L1005 28H1230" fill="none" stroke="#1f6feb" stroke-width="1" opacity="0.18"/>
+    <path class="trace" d="M18 52H195L216 31H447M930 31H1111L1180 100V194" fill="none" stroke="#58a6ff" stroke-width="1.4" stroke-dasharray="8 8" opacity="0.5"/>
     <rect class="sweep" x="350" y="0" width="500" height="230" fill="url(#stack-sweep)" opacity="0.18"/>
   </g>
 
   <g class="ui">
     <g transform="translate(30 24)">
-      <path d="M0 12L10 2H25L31 8L25 14H10Z" fill="none" stroke="#66e3ff" stroke-width="1.5"/>
-      <circle class="node" cx="15" cy="8" r="3" fill="#66e3ff" filter="url(#stack-glow)"/>
-      <text x="45" y="13" class="mono" fill="#66e3ff" font-size="13" font-weight="700" letter-spacing="2.6">LOADOUT // TOOLCHAIN</text>
+      <path d="M0 12L10 2H25L31 8L25 14H10Z" fill="none" stroke="#58a6ff" stroke-width="1.5"/>
+      <circle class="node" cx="15" cy="8" r="3" fill="#58a6ff" filter="url(#stack-glow)"/>
+      <text x="45" y="13" class="mono" fill="#58a6ff" font-size="13" font-weight="700" letter-spacing="2.6">LOADOUT // TOOLCHAIN</text>
     </g>
     <g transform="translate(984 24)">
-      <circle cx="2" cy="7" r="3" fill="#ffd166"/>
-      <text x="14" y="11" class="mono" fill="#a6accd" font-size="10" letter-spacing="1.7">11 MODULES ONLINE</text>
+      <circle cx="2" cy="7" r="3" fill="#56d364"/>
+      <text x="14" y="11" class="mono" fill="#8b949e" font-size="10" letter-spacing="1.7">11 MODULES ONLINE</text>
     </g>
 
     <g transform="translate(30 70)">
       <rect class="chip" width="164" height="52" rx="10"/>
-      <path d="M0 16V10Q0 0 10 0H154" fill="none" stroke="#66e3ff" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#66e3ff"/>
-      <use href="#logo-linux" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 16V10Q0 0 10 0H154" fill="none" stroke="#58a6ff" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#58a6ff"/>
+      <use href="#logo-linux" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">LINUX</text>
     </g>
     <g transform="translate(204 70)">
       <rect class="chip" width="170" height="52" rx="10"/>
-      <path d="M0 16V10Q0 0 10 0H160" fill="none" stroke="#ffd166" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#ffd166"/>
-      <use href="#logo-python" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 16V10Q0 0 10 0H160" fill="none" stroke="#56d364" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#56d364"/>
+      <use href="#logo-python" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">PYTHON</text>
     </g>
     <g transform="translate(384 70)">
       <rect class="chip" width="120" height="52" rx="10"/>
-      <path d="M0 16V10Q0 0 10 0H110" fill="none" stroke="#66e3ff" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#66e3ff"/>
-      <use href="#logo-go" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 16V10Q0 0 10 0H110" fill="none" stroke="#58a6ff" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#58a6ff"/>
+      <use href="#logo-go" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">GO</text>
     </g>
     <g transform="translate(514 70)">
       <rect class="chip" width="145" height="52" rx="10"/>
-      <path d="M0 16V10Q0 0 10 0H135" fill="none" stroke="#ff4fd8" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#ff4fd8"/>
-      <use href="#logo-gnubash" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 16V10Q0 0 10 0H135" fill="none" stroke="#3fb950" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#3fb950"/>
+      <use href="#logo-gnubash" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">BASH</text>
     </g>
     <g transform="translate(669 70)">
       <rect class="chip" width="120" height="52" rx="10"/>
-      <path d="M0 16V10Q0 0 10 0H110" fill="none" stroke="#ff4fd8" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#ff4fd8"/>
-      <use href="#logo-git" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 16V10Q0 0 10 0H110" fill="none" stroke="#3fb950" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#3fb950"/>
+      <use href="#logo-git" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">GIT</text>
     </g>
     <g transform="translate(799 70)">
       <rect class="chip" width="371" height="52" rx="10"/>
-      <path d="M0 16V10Q0 0 10 0H361" fill="none" stroke="#8b5cf6" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#8b5cf6"/>
-      <use href="#logo-githubactions" x="17" y="17" width="18" height="18" fill="#f7f7ff"/>
+      <path d="M0 16V10Q0 0 10 0H361" fill="none" stroke="#1f6feb" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#1f6feb"/>
+      <use href="#logo-githubactions" x="17" y="17" width="18" height="18" fill="#f0f6fc"/>
       <text x="49" y="31" class="label">GITHUB ACTIONS</text>
-      <path d="M242 26H338" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3 5" opacity="0.65"/>
-      <circle class="node" cx="344" cy="26" r="4" fill="#8b5cf6"/>
+      <path d="M242 26H338" stroke="#1f6feb" stroke-width="1" stroke-dasharray="3 5" opacity="0.65"/>
+      <circle class="node" cx="344" cy="26" r="4" fill="#1f6feb"/>
     </g>
 
     <g transform="translate(30 136)">
       <rect class="chip" width="190" height="52" rx="10"/>
-      <path d="M0 36V42Q0 52 10 52H180" fill="none" stroke="#8b5cf6" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#8b5cf6"/>
-      <use href="#logo-systemd" x="15" y="20" width="22" height="12" fill="#f7f7ff"/>
+      <path d="M0 36V42Q0 52 10 52H180" fill="none" stroke="#1f6feb" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#1f6feb"/>
+      <use href="#logo-systemd" x="15" y="20" width="22" height="12" fill="#f0f6fc"/>
       <text x="49" y="31" class="label">SYSTEMD</text>
     </g>
     <g transform="translate(230 136)">
       <rect class="chip" width="125" height="52" rx="10"/>
-      <path d="M0 36V42Q0 52 10 52H115" fill="none" stroke="#66e3ff" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#66e3ff"/>
-      <use href="#logo-gtk" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 36V42Q0 52 10 52H115" fill="none" stroke="#58a6ff" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#58a6ff"/>
+      <use href="#logo-gtk" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">GTK</text>
     </g>
     <g transform="translate(365 136)">
       <rect class="chip" width="125" height="52" rx="10"/>
-      <path d="M0 36V42Q0 52 10 52H115" fill="none" stroke="#ffd166" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#ffd166"/>
-      <use href="#logo-xdotorg" x="17" y="17" width="18" height="18" fill="#070815"/>
+      <path d="M0 36V42Q0 52 10 52H115" fill="none" stroke="#56d364" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#56d364"/>
+      <use href="#logo-xdotorg" x="17" y="17" width="18" height="18" fill="#0d1117"/>
       <text x="49" y="31" class="label">X11</text>
     </g>
     <g transform="translate(500 136)">
       <rect class="chip" width="260" height="52" rx="10"/>
-      <path d="M0 36V42Q0 52 10 52H250" fill="none" stroke="#ff4fd8" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#ff4fd8"/>
-      <path d="M19 26L24 31L34 20" fill="none" stroke="#070815" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 36V42Q0 52 10 52H250" fill="none" stroke="#3fb950" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#3fb950"/>
+      <path d="M19 26L24 31L34 20" fill="none" stroke="#0d1117" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="49" y="31" class="label">SOFTWARE QA</text>
     </g>
     <g transform="translate(770 136)">
       <rect class="chip" width="400" height="52" rx="10"/>
-      <path d="M0 36V42Q0 52 10 52H390" fill="none" stroke="#66e3ff" stroke-width="2"/>
-      <circle cx="26" cy="26" r="13" fill="#66e3ff"/>
-      <path d="M20 28L24 24L28 28L34 20M30 20H34V24" fill="none" stroke="#070815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 36V42Q0 52 10 52H390" fill="none" stroke="#58a6ff" stroke-width="2"/>
+      <circle cx="26" cy="26" r="13" fill="#58a6ff"/>
+      <path d="M20 28L24 24L28 28L34 20M30 20H34V24" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="49" y="31" class="label">AUTOMATION</text>
-      <path d="M220 26H365" stroke="#66e3ff" stroke-width="1" stroke-dasharray="3 5" opacity="0.65"/>
-      <circle class="node" cx="371" cy="26" r="4" fill="#66e3ff"/>
+      <path d="M220 26H365" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3 5" opacity="0.65"/>
+      <circle class="node" cx="371" cy="26" r="4" fill="#58a6ff"/>
     </g>
   </g>
   <path d="M18 206H405L415 216H785L795 206H1182" fill="none" stroke="url(#stack-edge)" stroke-width="2" opacity="0.78"/>

@@ -4,38 +4,38 @@
 
   <defs>
     <linearGradient id="frame-gradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#66e3ff"/>
-      <stop offset="0.48" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#ff4fd8"/>
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.48" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#3fb950"/>
     </linearGradient>
     <linearGradient id="title-gradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f7f7ff"/>
-      <stop offset="0.58" stop-color="#66e3ff"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
+      <stop offset="0" stop-color="#f0f6fc"/>
+      <stop offset="0.58" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#1f6feb"/>
     </linearGradient>
     <linearGradient id="button-gradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff4fd8"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#1f6feb"/>
     </linearGradient>
     <radialGradient id="screen-haze" cx="50%" cy="42%" r="72%">
-      <stop offset="0" stop-color="#101329"/>
-      <stop offset="1" stop-color="#070815"/>
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
     </radialGradient>
     <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
-      <rect width="8" height="1" fill="#a6accd" opacity="0.1"/>
+      <rect width="8" height="1" fill="#8b949e" opacity="0.1"/>
     </pattern>
     <pattern id="pixel-grid" width="16" height="16" patternUnits="userSpaceOnUse">
-      <path d="M16 0H0V16" fill="none" stroke="#66e3ff" stroke-width="0.6" opacity="0.09"/>
+      <path d="M16 0H0V16" fill="none" stroke="#58a6ff" stroke-width="0.6" opacity="0.09"/>
     </pattern>
     <filter id="cyan-glow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feFlood flood-color="#66e3ff" flood-opacity="0.8"/>
+      <feFlood flood-color="#58a6ff" flood-opacity="0.8"/>
       <feComposite in2="blur" operator="in"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="pink-glow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feFlood flood-color="#ff4fd8" flood-opacity="0.72"/>
+      <feFlood flood-color="#3fb950" flood-opacity="0.72"/>
       <feComposite in2="blur" operator="in"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
@@ -62,7 +62,7 @@
       @keyframes scan-sweep { from { transform: translateY(-28px); } to { transform: translateY(260px); } }
       @keyframes pac-chomp { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(0.2); } }
       @keyframes pellet-pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
-      @keyframes snake-pulse { from { filter: drop-shadow(0 0 1px #66e3ff); } to { filter: drop-shadow(0 0 6px #66e3ff); } }
+      @keyframes snake-pulse { from { filter: drop-shadow(0 0 1px #58a6ff); } to { filter: drop-shadow(0 0 6px #58a6ff); } }
       @keyframes start-pulse { 0%, 100% { opacity: 0.68; } 50% { opacity: 1; } }
       @keyframes dash-run { to { stroke-dashoffset: -32; } }
       @keyframes block-flicker { 0%, 88%, 100% { opacity: 1; } 92% { opacity: 0.5; } }
@@ -73,126 +73,126 @@
   </defs>
 
   <g clip-path="url(#main-clip)">
-    <rect width="1200" height="240" fill="#070815"/>
-    <ellipse cx="564" cy="20" rx="390" ry="128" fill="#8b5cf6" opacity="0.08"/>
-    <ellipse cx="1068" cy="210" rx="265" ry="120" fill="#ff4fd8" opacity="0.06"/>
+    <rect width="1200" height="240" fill="#0d1117"/>
+    <ellipse cx="564" cy="20" rx="390" ry="128" fill="#1f6feb" opacity="0.08"/>
+    <ellipse cx="1068" cy="210" rx="265" ry="120" fill="#3fb950" opacity="0.06"/>
     <rect width="1200" height="240" fill="url(#pixel-grid)"/>
 
     <!-- Circuit traces -->
-    <g fill="none" stroke="#66e3ff" stroke-width="1" opacity="0.2">
+    <g fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.2">
       <path d="M0 32H23L33 42H106"/>
       <path d="M0 207H31L43 195H116"/>
       <path d="M226 17H296L308 29H390"/>
       <path d="M814 214H868L882 200H935"/>
       <path d="M1095 21H1168L1183 36H1200"/>
-      <circle cx="106" cy="42" r="3" fill="#66e3ff"/>
-      <circle cx="116" cy="195" r="3" fill="#66e3ff"/>
-      <circle cx="390" cy="29" r="3" fill="#66e3ff"/>
-      <circle cx="935" cy="200" r="3" fill="#66e3ff"/>
+      <circle cx="106" cy="42" r="3" fill="#58a6ff"/>
+      <circle cx="116" cy="195" r="3" fill="#58a6ff"/>
+      <circle cx="390" cy="29" r="3" fill="#58a6ff"/>
+      <circle cx="935" cy="200" r="3" fill="#58a6ff"/>
     </g>
 
     <!-- Left arcade cabinet -->
     <g aria-label="Arcade cabinet">
-      <path d="M42 28H188L195 48L187 158L199 177L190 216H42L33 177L45 158L35 48Z" fill="#101329" stroke="url(#frame-gradient)" stroke-width="2.5"/>
-      <path d="M45 35H181L187 52H39Z" fill="#8b5cf6" opacity="0.28"/>
-      <path class="marquee" d="M47 39H179" fill="none" stroke="#ff4fd8" stroke-width="2" stroke-dasharray="8 8" filter="url(#pink-glow)"/>
-      <text x="113" y="49" fill="#f7f7ff" font-size="11" font-weight="900" text-anchor="middle" letter-spacing="4">PLAY</text>
-      <rect x="48" y="54" width="134" height="96" rx="7" fill="#070815" stroke="#a6accd" stroke-width="1.5"/>
+      <path d="M42 28H188L195 48L187 158L199 177L190 216H42L33 177L45 158L35 48Z" fill="#161b22" stroke="url(#frame-gradient)" stroke-width="2.5"/>
+      <path d="M45 35H181L187 52H39Z" fill="#1f6feb" opacity="0.28"/>
+      <path class="marquee" d="M47 39H179" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="8 8" filter="url(#pink-glow)"/>
+      <text x="113" y="49" fill="#f0f6fc" font-size="11" font-weight="900" text-anchor="middle" letter-spacing="4">PLAY</text>
+      <rect x="48" y="54" width="134" height="96" rx="7" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
       <rect x="52" y="58" width="126" height="88" rx="5" fill="url(#screen-haze)"/>
       <g clip-path="url(#cabinet-screen-clip)">
-        <path d="M59 69H169V136H59ZM71 80V96H91V80H112V96H132V80H157V112H142V128H119V112H99V128H72V110H59" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.66"/>
+        <path d="M59 69H169V136H59ZM71 80V96H91V80H112V96H132V80H157V112H142V128H119V112H99V128H72V110H59" fill="none" stroke="#1f6feb" stroke-width="2" opacity="0.66"/>
         <g transform="translate(82 103)">
-          <path d="M0 0L18-10A21 21 0 1 0 18 10Z" fill="#ffd166" filter="url(#pink-glow)"/>
+          <path d="M0 0L18-10A21 21 0 1 0 18 10Z" fill="#56d364" filter="url(#pink-glow)"/>
           <g class="pac-mouth">
-            <path d="M0 0L18-10V10Z" fill="#070815"/>
+            <path d="M0 0L18-10V10Z" fill="#0d1117"/>
           </g>
         </g>
-        <circle class="pellet" cx="112" cy="103" r="2.5" fill="#f7f7ff"/>
-        <circle class="pellet two" cx="127" cy="103" r="2.5" fill="#f7f7ff"/>
-        <circle class="pellet three" cx="142" cy="103" r="2.5" fill="#f7f7ff"/>
-        <path d="M136 92H157V98H164V113H157V119H136V113H130V98H136Z" fill="none" stroke="#ff4fd8" stroke-width="3"/>
-        <rect x="142" y="100" width="10" height="10" transform="rotate(45 147 105)" fill="#ff4fd8"/>
-        <rect class="scan-sweep" x="52" y="0" width="126" height="20" fill="#66e3ff" opacity="0.08"/>
+        <circle class="pellet" cx="112" cy="103" r="2.5" fill="#f0f6fc"/>
+        <circle class="pellet two" cx="127" cy="103" r="2.5" fill="#f0f6fc"/>
+        <circle class="pellet three" cx="142" cy="103" r="2.5" fill="#f0f6fc"/>
+        <path d="M136 92H157V98H164V113H157V119H136V113H130V98H136Z" fill="none" stroke="#3fb950" stroke-width="3"/>
+        <rect x="142" y="100" width="10" height="10" transform="rotate(45 147 105)" fill="#3fb950"/>
+        <rect class="scan-sweep" x="52" y="0" width="126" height="20" fill="#58a6ff" opacity="0.08"/>
       </g>
-      <path d="M45 158H185L196 176H34Z" fill="#101329" stroke="#66e3ff" stroke-width="1.5"/>
-      <path d="M84 164V153" stroke="#f7f7ff" stroke-width="3"/>
-      <circle cx="84" cy="151" r="7" fill="#ff4fd8" stroke="#f7f7ff" stroke-width="1.5" filter="url(#pink-glow)"/>
-      <circle cx="140" cy="166" r="6" fill="#ffd166"/>
-      <circle cx="159" cy="166" r="6" fill="#66e3ff"/>
-      <rect x="54" y="187" width="120" height="18" rx="3" fill="#070815" stroke="#8b5cf6"/>
-      <path d="M68 196H160" stroke="#a6accd" stroke-width="2" stroke-dasharray="3 5" opacity="0.55"/>
+      <path d="M45 158H185L196 176H34Z" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+      <path d="M84 164V153" stroke="#f0f6fc" stroke-width="3"/>
+      <circle cx="84" cy="151" r="7" fill="#3fb950" stroke="#f0f6fc" stroke-width="1.5" filter="url(#pink-glow)"/>
+      <circle cx="140" cy="166" r="6" fill="#56d364"/>
+      <circle cx="159" cy="166" r="6" fill="#58a6ff"/>
+      <rect x="54" y="187" width="120" height="18" rx="3" fill="#0d1117" stroke="#1f6feb"/>
+      <path d="M68 196H160" stroke="#8b949e" stroke-width="2" stroke-dasharray="3 5" opacity="0.55"/>
     </g>
 
     <!-- Center title system -->
     <g transform="translate(238 0)">
-      <path d="M0 46H30" stroke="#ff4fd8" stroke-width="3"/>
-      <rect x="35" y="39" width="7" height="7" fill="#ff4fd8"/>
-      <text x="53" y="47" class="micro" fill="#a6accd">PLAYER 01 / CREATIVE MODE</text>
+      <path d="M0 46H30" stroke="#3fb950" stroke-width="3"/>
+      <rect x="35" y="39" width="7" height="7" fill="#3fb950"/>
+      <text x="53" y="47" class="micro" fill="#8b949e">PLAYER 01 / CREATIVE MODE</text>
       <text x="0" y="94" fill="url(#title-gradient)" font-size="43" font-weight="900" letter-spacing="-1.5">CONTRIBUTION</text>
-      <text x="-2" y="150" fill="#f7f7ff" font-size="70" font-weight="900" letter-spacing="7">ARCADE</text>
+      <text x="-2" y="150" fill="#f0f6fc" font-size="70" font-weight="900" letter-spacing="7">ARCADE</text>
       <path d="M2 159H610" stroke="url(#frame-gradient)" stroke-width="2"/>
-      <path d="M2 164H438" stroke="#66e3ff" stroke-width="1" opacity="0.22"/>
+      <path d="M2 164H438" stroke="#58a6ff" stroke-width="1" opacity="0.22"/>
 
       <g transform="translate(0 181)">
-        <rect width="342" height="31" rx="5" fill="#101329" stroke="#8b5cf6"/>
-        <rect x="8" y="8" width="15" height="15" rx="3" fill="#ffd166"/>
-        <path d="M13 12L19 15.5L13 19Z" fill="#070815"/>
-        <text x="34" y="20.5" fill="#f7f7ff" font-size="13" font-weight="700" letter-spacing="1.2">PAC-MAN / SNAKE / BREAKOUT</text>
+        <rect width="342" height="31" rx="5" fill="#161b22" stroke="#1f6feb"/>
+        <rect x="8" y="8" width="15" height="15" rx="3" fill="#56d364"/>
+        <path d="M13 12L19 15.5L13 19Z" fill="#0d1117"/>
+        <text x="34" y="20.5" fill="#f0f6fc" font-size="13" font-weight="700" letter-spacing="1.2">PAC-MAN / SNAKE / BREAKOUT</text>
       </g>
       <g class="start-light" transform="translate(358 181)">
         <path d="M5 0H232L244 15.5L232 31H5L0 26V5Z" fill="url(#button-gradient)"/>
-        <path d="M17 7H224L231 15.5L224 24H17" fill="none" stroke="#f7f7ff" opacity="0.5"/>
-        <text x="116" y="21" fill="#f7f7ff" font-size="16" font-weight="900" text-anchor="middle" letter-spacing="3">RUN THE GRID</text>
-        <path d="M218 11L226 15.5L218 20" fill="none" stroke="#f7f7ff" stroke-width="2"/>
+        <path d="M17 7H224L231 15.5L224 24H17" fill="none" stroke="#f0f6fc" opacity="0.5"/>
+        <text x="116" y="21" fill="#f0f6fc" font-size="16" font-weight="900" text-anchor="middle" letter-spacing="3">RUN THE GRID</text>
+        <path d="M218 11L226 15.5L218 20" fill="none" stroke="#f0f6fc" stroke-width="2"/>
       </g>
     </g>
 
     <!-- Right game deck -->
     <g transform="translate(874 24)" aria-label="Snake, breakout, and game controller">
-      <path d="M20 0H278L296 18V171L278 190H20L0 170V20Z" fill="#101329" stroke="#8b5cf6" stroke-width="1.5"/>
-      <path d="M20 7H274L288 21" fill="none" stroke="#66e3ff" stroke-width="2" opacity="0.9"/>
-      <text x="20" y="29" class="micro" fill="#66e3ff">LIVE GAME FEED</text>
-      <text x="275" y="29" fill="#a6accd" font-size="9" font-weight="700" text-anchor="end">HI 999999</text>
+      <path d="M20 0H278L296 18V171L278 190H20L0 170V20Z" fill="#161b22" stroke="#1f6feb" stroke-width="1.5"/>
+      <path d="M20 7H274L288 21" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.9"/>
+      <text x="20" y="29" class="micro" fill="#58a6ff">LIVE GAME FEED</text>
+      <text x="275" y="29" fill="#8b949e" font-size="9" font-weight="700" text-anchor="end">HI 999999</text>
 
       <!-- Breakout wall -->
       <g transform="translate(20 42)">
-        <g fill="#ff4fd8">
+        <g fill="#3fb950">
           <rect class="block" x="0" y="0" width="34" height="9" rx="2"/><rect class="block" x="39" y="0" width="34" height="9" rx="2"/><rect class="block" x="78" y="0" width="34" height="9" rx="2"/><rect class="block" x="117" y="0" width="34" height="9" rx="2"/><rect class="block" x="156" y="0" width="34" height="9" rx="2"/><rect class="block" x="195" y="0" width="34" height="9" rx="2"/><rect class="block" x="234" y="0" width="25" height="9" rx="2"/>
         </g>
-        <g fill="#8b5cf6">
+        <g fill="#1f6feb">
           <rect class="block" x="0" y="14" width="34" height="9" rx="2"/><rect class="block" x="39" y="14" width="34" height="9" rx="2"/><rect class="block" x="78" y="14" width="34" height="9" rx="2"/><rect class="block" x="117" y="14" width="34" height="9" rx="2"/><rect class="block" x="156" y="14" width="34" height="9" rx="2"/><rect class="block" x="195" y="14" width="34" height="9" rx="2"/><rect class="block" x="234" y="14" width="25" height="9" rx="2"/>
         </g>
-        <g fill="#66e3ff">
+        <g fill="#58a6ff">
           <rect class="block" x="0" y="28" width="34" height="9" rx="2"/><rect class="block" x="39" y="28" width="34" height="9" rx="2"/><rect class="block" x="78" y="28" width="34" height="9" rx="2"/><rect class="block" x="117" y="28" width="34" height="9" rx="2"/><rect class="block" x="156" y="28" width="34" height="9" rx="2"/><rect class="block" x="195" y="28" width="34" height="9" rx="2"/><rect class="block" x="234" y="28" width="25" height="9" rx="2"/>
         </g>
       </g>
 
       <!-- Snake trail -->
       <g transform="translate(20 94)">
-        <path d="M0 14H54V0H103V28H150V14H196" fill="none" stroke="#070815" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M0 14H54V0H103V28H150V14H196" fill="none" stroke="#66e3ff" stroke-width="7" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="7 5"/>
-        <rect class="snake-head" x="190" y="8" width="16" height="13" rx="3" fill="#66e3ff" filter="url(#cyan-glow)"/>
-        <circle cx="201" cy="12" r="1.5" fill="#070815"/>
-        <rect x="225" y="8" width="13" height="13" transform="rotate(45 231.5 14.5)" fill="#ffd166"/>
+        <path d="M0 14H54V0H103V28H150V14H196" fill="none" stroke="#0d1117" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0 14H54V0H103V28H150V14H196" fill="none" stroke="#58a6ff" stroke-width="7" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="7 5"/>
+        <rect class="snake-head" x="190" y="8" width="16" height="13" rx="3" fill="#58a6ff" filter="url(#cyan-glow)"/>
+        <circle cx="201" cy="12" r="1.5" fill="#0d1117"/>
+        <rect x="225" y="8" width="13" height="13" transform="rotate(45 231.5 14.5)" fill="#56d364"/>
       </g>
 
       <!-- Controller silhouette -->
       <g transform="translate(66 133)">
-        <path d="M14 6C5 7 0 16 0 28L3 44C5 51 12 53 18 47L30 36H98L110 47C116 53 123 51 125 44L128 28C128 16 123 7 114 6L87 2H41Z" fill="#070815" stroke="#f7f7ff" stroke-width="1.5"/>
-        <path d="M25 17V33M17 25H33" stroke="#66e3ff" stroke-width="5" stroke-linecap="square"/>
-        <circle cx="99" cy="20" r="5" fill="#ff4fd8"/><circle cx="110" cy="31" r="5" fill="#ffd166"/>
-        <rect x="53" y="21" width="9" height="4" rx="2" fill="#a6accd"/><rect x="68" y="21" width="9" height="4" rx="2" fill="#a6accd"/>
+        <path d="M14 6C5 7 0 16 0 28L3 44C5 51 12 53 18 47L30 36H98L110 47C116 53 123 51 125 44L128 28C128 16 123 7 114 6L87 2H41Z" fill="#0d1117" stroke="#f0f6fc" stroke-width="1.5"/>
+        <path d="M25 17V33M17 25H33" stroke="#58a6ff" stroke-width="5" stroke-linecap="square"/>
+        <circle cx="99" cy="20" r="5" fill="#3fb950"/><circle cx="110" cy="31" r="5" fill="#56d364"/>
+        <rect x="53" y="21" width="9" height="4" rx="2" fill="#8b949e"/><rect x="68" y="21" width="9" height="4" rx="2" fill="#8b949e"/>
       </g>
     </g>
 
-    <rect class="scan-sweep" x="0" y="-30" width="1200" height="26" fill="#66e3ff" opacity="0.035"/>
+    <rect class="scan-sweep" x="0" y="-30" width="1200" height="26" fill="#58a6ff" opacity="0.035"/>
     <rect width="1200" height="240" fill="url(#scanlines)" pointer-events="none"/>
   </g>
 
   <!-- Neon chassis frame and corner locks -->
-  <rect x="3" y="3" width="1194" height="234" rx="21" fill="none" stroke="#101329" stroke-width="6"/>
+  <rect x="3" y="3" width="1194" height="234" rx="21" fill="none" stroke="#161b22" stroke-width="6"/>
   <rect x="4" y="4" width="1192" height="232" rx="20" fill="none" stroke="url(#frame-gradient)" stroke-width="2"/>
-  <g fill="#070815" stroke="#66e3ff" stroke-width="1.5">
+  <g fill="#0d1117" stroke="#58a6ff" stroke-width="1.5">
     <path d="M4 30V20A16 16 0 0 1 20 4H52L43 13H22A9 9 0 0 0 13 22V39Z"/>
     <path d="M1196 210V220A16 16 0 0 1 1180 236H1148L1157 227H1178A9 9 0 0 0 1187 218V201Z"/>
   </g>

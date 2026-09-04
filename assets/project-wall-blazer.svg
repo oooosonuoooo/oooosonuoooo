@@ -2,57 +2,57 @@
   <title id="title">Wall Blazer project card</title>
   <desc id="desc">Wall Blazer is a GPU-first live wallpaper project built with Python, GTK, and VLC.</desc>
   <defs>
-    <linearGradient id="wb-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e3ff"/><stop offset="0.52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
-    <linearGradient id="wb-sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff4fd8"/><stop offset="0.52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#101329"/></linearGradient>
-    <pattern id="wb-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#66e3ff" stroke-width="0.5" opacity="0.12"/></pattern>
+    <linearGradient id="wb-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="0.52" stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <linearGradient id="wb-sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3fb950"/><stop offset="0.52" stop-color="#1f6feb"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <pattern id="wb-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.12"/></pattern>
     <filter id="wb-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="wb-card"><rect x="1" y="1" width="568" height="228" rx="18"/></clipPath>
     <clipPath id="wb-screen"><path d="M368 51H538V169H368Z"/></clipPath>
     <style>
-      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.tag{fill:#101329;stroke:#a6accd;stroke-opacity:.38}.wave-a{animation:wb-wave-a 5s ease-in-out infinite}.wave-b{animation:wb-wave-b 7s ease-in-out infinite}.scan{animation:wb-scan 4s linear infinite}.spark{animation:wb-spark 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.tag{fill:#161b22;stroke:#8b949e;stroke-opacity:.38}.wave-a{animation:wb-wave-a 5s ease-in-out infinite}.wave-b{animation:wb-wave-b 7s ease-in-out infinite}.scan{animation:wb-scan 4s linear infinite}.spark{animation:wb-spark 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       @keyframes wb-wave-a{50%{transform:translateX(11px)}}@keyframes wb-wave-b{50%{transform:translateX(-13px)}}@keyframes wb-scan{from{transform:translateY(-120px)}to{transform:translateY(130px)}}@keyframes wb-spark{50%{opacity:.3;transform:scale(.65)}}
       @media (prefers-reduced-motion:reduce){.wave-a,.wave-b,.scan,.spark{animation:none}}
     </style>
   </defs>
-  <rect x="1" y="1" width="568" height="228" rx="18" fill="#070815" stroke="url(#wb-edge)" stroke-width="2"/>
+  <rect x="1" y="1" width="568" height="228" rx="18" fill="#0d1117" stroke="url(#wb-edge)" stroke-width="2"/>
   <g clip-path="url(#wb-card)">
     <rect x="1" y="1" width="568" height="228" fill="url(#wb-grid)"/>
-    <path d="M335 -20L355 -20L270 250H250Z" fill="#8b5cf6" opacity="0.08"/>
-    <path d="M540 -20L570 -20L490 250H460Z" fill="#ff4fd8" opacity="0.07"/>
+    <path d="M335 -20L355 -20L270 250H250Z" fill="#1f6feb" opacity="0.08"/>
+    <path d="M540 -20L570 -20L490 250H460Z" fill="#3fb950" opacity="0.07"/>
   </g>
 
   <g class="ui">
-    <text x="24" y="29" class="mono" fill="#66e3ff" font-size="10" font-weight="700" letter-spacing="2.1">01 // FEATURED BUILD</text>
-    <circle class="spark" cx="318" cy="25" r="3" fill="#ffd166" filter="url(#wb-glow)"/>
-    <path d="M24 40H326" stroke="#a6accd" stroke-width="1" stroke-dasharray="2 7" opacity="0.3"/>
-    <text x="24" y="76" fill="#f7f7ff" font-size="27" font-weight="900" letter-spacing="1.4">WALL BLAZER</text>
-    <text x="24" y="107" class="mono" fill="#ff4fd8" font-size="13" font-weight="800" letter-spacing="2.2">GPU-FIRST</text>
-    <text x="24" y="128" class="mono" fill="#a6accd" font-size="13" font-weight="700" letter-spacing="1.9">LIVE WALLPAPERS</text>
+    <text x="24" y="29" class="mono" fill="#58a6ff" font-size="10" font-weight="700" letter-spacing="2.1">01 // FEATURED BUILD</text>
+    <circle class="spark" cx="318" cy="25" r="3" fill="#56d364" filter="url(#wb-glow)"/>
+    <path d="M24 40H326" stroke="#8b949e" stroke-width="1" stroke-dasharray="2 7" opacity="0.3"/>
+    <text x="24" y="76" fill="#f0f6fc" font-size="27" font-weight="900" letter-spacing="1.4">WALL BLAZER</text>
+    <text x="24" y="107" class="mono" fill="#3fb950" font-size="13" font-weight="800" letter-spacing="2.2">GPU-FIRST</text>
+    <text x="24" y="128" class="mono" fill="#8b949e" font-size="13" font-weight="700" letter-spacing="1.9">LIVE WALLPAPERS</text>
     <g transform="translate(24 158)">
-      <rect class="tag" width="82" height="27" rx="7"/><text x="41" y="18" class="mono" fill="#66e3ff" font-size="10" font-weight="700" text-anchor="middle">PYTHON</text>
-      <rect class="tag" x="90" width="58" height="27" rx="7"/><text x="119" y="18" class="mono" fill="#f7f7ff" font-size="10" font-weight="700" text-anchor="middle">GTK</text>
-      <rect class="tag" x="156" width="58" height="27" rx="7"/><text x="185" y="18" class="mono" fill="#ffd166" font-size="10" font-weight="700" text-anchor="middle">VLC</text>
+      <rect class="tag" width="82" height="27" rx="7"/><text x="41" y="18" class="mono" fill="#58a6ff" font-size="10" font-weight="700" text-anchor="middle">PYTHON</text>
+      <rect class="tag" x="90" width="58" height="27" rx="7"/><text x="119" y="18" class="mono" fill="#f0f6fc" font-size="10" font-weight="700" text-anchor="middle">GTK</text>
+      <rect class="tag" x="156" width="58" height="27" rx="7"/><text x="185" y="18" class="mono" fill="#56d364" font-size="10" font-weight="700" text-anchor="middle">VLC</text>
     </g>
-    <path d="M24 207H286L296 197H326" fill="none" stroke="#66e3ff" stroke-width="1.5" opacity="0.8"/>
-    <text x="24" y="215" class="mono" fill="#a6accd" font-size="8" letter-spacing="1.5">RENDER // LOOP // SHIP</text>
+    <path d="M24 207H286L296 197H326" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0.8"/>
+    <text x="24" y="215" class="mono" fill="#8b949e" font-size="8" letter-spacing="1.5">RENDER // LOOP // SHIP</text>
   </g>
 
   <g>
-    <path d="M356 41L368 29H538L550 41V181L538 193H368L356 181Z" fill="#101329" stroke="#66e3ff" stroke-width="1.5"/>
+    <path d="M356 41L368 29H538L550 41V181L538 193H368L356 181Z" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
     <path d="M368 51H538V169H368Z" fill="url(#wb-sky)"/>
     <g clip-path="url(#wb-screen)">
-      <circle cx="483" cy="91" r="31" fill="#ffd166" opacity="0.95" filter="url(#wb-glow)"/>
-      <path d="M368 125L395 101L416 116L445 82L477 121L501 98L538 130V169H368Z" fill="#101329" opacity="0.72"/>
-      <path class="wave-b" d="M340 151Q383 121 428 151T516 151T604 151V180H340Z" fill="#8b5cf6" opacity="0.88"/>
-      <path class="wave-a" d="M340 162Q387 138 432 161T523 161T612 161V184H340Z" fill="#66e3ff" opacity="0.72"/>
-      <rect class="scan" x="368" y="48" width="170" height="4" fill="#f7f7ff" opacity="0.22"/>
-      <g fill="#f7f7ff">
+      <circle cx="483" cy="91" r="31" fill="#56d364" opacity="0.95" filter="url(#wb-glow)"/>
+      <path d="M368 125L395 101L416 116L445 82L477 121L501 98L538 130V169H368Z" fill="#161b22" opacity="0.72"/>
+      <path class="wave-b" d="M340 151Q383 121 428 151T516 151T604 151V180H340Z" fill="#1f6feb" opacity="0.88"/>
+      <path class="wave-a" d="M340 162Q387 138 432 161T523 161T612 161V184H340Z" fill="#58a6ff" opacity="0.72"/>
+      <rect class="scan" x="368" y="48" width="170" height="4" fill="#f0f6fc" opacity="0.22"/>
+      <g fill="#f0f6fc">
         <circle class="spark" cx="390" cy="73" r="1.8"/><circle class="spark" cx="438" cy="65" r="1.4" style="animation-delay:.5s"/><circle class="spark" cx="522" cy="70" r="1.5" style="animation-delay:1s"/>
       </g>
     </g>
-    <path d="M371 47H418M426 47H435" stroke="#ff4fd8" stroke-width="2"/>
-    <circle cx="540" cy="45" r="2.4" fill="#ffd166"/>
-    <path d="M433 193L428 205H478L473 193M415 207H491" fill="none" stroke="#a6accd" stroke-width="2" stroke-linecap="round"/>
-    <path d="M550 74L560 84V134L550 144" fill="none" stroke="#ff4fd8" stroke-width="2" filter="url(#wb-glow)"/>
+    <path d="M371 47H418M426 47H435" stroke="#3fb950" stroke-width="2"/>
+    <circle cx="540" cy="45" r="2.4" fill="#56d364"/>
+    <path d="M433 193L428 205H478L473 193M415 207H491" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M550 74L560 84V134L550 144" fill="none" stroke="#3fb950" stroke-width="2" filter="url(#wb-glow)"/>
   </g>
 </svg>

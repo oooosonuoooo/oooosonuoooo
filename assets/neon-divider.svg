@@ -2,9 +2,9 @@
   <defs>
     <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.1" />
-      <stop offset="30%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#4facfe" stop-opacity="1" />
-      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#1f6feb" stop-opacity="1" />
+      <stop offset="70%" stop-color="#3fb950" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.1" />
     </linearGradient>
     <filter id="neon-glow" x="-20%" y="-100%" width="140%" height="300%">
@@ -49,13 +49,13 @@
 
   <!-- Center aesthetic diamond -->
   <g transform="translate(600, 12)" class="pulse-glow">
-    <polygon points="0,-6 6,0 0,6 -6,0" fill="#00f2fe" filter="url(#neon-glow)" />
-    <circle cx="0" cy="0" r="2" fill="#ffffff" />
+    <polygon points="0,-6 6,0 0,6 -6,0" fill="#58a6ff" filter="url(#neon-glow)" />
+    <circle cx="0" cy="0" r="2" fill="#f0f6fc" />
   </g>
 
   <!-- Glowing pulsing beam -->
   <g class="beam-group" filter="url(#neon-glow)">
     <rect x="300" y="10.5" width="600" height="3" rx="1.5" fill="url(#cyber-grad)" />
-    <circle cx="600" cy="12" r="3" fill="#ffffff" />
+    <circle cx="600" cy="12" r="3" fill="#f0f6fc" />
   </g>
 </svg>

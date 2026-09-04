@@ -2,7 +2,7 @@
   <title id="title">Open X profile</title>
   <desc id="desc">A neon button with the X vector brand mark labeled Follow on X.</desc>
   <defs>
-    <linearGradient id="x-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4fd8"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#66e3ff"/></linearGradient>
+    <linearGradient id="x-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3fb950"/><stop offset="0.55" stop-color="#1f6feb"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
     <filter id="x-glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="x-clip"><rect x="1" y="1" width="258" height="62" rx="13"/></clipPath>
     <style>
@@ -11,20 +11,21 @@
       @media (prefers-reduced-motion:reduce){.edge,.mark{animation:none}}
     </style>
   </defs>
-  <rect x="1" y="1" width="258" height="62" rx="13" fill="#070815" stroke="#101329" stroke-width="2"/>
+  <rect x="1" y="1" width="258" height="62" rx="13" fill="#0d1117" stroke="#161b22" stroke-width="2"/>
   <g clip-path="url(#x-clip)">
-    <path d="M0 64L64 0H92L28 64ZM196 64L260 0V28L224 64Z" fill="#ff4fd8" opacity="0.08"/>
-    <path d="M186 0L250 64M212 0L260 48" stroke="#66e3ff" stroke-width="1" opacity="0.1"/>
+    <path d="M0 64L64 0H92L28 64ZM196 64L260 0V28L224 64Z" fill="#3fb950" opacity="0.08"/>
+    <path d="M186 0L250 64M212 0L260 48" stroke="#58a6ff" stroke-width="1" opacity="0.1"/>
   </g>
   <rect class="edge" x="2" y="2" width="256" height="60" rx="12" fill="none" stroke="url(#x-edge)" stroke-width="1.5" stroke-dasharray="72 188"/>
   <g transform="translate(17 12)">
+    <rect x="1" y="1" width="38" height="38" rx="8" fill="#3fb950" fill-opacity="0.12" stroke="#3fb950" stroke-width="1.5"/>
     <!-- Official X brand-toolkit vector, solid white variant; geometry is unmodified. -->
-    <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" transform="translate(5 4.6625) scale(.025)" fill="#f7f7ff"/>
-    <path class="mark" d="M1 8V1H8M40 32V39H33" fill="none" stroke="#ff4fd8" stroke-width="1.5" filter="url(#x-glow)"/>
+    <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" transform="translate(5 4.6625) scale(.025)" fill="#ffffff"/>
+    <path class="mark" d="M1 8V1H8M40 32V39H33" fill="none" stroke="#3fb950" stroke-width="1.5" filter="url(#x-glow)"/>
   </g>
   <g class="ui">
-    <text x="72" y="29" fill="#f7f7ff" font-size="15" font-weight="800" letter-spacing="1.5">FOLLOW ON X</text>
-    <text x="72" y="45" class="mono" fill="#ff4fd8" font-size="9" font-weight="700" letter-spacing="2.4">LIVE SIGNAL</text>
-    <path d="M220 25L228 32L220 39M207 32H228" fill="none" stroke="#f7f7ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="72" y="29" fill="#f0f6fc" font-size="15" font-weight="800" letter-spacing="1.5">FOLLOW ON X</text>
+    <text x="72" y="45" class="mono" fill="#3fb950" font-size="9" font-weight="700" letter-spacing="2.4">LIVE SIGNAL</text>
+    <path d="M220 25L228 32L220 39M207 32H228" fill="none" stroke="#f0f6fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
