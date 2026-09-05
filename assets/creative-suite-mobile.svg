@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="396" viewBox="0 0 360 396" role="img" aria-labelledby="title desc">
+  <title id="title">Creative and engineering skills</title>
+  <desc id="desc">Photo editing, video editing, marketing automation and SolidWorks 3D CAD.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
+    <filter id="deck-glow"><feGaussianBlur stdDeviation="1"/></filter>
+  </defs>
+  <rect x="1" y="1" width="358" height="394" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 1H340" stroke="url(#edge)" stroke-width="2"/>
+  <text x="24" y="38" font-size="23" fill="#f0f6fc" font-weight="700" >Creative + engineering</text><rect x="24" y="62" width="150" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="75.0" y="72" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <circle r="34" fill="#0d1117" stroke="#58a6ff" stroke-opacity="0.48" />
+        <g class="spin" fill="none" stroke="#58a6ff" stroke-width="2">
+          <circle r="25" stroke-dasharray="5 6" />
+          <path d="M0 -25L9 -9M22 -12L10 -4M22 12L9 5M0 25L-1 10M-22 12L-9 4M-22 -12L-9 -5" />
+        </g>
+        <circle r="10" fill="#161b22" stroke="#56d364" stroke-width="2" />
+        <circle r="3" fill="#56d364" filter="url(#deck-glow)" />
+      </g>
+    </svg><text x="99.0" y="140" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">Photo</text><text x="99.0" y="164" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">editing</text><text x="99.0" y="192" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Color / Retouch</text><rect x="186" y="62" width="150" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="237.0" y="72" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <rect width="68" height="58" rx="9" fill="#0d1117" stroke="#58a6ff" stroke-width="1.7" />
+        <path class="pulse" d="M27 16L48 29L27 42Z" fill="#3fb950" filter="url(#deck-glow)" />
+        <path d="M8 9H60M8 49H60" stroke="#30363d" stroke-width="1" />
+        <path class="trace" d="M2 72H66" stroke="#58a6ff" stroke-width="2" stroke-dasharray="12 6" />
+        <path d="M18 66V78M47 66V78" stroke="#56d364" stroke-width="1.4" />
+      </g>
+    </svg><text x="261.0" y="140" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">Video</text><text x="261.0" y="164" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">editing</text><text x="261.0" y="192" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Cut / Motion</text><rect x="24" y="222" width="150" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="75.0" y="232" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <circle r="12" fill="#0d1117" stroke="#3fb950" stroke-width="2" />
+        <path class="trace" d="M-12 0H-31V-25H-42M12 0H31V-25H42M-12 0H-31V25H-42M12 0H31V25H42" fill="none" stroke="#56d364" stroke-width="1.8" stroke-dasharray="5 4" />
+        <g fill="#58a6ff"><circle cx="-44" cy="-25" r="5" /><circle cx="44" cy="-25" r="5" /><circle cx="-44" cy="25" r="5" /><circle cx="44" cy="25" r="5" /></g>
+        <path d="M-4 -3L1 2L7 -5" fill="none" stroke="#f0f6fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </svg><text x="99.0" y="300" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">Marketing</text><text x="99.0" y="324" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">automation</text><text x="99.0" y="352" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Flow / Campaign</text><rect x="186" y="222" width="150" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="237.0" y="232" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <g class="float" fill="none" stroke-linejoin="round">
+          <path d="M0 -31L30 -15L0 1L-30 -15Z" fill="#161b22" stroke="#58a6ff" stroke-width="2" />
+          <path d="M-30 -15V18L0 34V1ZM30 -15V18L0 34V1" fill="#0d1117" stroke="#3fb950" stroke-width="2" />
+          <path d="M-20 26H20M-24 22L-30 26L-24 30M24 22L30 26L24 30" stroke="#8b949e" stroke-width="1.3" />
+          <circle cx="0" cy="1" r="3" fill="#56d364" stroke="none" filter="url(#deck-glow)" />
+        </g>
+      </g>
+    </svg><text x="261.0" y="300" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">SolidWorks</text><text x="261.0" y="324" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">3D CAD</text><text x="261.0" y="352" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Model / Design</text>
+</svg>

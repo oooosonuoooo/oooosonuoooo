@@ -1,116 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-labelledby="title desc">
-  <title id="title">Creative engineering skill deck</title>
-  <desc id="desc">An animated GitHub-dark interface showing photo editing, video editing, marketing automation, and SolidWorks 3D CAD skills with original vector symbols.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="236" viewBox="0 0 800 236" role="img" aria-labelledby="title desc">
+  <title id="title">Creative and engineering skills</title>
+  <desc id="desc">Photo editing, video editing, marketing automation and SolidWorks 3D CAD.</desc>
   <defs>
-    <linearGradient id="deck-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#58a6ff"/>
-      <stop offset="0.48" stop-color="#1f6feb"/>
-      <stop offset="1" stop-color="#3fb950"/>
-    </linearGradient>
-    <linearGradient id="deck-scan" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="deck-grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0H0V22" fill="none" stroke="#58a6ff" stroke-width="0.55" opacity="0.1"/>
-    </pattern>
-    <filter id="deck-glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="2.6" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="deck-clip"><rect x="1" y="1" width="1198" height="218" rx="20"/></clipPath>
-    <style>
-      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.card{fill:#161b22;stroke:#30363d;stroke-width:1.4}.eyebrow{font-size:8.5px;font-weight:800;letter-spacing:1.7px}.name{fill:#f0f6fc;font-size:20px;font-weight:900;letter-spacing:1.1px}.name-cad{fill:#f0f6fc;font-size:16.5px;font-weight:900;letter-spacing:.8px}.sub{fill:#8b949e;font-size:8.5px;font-weight:700;letter-spacing:1.15px}.trace{animation:deck-dash 5.5s linear infinite}.spin{animation:deck-spin 13s linear infinite;transform-box:fill-box;transform-origin:center}.pulse{animation:deck-pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.float{animation:deck-float 3.2s ease-in-out infinite}.scan{animation:deck-scan 6s ease-in-out infinite}
-      @keyframes deck-dash{to{stroke-dashoffset:-56}}@keyframes deck-spin{to{transform:rotate(360deg)}}@keyframes deck-pulse{50%{opacity:.5;transform:scale(1.12)}}@keyframes deck-float{50%{opacity:.58}}@keyframes deck-scan{0%,15%{transform:translateX(-620px)}70%,100%{transform:translateX(620px)}}
-      @media (prefers-reduced-motion:reduce){.trace,.spin,.pulse,.float,.scan{animation:none}}
-    </style>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
+    <filter id="deck-glow"><feGaussianBlur stdDeviation="1"/></filter>
   </defs>
-
-  <rect x="1" y="1" width="1198" height="218" rx="20" fill="#0d1117" stroke="url(#deck-edge)" stroke-width="2"/>
-  <g clip-path="url(#deck-clip)">
-    <rect x="1" y="1" width="1198" height="218" fill="url(#deck-grid)"/>
-    <path d="M-55 220L170 0H320L95 220ZM850 220L1070 0H1240L1020 220Z" fill="#1f6feb" opacity="0.045"/>
-    <rect class="scan" x="350" y="0" width="500" height="220" fill="url(#deck-scan)"/>
-  </g>
-
-  <g class="ui">
-    <g transform="translate(30 20)">
-      <path d="M0 10L8 2H23L30 9L23 16H8Z" fill="none" stroke="#58a6ff" stroke-width="1.4"/>
-      <circle class="pulse" cx="15" cy="9" r="3" fill="#56d364" filter="url(#deck-glow)"/>
-      <text x="43" y="14" class="mono" fill="#58a6ff" font-size="12" font-weight="800" letter-spacing="2.3">CREATIVE ENGINEERING // SKILL DECK</text>
-    </g>
-    <g transform="translate(1021 20)">
-      <circle cx="0" cy="9" r="3" fill="#3fb950"/>
-      <text x="12" y="13" class="mono" fill="#8b949e" font-size="9" font-weight="700" letter-spacing="1.5">04 SKILLS ACTIVE</text>
-    </g>
-
-    <g transform="translate(30 55)">
-      <rect class="card" width="270" height="135" rx="14"/>
-      <path d="M0 18V12Q0 0 12 0H258" fill="none" stroke="#58a6ff" stroke-width="2"/>
-      <text x="18" y="24" class="mono eyebrow" fill="#58a6ff">01 // VISUAL</text>
-      <text x="18" y="61" class="name">PHOTO</text>
-      <text x="18" y="84" class="name">EDITING</text>
-      <text x="18" y="111" class="mono sub">COLOR // RETOUCH</text>
-      <g transform="translate(218 70)">
-        <circle r="34" fill="#0d1117" stroke="#58a6ff" stroke-opacity="0.48"/>
+  <rect x="1" y="1" width="798" height="234" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 1H780" stroke="url(#edge)" stroke-width="2"/>
+  <text x="24" y="38" font-size="23" fill="#f0f6fc" font-weight="700" >Creative + engineering</text><rect x="24" y="62" width="176" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="88.0" y="72" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <circle r="34" fill="#0d1117" stroke="#58a6ff" stroke-opacity="0.48" />
         <g class="spin" fill="none" stroke="#58a6ff" stroke-width="2">
-          <circle r="25" stroke-dasharray="5 6"/>
-          <path d="M0 -25L9 -9M22 -12L10 -4M22 12L9 5M0 25L-1 10M-22 12L-9 4M-22 -12L-9 -5"/>
+          <circle r="25" stroke-dasharray="5 6" />
+          <path d="M0 -25L9 -9M22 -12L10 -4M22 12L9 5M0 25L-1 10M-22 12L-9 4M-22 -12L-9 -5" />
         </g>
-        <circle r="10" fill="#161b22" stroke="#56d364" stroke-width="2"/>
-        <circle r="3" fill="#56d364" filter="url(#deck-glow)"/>
+        <circle r="10" fill="#161b22" stroke="#56d364" stroke-width="2" />
+        <circle r="3" fill="#56d364" filter="url(#deck-glow)" />
       </g>
-    </g>
-
-    <g transform="translate(320 55)">
-      <rect class="card" width="270" height="135" rx="14"/>
-      <path d="M0 18V12Q0 0 12 0H258" fill="none" stroke="#1f6feb" stroke-width="2"/>
-      <text x="18" y="24" class="mono eyebrow" fill="#58a6ff">02 // MOTION</text>
-      <text x="18" y="61" class="name">VIDEO</text>
-      <text x="18" y="84" class="name">EDITING</text>
-      <text x="18" y="111" class="mono sub">CUT // MOTION</text>
-      <g transform="translate(184 35)">
-        <rect width="68" height="58" rx="9" fill="#0d1117" stroke="#58a6ff" stroke-width="1.7"/>
-        <path class="pulse" d="M27 16L48 29L27 42Z" fill="#3fb950" filter="url(#deck-glow)"/>
-        <path d="M8 9H60M8 49H60" stroke="#30363d" stroke-width="1"/>
-        <path class="trace" d="M2 72H66" stroke="#58a6ff" stroke-width="2" stroke-dasharray="12 6"/>
-        <path d="M18 66V78M47 66V78" stroke="#56d364" stroke-width="1.4"/>
+    </svg><text x="112.0" y="140" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">Photo</text><text x="112.0" y="164" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">editing</text><text x="112.0" y="192" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Color / Retouch</text><rect x="216" y="62" width="176" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="280.0" y="72" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <rect width="68" height="58" rx="9" fill="#0d1117" stroke="#58a6ff" stroke-width="1.7" />
+        <path class="pulse" d="M27 16L48 29L27 42Z" fill="#3fb950" filter="url(#deck-glow)" />
+        <path d="M8 9H60M8 49H60" stroke="#30363d" stroke-width="1" />
+        <path class="trace" d="M2 72H66" stroke="#58a6ff" stroke-width="2" stroke-dasharray="12 6" />
+        <path d="M18 66V78M47 66V78" stroke="#56d364" stroke-width="1.4" />
       </g>
-    </g>
-
-    <g transform="translate(610 55)">
-      <rect class="card" width="270" height="135" rx="14"/>
-      <path d="M0 18V12Q0 0 12 0H258" fill="none" stroke="#3fb950" stroke-width="2"/>
-      <text x="18" y="24" class="mono eyebrow" fill="#56d364">03 // GROWTH</text>
-      <text x="18" y="58" class="name" font-size="18">MARKETING</text>
-      <text x="18" y="81" class="name" font-size="18">AUTOMATION</text>
-      <text x="18" y="111" class="mono sub">FLOW // CAMPAIGN</text>
-      <g transform="translate(218 68)">
-        <circle r="12" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-        <path class="trace" d="M-12 0H-31V-25H-42M12 0H31V-25H42M-12 0H-31V25H-42M12 0H31V25H42" fill="none" stroke="#56d364" stroke-width="1.8" stroke-dasharray="5 4"/>
-        <g fill="#58a6ff"><circle cx="-44" cy="-25" r="5"/><circle cx="44" cy="-25" r="5"/><circle cx="-44" cy="25" r="5"/><circle cx="44" cy="25" r="5"/></g>
-        <path d="M-4 -3L1 2L7 -5" fill="none" stroke="#f0f6fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg><text x="304.0" y="140" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">Video</text><text x="304.0" y="164" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">editing</text><text x="304.0" y="192" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Cut / Motion</text><rect x="408" y="62" width="176" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="472.0" y="72" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
+        <circle r="12" fill="#0d1117" stroke="#3fb950" stroke-width="2" />
+        <path class="trace" d="M-12 0H-31V-25H-42M12 0H31V-25H42M-12 0H-31V25H-42M12 0H31V25H42" fill="none" stroke="#56d364" stroke-width="1.8" stroke-dasharray="5 4" />
+        <g fill="#58a6ff"><circle cx="-44" cy="-25" r="5" /><circle cx="44" cy="-25" r="5" /><circle cx="-44" cy="25" r="5" /><circle cx="44" cy="25" r="5" /></g>
+        <path d="M-4 -3L1 2L7 -5" fill="none" stroke="#f0f6fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
       </g>
-    </g>
-
-    <!-- SOLIDWORKS is a Dassault Systemes trademark. The CAD cube below is original interface artwork, not the restricted brand logo. -->
-    <g transform="translate(900 55)">
-      <rect class="card" width="270" height="135" rx="14"/>
-      <path d="M0 18V12Q0 0 12 0H258" fill="none" stroke="#56d364" stroke-width="2"/>
-      <text x="18" y="24" class="mono eyebrow" fill="#56d364">04 // 3D CAD</text>
-      <text x="18" y="69" class="name-cad">SOLIDWORKS</text>
-      <text x="18" y="96" class="mono sub">MODEL // DESIGN</text>
-      <g transform="translate(220 69)">
+    </svg><text x="496.0" y="140" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">Marketing</text><text x="496.0" y="164" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">automation</text><text x="496.0" y="192" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Flow / Campaign</text><rect x="600" y="62" width="176" height="148" rx="12" fill="#161b22" stroke="#30363d"/><svg x="664.0" y="72" width="48" height="44" viewBox="-52 -48 104 96"><g xmlns="http://www.w3.org/2000/svg">
         <g class="float" fill="none" stroke-linejoin="round">
-          <path d="M0 -31L30 -15L0 1L-30 -15Z" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-          <path d="M-30 -15V18L0 34V1ZM30 -15V18L0 34V1" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-          <path d="M-20 26H20M-24 22L-30 26L-24 30M24 22L30 26L24 30" stroke="#8b949e" stroke-width="1.3"/>
-          <circle cx="0" cy="1" r="3" fill="#56d364" stroke="none" filter="url(#deck-glow)"/>
+          <path d="M0 -31L30 -15L0 1L-30 -15Z" fill="#161b22" stroke="#58a6ff" stroke-width="2" />
+          <path d="M-30 -15V18L0 34V1ZM30 -15V18L0 34V1" fill="#0d1117" stroke="#3fb950" stroke-width="2" />
+          <path d="M-20 26H20M-24 22L-30 26L-24 30M24 22L30 26L24 30" stroke="#8b949e" stroke-width="1.3" />
+          <circle cx="0" cy="1" r="3" fill="#56d364" stroke="none" filter="url(#deck-glow)" />
         </g>
       </g>
-    </g>
-  </g>
-
-  <path d="M18 203H397L407 212H793L803 203H1182" fill="none" stroke="url(#deck-edge)" stroke-width="2" opacity="0.82"/>
+    </svg><text x="688.0" y="140" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">SolidWorks</text><text x="688.0" y="164" font-size="20" fill="#f0f6fc" font-weight="650" text-anchor="middle">3D CAD</text><text x="688.0" y="192" font-size="15" fill="#b1bac4" font-weight="500" text-anchor="middle">Model / Design</text>
 </svg>

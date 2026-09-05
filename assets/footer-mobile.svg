@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="126" viewBox="0 0 360 126" role="img" aria-labelledby="title desc">
+  <title id="title">Mechanical roots. Digital builds.</title>
+  <desc id="desc">Understand, build, test, automate, repeat.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
+
+  </defs>
+  <rect x="1" y="1" width="358" height="124" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 1H340" stroke="url(#edge)" stroke-width="2"/>
+  <text x="180.0" y="40" font-size="16" fill="#56d364" font-weight="650" text-anchor="middle">MECHANICAL ROOTS. DIGITAL BUILDS.</text><text x="180.0" y="74" font-size="18" fill="#b1bac4" font-weight="500" text-anchor="middle">Understand / Build / Test</text><text x="180.0" y="101" font-size="18" fill="#b1bac4" font-weight="500" text-anchor="middle">Automate / Repeat</text>
+</svg>

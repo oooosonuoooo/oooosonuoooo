@@ -1,65 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-labelledby="title desc">
-  <title id="title">Sonu's engineering learning and open-source build path</title>
-  <desc id="desc">A neon timeline showing completed automobile engineering studies, current mechanical engineering studies, and an active open-source systems practice.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering learning path</title>
+  <desc id="desc">Completed diploma in automobile engineering; current B.Tech in mechanical engineering; ongoing open-source Linux, QA and automation work.</desc>
   <defs>
-    <linearGradient id="path-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="0.5" stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
-    <linearGradient id="path-rail" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58a6ff"/><stop offset="0.5" stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
-    <pattern id="path-grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.09"/></pattern>
-    <filter id="path-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="path-clip"><rect x="1" y="1" width="1198" height="248" rx="20"/></clipPath>
-    <style>
-      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.rail{animation:path-flow 5.5s linear infinite}.beacon{animation:path-pulse 2.3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.scan{animation:path-scan 7s ease-in-out infinite}
-      @keyframes path-flow{to{stroke-dashoffset:-78}}@keyframes path-pulse{50%{opacity:.5;transform:scale(.72)}}@keyframes path-scan{0%,12%{transform:translateX(-900px)}72%,100%{transform:translateX(900px)}}
-      @media (prefers-reduced-motion:reduce){.rail,.beacon,.scan{animation:none}}
-    </style>
-  </defs>
-  <rect x="1" y="1" width="1198" height="248" rx="20" fill="#0d1117" stroke="url(#path-edge)" stroke-width="2"/>
-  <g clip-path="url(#path-clip)">
-    <rect x="1" y="1" width="1198" height="248" fill="url(#path-grid)"/>
-    <path d="M-60 238L178 0H230L-8 238ZM970 250L1200 20V76L1026 250Z" fill="#1f6feb" opacity="0.05"/>
-    <rect class="scan" x="400" y="0" width="400" height="250" fill="url(#path-edge)" opacity="0.035"/>
-  </g>
-  <g class="ui">
-    <path d="M438 17H474L484 7H716L726 17H762" fill="none" stroke="#58a6ff" stroke-width="1.2" opacity="0.7"/>
-    <text x="600" y="16" class="mono" fill="#58a6ff" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2.1">LEARNING PATH // BUILD LOG</text>
-    <text x="600" y="33" class="mono" fill="#8b949e" font-size="7.5" font-weight="700" text-anchor="middle" letter-spacing="1.05">MECHANICAL ROOTS // DIGITAL SYSTEMS</text>
-    <text x="600" y="47" class="mono" fill="#58a6ff" font-size="7.5" font-weight="700" text-anchor="middle" letter-spacing="1.05">STUDY // BUILD // TEST // AUTOMATE</text>
-  </g>
-  <path d="M84 128H1116" stroke="#161b22" stroke-width="12" stroke-linecap="round"/>
-  <path class="rail" d="M84 128H1116" stroke="url(#path-rail)" stroke-width="2.2" stroke-dasharray="28 10" stroke-linecap="round"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
 
-  <g class="ui">
-    <g transform="translate(258 128)">
-      <circle r="26" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
-      <path d="M-13 -3L0 -10L13 -3L0 4ZM-8 1V8Q0 13 8 8V1M13 -3V7" fill="none" stroke="#58a6ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle class="beacon" r="6" fill="#58a6ff" opacity="0.25" filter="url(#path-glow)"/>
-      <path d="M0 -26V-45" stroke="#58a6ff" stroke-width="1.5"/>
-      <rect x="-168" y="-100" width="336" height="55" rx="10" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.55"/>
-      <text y="-81" fill="#f0f6fc" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="1.4">DIPLOMA</text>
-      <text y="-66" class="mono" fill="#58a6ff" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1.2">AUTOMOBILE ENGINEERING</text>
-      <text y="-52" class="mono" fill="#8b949e" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.4">COMPLETED</text>
-    </g>
-    <g transform="translate(600 128)">
-      <circle r="26" fill="#0d1117" stroke="#56d364" stroke-width="2"/>
-      <circle r="9" fill="none" stroke="#56d364" stroke-width="1.7"/><circle r="3" fill="none" stroke="#56d364" stroke-width="1.7"/><path d="M0 -13V-9M0 9V13M-13 0H-9M9 0H13M-9 -9L-6 -6M6 6L9 9M9 -9L6 -6M-6 6L-9 9" stroke="#56d364" stroke-width="1.7" stroke-linecap="round"/>
-      <circle class="beacon" r="6" fill="#56d364" opacity="0.25" filter="url(#path-glow)" style="animation-delay:.7s"/>
-      <path d="M0 26V45" stroke="#56d364" stroke-width="1.5"/>
-      <rect x="-168" y="45" width="336" height="55" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity="0.55"/>
-      <text y="64" fill="#f0f6fc" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="1.4">B.TECH</text>
-      <text y="79" class="mono" fill="#56d364" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1.2">MECHANICAL ENGINEERING</text>
-      <text y="93" class="mono" fill="#8b949e" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.4">CURRENT</text>
-    </g>
-    <g transform="translate(942 128)">
-      <circle r="26" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-      <path d="M-3 -8L-11 0L-3 8M3 -8L11 0L3 8M-1 11L2 -11" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle class="beacon" r="6" fill="#3fb950" opacity="0.25" filter="url(#path-glow)" style="animation-delay:1.4s"/>
-      <path d="M0 -26V-45" stroke="#3fb950" stroke-width="1.5"/>
-      <rect x="-168" y="-100" width="336" height="55" rx="10" fill="#161b22" stroke="#3fb950" stroke-opacity="0.55"/>
-      <text y="-81" fill="#f0f6fc" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="1.25">OPEN SOURCE</text>
-      <text y="-66" class="mono" fill="#3fb950" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="0.85">LINUX + QA + AUTOMATION</text>
-      <text y="-52" class="mono" fill="#8b949e" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.4">BUILDING NOW</text>
-    </g>
-  </g>
-  <circle cx="84" cy="128" r="4" fill="#58a6ff"/><circle cx="1116" cy="128" r="4" fill="#3fb950"/>
-  <path d="M30 225H420L430 235H770L780 225H1170" fill="none" stroke="url(#path-rail)" stroke-width="1.5" opacity="0.58"/>
+  </defs>
+  <rect x="1" y="1" width="798" height="238" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 1H780" stroke="url(#edge)" stroke-width="2"/>
+  <text x="24" y="38" font-size="24" fill="#f0f6fc" font-weight="700" >Learning path</text><text x="776" y="37" font-size="13" fill="#8b949e" font-weight="500" text-anchor="end" class="mono">STUDY / BUILD / EVOLVE</text><rect x="24" y="66" width="240" height="148" rx="12" fill="#161b22" stroke="#30363d"/><path d="M25 82V198" stroke="#58a6ff" stroke-width="2"/><text x="42" y="94" font-size="14" fill="#58a6ff" font-weight="600" class="mono">01</text><text x="42" y="129" font-size="24" fill="#f0f6fc" font-weight="700" >Diploma</text><text x="42" y="158" font-size="18" fill="#b1bac4" font-weight="500" >Automobile engineering</text><text x="42" y="189" font-size="16" fill="#58a6ff" font-weight="600" >Completed</text><rect x="280" y="66" width="240" height="148" rx="12" fill="#161b22" stroke="#30363d"/><path d="M281 82V198" stroke="#56d364" stroke-width="2"/><text x="298" y="94" font-size="14" fill="#56d364" font-weight="600" class="mono">02</text><text x="298" y="129" font-size="24" fill="#f0f6fc" font-weight="700" >B.Tech</text><text x="298" y="158" font-size="18" fill="#b1bac4" font-weight="500" >Mechanical engineering</text><text x="298" y="189" font-size="16" fill="#56d364" font-weight="600" >In progress</text><rect x="536" y="66" width="240" height="148" rx="12" fill="#161b22" stroke="#30363d"/><path d="M537 82V198" stroke="#58a6ff" stroke-width="2"/><text x="554" y="94" font-size="14" fill="#58a6ff" font-weight="600" class="mono">03</text><text x="554" y="129" font-size="24" fill="#f0f6fc" font-weight="700" >Open source</text><text x="554" y="158" font-size="18" fill="#b1bac4" font-weight="500" >Linux / QA / Automation</text><text x="554" y="189" font-size="16" fill="#58a6ff" font-weight="600" >Building now</text>
 </svg>

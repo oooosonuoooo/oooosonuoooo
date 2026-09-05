@@ -1,10 +1,12 @@
 <!-- profile-data-synced: 2026-09-04 -->
 
 <div align="center">
+  <a href="./assets/hero.svg">
   <picture>
     <source media="(max-width: 767px)" srcset="./assets/hero-mobile.svg">
     <img src="./assets/hero.svg" width="100%" alt="Tuhin Das — $0NU. Mechanical engineering student and open-source systems builder. Systems, QA and automation. Kolkata, India.">
   </picture>
+  </a>
 
   <br>
 
@@ -15,24 +17,30 @@
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <div align="center">
+  <a href="./assets/path.svg">
   <picture>
     <source media="(max-width: 767px)" srcset="./assets/path-mobile.svg">
     <img src="./assets/path.svg" width="100%" alt="Learning path: diploma in automobile engineering completed; B.Tech in mechanical engineering in progress; building open-source Linux, QA and automation projects.">
   </picture>
+  </a>
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <div align="center">
+  <a href="./assets/stack.svg">
   <picture>
     <source media="(max-width: 767px)" srcset="./assets/stack-mobile.svg">
-    <img src="./assets/stack.svg" width="100%" alt="Technology stack: Linux, Python, Go, Bash, Git, GitHub Actions, systemd, GTK, X11, software QA and automation">
+    <img src="./assets/stack.svg" width="100%" alt="Technology stack: Linux, Kali Linux, Python, Go, Bash, Git, GitHub Actions, systemd, GTK, X11, software QA and automation">
   </picture>
+  </a>
   <br>
+  <a href="./assets/creative-suite.svg">
   <picture>
     <source media="(max-width: 767px)" srcset="./assets/creative-suite-mobile.svg">
     <img src="./assets/creative-suite.svg" width="100%" alt="Creative and engineering skills: photo editing, video editing, marketing automation and SolidWorks 3D CAD">
   </picture>
+  </a>
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
@@ -53,8 +61,10 @@
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <div align="center">
+  <a href="./assets/footer.svg">
   <picture>
     <source media="(max-width: 767px)" srcset="./assets/footer-mobile.svg">
     <img src="./assets/footer.svg" width="100%" alt="Tuhin Das: understand, build, test, automate, repeat">
   </picture>
+  </a>
 </div>

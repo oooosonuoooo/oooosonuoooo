@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="406" viewBox="0 0 360 406" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering learning path</title>
+  <desc id="desc">Completed diploma in automobile engineering; current B.Tech in mechanical engineering; ongoing open-source Linux, QA and automation work.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
+
+  </defs>
+  <rect x="1" y="1" width="358" height="404" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 1H340" stroke="url(#edge)" stroke-width="2"/>
+  <text x="24" y="38" font-size="24" fill="#f0f6fc" font-weight="700" >Learning path</text><rect x="24" y="64" width="312" height="94" rx="12" fill="#161b22" stroke="#30363d"/><path d="M25 80V142" stroke="#58a6ff" stroke-width="2"/><text x="40" y="90" font-size="21" fill="#f0f6fc" font-weight="700" >Diploma</text><text x="320" y="89" font-size="13" fill="#58a6ff" font-weight="500" text-anchor="end" class="mono">01</text><text x="40" y="115" font-size="18" fill="#b1bac4" font-weight="500" >Automobile engineering</text><text x="40" y="141" font-size="16" fill="#58a6ff" font-weight="600" >Completed</text><rect x="24" y="172" width="312" height="94" rx="12" fill="#161b22" stroke="#30363d"/><path d="M25 188V250" stroke="#56d364" stroke-width="2"/><text x="40" y="198" font-size="21" fill="#f0f6fc" font-weight="700" >B.Tech</text><text x="320" y="197" font-size="13" fill="#56d364" font-weight="500" text-anchor="end" class="mono">02</text><text x="40" y="223" font-size="18" fill="#b1bac4" font-weight="500" >Mechanical engineering</text><text x="40" y="249" font-size="16" fill="#56d364" font-weight="600" >In progress</text><rect x="24" y="280" width="312" height="94" rx="12" fill="#161b22" stroke="#30363d"/><path d="M25 296V358" stroke="#58a6ff" stroke-width="2"/><text x="40" y="306" font-size="21" fill="#f0f6fc" font-weight="700" >Open source</text><text x="320" y="305" font-size="13" fill="#58a6ff" font-weight="500" text-anchor="end" class="mono">03</text><text x="40" y="331" font-size="18" fill="#b1bac4" font-weight="500" >Linux / QA / Automation</text><text x="40" y="357" font-size="16" fill="#58a6ff" font-weight="600" >Building now</text>
+</svg>

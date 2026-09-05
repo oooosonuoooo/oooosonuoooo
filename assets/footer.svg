@@ -1,39 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-labelledby="title desc">
-  <title id="title">End of Sonu's profile transmission</title>
-  <desc id="desc">A neon cyber footer reading End of Transmission with animated signal rails.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="102" viewBox="0 0 800 102" role="img" aria-labelledby="title desc">
+  <title id="title">Mechanical roots. Digital builds.</title>
+  <desc id="desc">Understand, build, test, automate, repeat.</desc>
   <defs>
-    <linearGradient id="footer-edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58a6ff" stop-opacity="0"/><stop offset="0.22" stop-color="#58a6ff"/><stop offset="0.52" stop-color="#1f6feb"/><stop offset="0.8" stop-color="#3fb950"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></linearGradient>
-    <filter id="footer-glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="footer-grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.08"/></pattern>
-    <clipPath id="footer-clip"><rect x="1" y="1" width="1198" height="118" rx="18"/></clipPath>
-    <style>
-      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.rail-a{animation:footer-left 7s ease-in-out infinite}.rail-b{animation:footer-right 7s ease-in-out infinite}.core{animation:footer-pulse 2.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.dash{animation:footer-dash 6s linear infinite}
-      @keyframes footer-left{50%{transform:translateX(26px)}}@keyframes footer-right{50%{transform:translateX(-26px)}}@keyframes footer-pulse{50%{opacity:.45;transform:scale(.78)}}@keyframes footer-dash{to{stroke-dashoffset:-90}}
-      @media (prefers-reduced-motion:reduce){.rail-a,.rail-b,.core,.dash{animation:none}}
-    </style>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
+
   </defs>
-  <rect x="1" y="1" width="1198" height="118" rx="18" fill="#0d1117" stroke="#161b22" stroke-width="2"/>
-  <g clip-path="url(#footer-clip)">
-    <rect x="1" y="1" width="1198" height="118" fill="url(#footer-grid)"/>
-    <path d="M0 116L115 1H145L30 116ZM1050 116L1165 1H1200L1085 116Z" fill="#1f6feb" opacity="0.07"/>
-    <path d="M-10 22H1210M-10 98H1210" stroke="url(#footer-edge)" opacity="0.34"/>
-  </g>
-  <g class="rail-a" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0.75">
-    <path d="M40 59H292L312 39H420"/><path d="M40 67H260" stroke-dasharray="5 8"/>
-  </g>
-  <g class="rail-b" fill="none" stroke="#3fb950" stroke-width="1.5" opacity="0.75">
-    <path d="M1160 59H908L888 39H780"/><path d="M1160 67H940" stroke-dasharray="5 8"/>
-  </g>
-  <path class="dash" d="M60 92H405M795 92H1140" stroke="#1f6feb" stroke-width="1" stroke-dasharray="3 9" opacity="0.45"/>
-  <g transform="translate(600 59)">
-    <path d="M-176 0L-156 -20H-46L-34 -8H34L46 -20H156L176 0L156 20H46L34 8H-34L-46 20H-156Z" fill="#161b22" stroke="url(#footer-edge)" stroke-width="1.5"/>
-    <path d="M-22 0L0 -18L22 0L0 18Z" fill="#0d1117" stroke="#1f6feb" stroke-width="1.4"/>
-    <circle class="core" r="5" fill="#f0f6fc" filter="url(#footer-glow)"/>
-  </g>
-  <g class="ui" text-anchor="middle">
-    <text x="600" y="56" fill="#f0f6fc" font-size="13" font-weight="900" letter-spacing="4.2">END OF TRANSMISSION</text>
-    <text x="600" y="76" class="mono" fill="#8b949e" font-size="8" font-weight="700" letter-spacing="2.35">UNDERSTAND / BUILD / TEST / AUTOMATE / REPEAT</text>
-  </g>
-  <g fill="#56d364"><circle cx="40" cy="59" r="3"/><circle cx="1160" cy="59" r="3"/></g>
-  <path d="M18 18V8H28M1172 8H1182V18M18 102V112H28M1172 112H1182V102" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0.75"/>
+  <rect x="1" y="1" width="798" height="100" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 1H780" stroke="url(#edge)" stroke-width="2"/>
+  <text x="400.0" y="39" font-size="20" fill="#56d364" font-weight="650" text-anchor="middle">MECHANICAL ROOTS. DIGITAL BUILDS.</text><text x="400.0" y="72" font-size="18" fill="#b1bac4" font-weight="500" text-anchor="middle">Understand / Build / Test / Automate / Repeat</text>
 </svg>
