@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 368 152" width="368" height="152" role="img" aria-labelledby="title desc">
+  <title id="title">Universal Controller project card</title>
+  <desc id="desc">Universal Controller is an AI-assisted control plane built with Go, a terminal interface, and HTTP.</desc>
+  <defs>
+    <linearGradient id="uc-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#56d364"/><stop offset="0.42" stop-color="#3fb950"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
+    <linearGradient id="uc-core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <pattern id="uc-grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#56d364" stroke-width="0.5" opacity="0.1"/></pattern>
+    <filter id="uc-glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="uc-card"><rect x="1" y="1" width="358" height="142" rx="14"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.tag{fill:#161b22;stroke:#30363d}.core{animation:uc-pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.flow{animation:uc-flow 3s linear infinite}.ring{animation:uc-spin 11s linear infinite;transform-origin:461px 116px}
+      @keyframes uc-pulse{50%{transform:scale(1.12);opacity:.72}}@keyframes uc-flow{to{stroke-dashoffset:-36}}@keyframes uc-spin{to{transform:rotate(-360deg)}}
+      @media (prefers-reduced-motion:reduce){.core,.flow,.ring{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="358" height="142" rx="14" fill="#0d1117" stroke="url(#uc-edge)" stroke-width="2"/>
+  <g clip-path="url(#uc-card)" aria-hidden="true">
+    <rect x="1" y="1" width="358" height="142" fill="url(#uc-grid)"/>
+    <path d="M278 1H359V143Z" fill="#7ee787" opacity=".035"/>
+  </g>
+  <g class="ui">
+    <text x="16" y="36" fill="#f0f6fc" font-size="22" font-weight="800">Universal Controller</text>
+    <text x="16" y="72" fill="#7ee787" font-size="18" font-weight="500">AI-assisted control plane</text>
+    <g transform="translate(16 102)" class="mono" font-size="13" font-weight="600" text-anchor="middle">
+      <rect x="0" width="48" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="24" y="18" fill="#9cc9ff">Go</text>
+      <rect x="55" width="52" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="81" y="18" fill="#f0f6fc">TUI</text>
+      <rect x="114" width="62" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="145" y="18" fill="#7ee787">HTTP</text>
+    </g>
+  </g>
+
+  <g transform="translate(139 25) scale(.36)" aria-hidden="true">
+    <circle class="ring" cx="461" cy="116" r="82" fill="none" stroke="#8b949e" stroke-width="1" stroke-dasharray="2 8" opacity="0.38"/>
+    <path class="flow" d="M461 72V50H519M497 116H538M461 160V184H515M425 116H376M435 90L402 64M435 142L402 169" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-dasharray="7 5"/>
+    <g fill="#161b22" stroke="#58a6ff" stroke-width="1.5">
+      <rect x="508" y="42" width="36" height="18" rx="5"/><rect x="528" y="107" width="30" height="18" rx="5"/><rect x="505" y="176" width="39" height="18" rx="5"/><rect x="368" y="107" width="30" height="18" rx="5"/><rect x="385" y="52" width="31" height="18" rx="5"/><rect x="385" y="160" width="31" height="18" rx="5"/>
+    </g>
+    <g fill="#56d364"><circle cx="526" cy="51" r="2.5"/><circle cx="543" cy="116" r="2.5"/><circle cx="524" cy="185" r="2.5"/><circle cx="383" cy="116" r="2.5"/><circle cx="400" cy="61" r="2.5"/><circle cx="400" cy="169" r="2.5"/></g>
+    <path d="M461 72L497 93L497 137L461 160L425 137V93Z" fill="#161b22" stroke="url(#uc-edge)" stroke-width="2.2"/>
+    <path d="M461 88L484 101V129L461 144L438 129V101Z" fill="url(#uc-core)" opacity="0.72"/>
+    <path class="core" d="M461 98L476 107V124L461 134L446 124V107Z" fill="#0d1117" stroke="#58a6ff" stroke-width="2" filter="url(#uc-glow)"/>
+    <path d="M455 111H467M461 105V117M453 124H456M466 124H469" stroke="#f0f6fc" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -39,16 +39,6 @@
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <p align="center">
-  <a href="https://github.com/oooosonuoooo/Wall-Blazer"><img src="./assets/project-wall-blazer.svg" width="390" alt="Wall Blazer: GPU-first live wallpapers built with Python, GTK and VLC. Open the project."></a>
-  <a href="https://github.com/oooosonuoooo/SysSentinel"><img src="./assets/project-syssentinel.svg" width="390" alt="SysSentinel: system resource watchdog built with Python and Shell. Open the project."></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/oooosonuoooo/Universal-Controller"><img src="./assets/project-universal-controller.svg" width="390" alt="Universal Controller: AI-assisted terminal control plane built with Go, TUI and HTTP. Open the project."></a>
-  <a href="https://github.com/oooosonuoooo/kali-brightness"><img src="./assets/project-kali-glass.svg" width="390" alt="Kali Glass: X11 brightness and night mode controller built with Python, PyQt5 and xrandr. Open the project."></a>
-</p>
-
-<p align="center">
   <a href="https://ethnicbnb.com/"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></a>
   <a href="https://puremilk.co.in/"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></a>
 </p>

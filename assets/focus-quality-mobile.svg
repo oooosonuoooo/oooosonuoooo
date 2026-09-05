@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 368 118" width="368" height="118" role="img" aria-labelledby="title desc">
+  <title id="title">Quality systems focus card</title>
+  <desc id="desc">A visual focus card for manual quality assurance, workflow testing, verification, and continuous improvement.</desc>
+  <defs>
+    <linearGradient id="eb-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="0.55" stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <pattern id="eb-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.1"/></pattern>
+    <filter id="eb-glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="eb-clip"><rect x="1" y="1" width="358" height="108" rx="14"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.route{animation:eb-route 4s linear infinite}.pin{animation:eb-pin 2.3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes eb-route{to{stroke-dashoffset:-42}}@keyframes eb-pin{50%{transform:translateY(-4px)}}
+      @media (prefers-reduced-motion:reduce){.route,.pin{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="358" height="108" rx="14" fill="#0d1117" stroke="url(#eb-edge)" stroke-width="2"/>
+  <g clip-path="url(#eb-clip)" aria-hidden="true">
+    <rect x="1" y="1" width="358" height="108" fill="url(#eb-grid)"/>
+    <path d="M278 1H359V109Z" fill="#9cc9ff" opacity=".035"/>
+  </g>
+  <g class="ui">
+    <text x="16" y="30" fill="#f0f6fc" font-size="23" font-weight="800">Quality systems</text>
+    <text x="16" y="57" fill="#c9d1d9" font-size="17">Test · verify · improve</text>
+    <g transform="translate(16 74)" class="mono" font-size="13" font-weight="600" text-anchor="middle">
+      <rect x="0" width="103" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="51.5" y="18" fill="#9cc9ff">Manual QA</text>
+      <rect x="110" width="104" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="162" y="18" fill="#c9d1d9">Workflows</text>
+    </g>
+  </g>
+
+  <g transform="translate(145 31) scale(.36)" aria-hidden="true">
+    <circle cx="448" cy="75" r="53" fill="#161b22" stroke="#1f6feb" stroke-opacity="0.45"/>
+    <circle cx="448" cy="75" r="38" fill="none" stroke="#58a6ff" stroke-opacity="0.34" stroke-dasharray="4 8"/>
+    <path class="route" d="M380 75H405M491 75H536M448 15V34M448 116V135" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="7 7"/>
+    <g class="pin">
+      <path d="M448 38L478 50V72C478 94 464 108 448 116C432 108 418 94 418 72V50Z" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+      <path d="M433 75L443 85L463 63" fill="none" stroke="#56d364" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#eb-glow)"/>
+    </g>
+    <g fill="#3fb950"><circle cx="392" cy="75" r="3"/><circle cx="524" cy="75" r="3"/><circle cx="448" cy="27" r="3"/><circle cx="448" cy="123" r="3"/></g>
+  </g>
+</svg>

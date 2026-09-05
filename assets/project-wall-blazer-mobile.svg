@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 368 152" width="368" height="152" role="img" aria-labelledby="title desc">
+  <title id="title">Wall Blazer project card</title>
+  <desc id="desc">Wall Blazer is a GPU-first live wallpaper project built with Python, GTK, and VLC.</desc>
+  <defs>
+    <linearGradient id="wb-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="0.52" stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+    <linearGradient id="wb-sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3fb950"/><stop offset="0.52" stop-color="#1f6feb"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <pattern id="wb-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.12"/></pattern>
+    <filter id="wb-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="wb-card"><rect x="1" y="1" width="358" height="142" rx="14"/></clipPath>
+    <clipPath id="wb-screen"><path d="M368 51H538V169H368Z"/></clipPath>
+    <style>
+      .ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.tag{fill:#161b22;stroke:#30363d}.wave-a{animation:wb-wave-a 5s ease-in-out infinite}.wave-b{animation:wb-wave-b 7s ease-in-out infinite}.scan{animation:wb-scan 4s linear infinite}.spark{animation:wb-spark 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes wb-wave-a{50%{transform:translateX(11px)}}@keyframes wb-wave-b{50%{transform:translateX(-13px)}}@keyframes wb-scan{from{transform:translateY(-120px)}to{transform:translateY(130px)}}@keyframes wb-spark{50%{opacity:.3;transform:scale(.65)}}
+      @media (prefers-reduced-motion:reduce){.wave-a,.wave-b,.scan,.spark{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="358" height="142" rx="14" fill="#0d1117" stroke="url(#wb-edge)" stroke-width="2"/>
+  <g clip-path="url(#wb-card)" aria-hidden="true">
+    <rect x="1" y="1" width="358" height="142" fill="url(#wb-grid)"/>
+    <path d="M278 1H359V143Z" fill="#9cc9ff" opacity=".035"/>
+  </g>
+  <g class="ui">
+    <text x="16" y="36" fill="#f0f6fc" font-size="24" font-weight="800">Wall Blazer</text>
+    <text x="16" y="72" fill="#9cc9ff" font-size="18" font-weight="500">GPU-first live wallpapers</text>
+    <g transform="translate(16 102)" class="mono" font-size="13" font-weight="600" text-anchor="middle">
+      <rect x="0" width="72" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="36" y="18" fill="#9cc9ff">Python</text>
+      <rect x="79" width="51" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="104.5" y="18" fill="#f0f6fc">GTK</text>
+      <rect x="137" width="51" height="26" rx="6" fill="#161b22" stroke="#30363d"/><text x="162.5" y="18" fill="#7ee787">VLC</text>
+    </g>
+  </g>
+
+  <g transform="translate(138 25) scale(.36)" aria-hidden="true">
+    <path d="M356 41L368 29H538L550 41V181L538 193H368L356 181Z" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+    <path d="M368 51H538V169H368Z" fill="url(#wb-sky)"/>
+    <g clip-path="url(#wb-screen)">
+      <circle cx="483" cy="91" r="31" fill="#56d364" opacity="0.95" filter="url(#wb-glow)"/>
+      <path d="M368 125L395 101L416 116L445 82L477 121L501 98L538 130V169H368Z" fill="#161b22" opacity="0.72"/>
+      <path class="wave-b" d="M340 151Q383 121 428 151T516 151T604 151V180H340Z" fill="#1f6feb" opacity="0.88"/>
+      <path class="wave-a" d="M340 162Q387 138 432 161T523 161T612 161V184H340Z" fill="#58a6ff" opacity="0.72"/>
+      <rect class="scan" x="368" y="48" width="170" height="4" fill="#f0f6fc" opacity="0.22"/>
+      <g fill="#f0f6fc">
+        <circle class="spark" cx="390" cy="73" r="1.8"/><circle class="spark" cx="438" cy="65" r="1.4" style="animation-delay:.5s"/><circle class="spark" cx="522" cy="70" r="1.5" style="animation-delay:1s"/>
+      </g>
+    </g>
+    <path d="M371 47H418M426 47H435" stroke="#3fb950" stroke-width="2"/>
+    <circle cx="540" cy="45" r="2.4" fill="#56d364"/>
+    <path d="M433 193L428 205H478L473 193M415 207H491" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M550 74L560 84V134L550 144" fill="none" stroke="#3fb950" stroke-width="2" filter="url(#wb-glow)"/>
+  </g>
+</svg>
