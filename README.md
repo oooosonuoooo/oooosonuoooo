@@ -40,8 +40,6 @@
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
-<p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
-
 <div align="center">
   <img src="./assets/footer.svg" width="100%" alt="Tuhin Das: understand, build, test, automate, repeat">
 </div>
