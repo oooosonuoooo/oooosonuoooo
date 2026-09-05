@@ -48,7 +48,6 @@
 
   <g class="sans">
     <g transform="translate(76 150)">
-      <circle class="pulse" cx="8" cy="8" r="6" fill="#56d364" filter="url(#hero-glow)"/>
       <path d="M28 8H80" stroke="#56d364" stroke-width="3"/>
       <text x="96" y="14" class="mono" fill="#8b949e" font-size="28" font-weight="700" letter-spacing="2">PROFILE // $0NU</text>
     </g>
@@ -56,7 +55,6 @@
     <text x="72" y="291" fill="#f0f6fc" font-size="102" font-weight="950" letter-spacing="-3">TUHIN</text>
     <text x="72" y="389" fill="#f0f6fc" font-size="120" font-weight="950" letter-spacing="-5">DAS</text>
     <path d="M73 407H395" stroke="#30363d" stroke-width="2"/>
-    <circle class="pulse" cx="418" cy="407" r="5" fill="#3fb950" filter="url(#hero-glow)"/>
 
     <g transform="translate(74 424)">
       <rect width="736" height="48" rx="6" fill="#0d1117" fill-opacity="0.86" stroke="#58a6ff" stroke-opacity="0.64"/>
@@ -67,7 +65,6 @@
     <text x="76" y="505" class="mono" fill="#f0f6fc" font-size="28" font-weight="600" letter-spacing="0.7">SYSTEMS / QA / AUTOMATION</text>
     <text x="76" y="537" class="mono" fill="#8b949e" font-size="26" font-weight="500" letter-spacing="0">B.TECH STUDENT + OPEN-SOURCE BUILDER</text>
     <g transform="translate(76 569)">
-      <circle class="pulse" cx="7" cy="-5" r="6" fill="#3fb950" filter="url(#hero-glow)"/>
       <text x="30" y="1" class="mono" fill="#8b949e" font-size="26" font-weight="500" letter-spacing="1">KOLKATA // INDIA</text>
     </g>
 
@@ -81,7 +78,6 @@
 
   <g transform="translate(1430 730)" class="mono" font-weight="800">
     <path d="M0 0H154" stroke="#58a6ff" stroke-width="2" stroke-dasharray="6 8"/>
-    <circle class="pulse" cx="166" cy="0" r="5" fill="#56d364" filter="url(#hero-glow)"/>
     <text x="154" y="31" fill="#f0f6fc" font-size="20" text-anchor="end" letter-spacing="0.5">BUILD // TEST // EVOLVE</text>
   </g>
 </svg>

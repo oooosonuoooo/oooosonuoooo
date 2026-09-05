@@ -49,6 +49,11 @@
 </p>
 
 <p align="center">
+  <a href="https://ethnicbnb.com/"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></a>
+  <a href="https://puremilk.co.in/"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></a>
+</p>
+
+<p align="center">
   <img src="./assets/focus-quality.svg" width="390" alt="Quality systems: manual QA, workflow testing, verification and improvement.">
   <img src="./assets/focus-automation.svg" width="390" alt="Automation lab: Linux, agents and tooling with Python and systemd.">
 </p>
