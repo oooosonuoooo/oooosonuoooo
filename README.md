@@ -7,8 +7,6 @@
 
   <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><img src="./assets/button-resume.svg" height="48" alt="Open Tuhin Das resume folder"></a>
   <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><img src="./assets/button-gallery.svg" height="48" alt="Open Tuhin Das work gallery"></a>
-  <a href="https://www.linkedin.com/in/tuhin-das-728020270"><img src="./assets/button-linkedin.svg" height="48" alt="Connect with Tuhin Das on LinkedIn"></a>
-  <a href="https://x.com/oooosonuoooo"><img src="./assets/button-x.svg" height="48" alt="Follow oooosonuoooo on X"></a>
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
@@ -41,36 +39,6 @@
 </div>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
-
-<div align="center">
-  <img src="./assets/arcade-machine.svg" width="100%" alt="Contribution arcade">
-</div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph.svg">
-  <img src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man moving through the GitHub contribution graph">
-</picture>
-
-<details>
-  <summary>LOAD SNAKE</summary>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake moving through the GitHub contribution grid">
-  </picture>
-</details>
-
-<details>
-  <summary>LOAD BREAKOUT</summary>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph.svg">
-    <img src="https://raw.githubusercontent.com/oooosonuoooo/oooosonuoooo/output/breakout-contribution-graph-dark.svg" width="100%" alt="Breakout game built from the GitHub contribution graph">
-  </picture>
-</details>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
