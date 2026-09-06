@@ -7,8 +7,8 @@
   </picture>
   <br>
   <br>
-  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><picture><source media="(max-width: 767px)" srcset="./assets/button-resume-mobile.svg"><img src="./assets/button-resume.svg" alt="Open Tuhin Das resume folder"></picture></a>
-  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><picture><source media="(max-width: 767px)" srcset="./assets/button-gallery-mobile.svg"><img src="./assets/button-gallery.svg" alt="Open Tuhin Das work gallery"></picture></a>
+  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><picture><source media="(max-width: 600px)" srcset="./assets/button-resume-mobile.svg"><img src="./assets/button-resume.svg" alt="Open Tuhin Das resume folder"></picture></a>
+  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><picture><source media="(max-width: 600px)" srcset="./assets/button-gallery-mobile.svg"><img src="./assets/button-gallery.svg" alt="Open Tuhin Das work gallery"></picture></a>
 </p>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
@@ -39,13 +39,13 @@
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <p align="center">
-  <a href="https://ethnicbnb.com/"><picture><source media="(max-width: 767px)" srcset="./assets/live-ethnicbnb-mobile.svg"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></picture></a>
-  <a href="https://puremilk.co.in/"><picture><source media="(max-width: 767px)" srcset="./assets/live-puremilk-mobile.svg"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></picture></a>
+  <a href="https://ethnicbnb.com/"><picture><source media="(max-width: 900px)" srcset="./assets/live-ethnicbnb-mobile.svg"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></picture></a>
+  <a href="https://puremilk.co.in/"><picture><source media="(max-width: 900px)" srcset="./assets/live-puremilk-mobile.svg"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></picture></a>
 </p>
 
 <p align="center">
-  <picture><source media="(max-width: 767px)" srcset="./assets/focus-quality-mobile.svg"><img src="./assets/focus-quality.svg" width="390" alt="Quality systems: manual QA, workflow testing, verification and improvement."></picture>
-  <picture><source media="(max-width: 767px)" srcset="./assets/focus-automation-mobile.svg"><img src="./assets/focus-automation.svg" width="390" alt="Automation lab: Linux, agents and tooling with Python and systemd."></picture>
+  <picture><source media="(max-width: 900px)" srcset="./assets/focus-quality-mobile.svg"><img src="./assets/focus-quality.svg" width="390" alt="Quality systems: manual QA, workflow testing, verification and improvement."></picture>
+  <picture><source media="(max-width: 900px)" srcset="./assets/focus-automation-mobile.svg"><img src="./assets/focus-automation.svg" width="390" alt="Automation lab: Linux, agents and tooling with Python and systemd."></picture>
 </p>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
