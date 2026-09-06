@@ -2,21 +2,21 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 767px)" srcset="./assets/hero-mobile.svg">
-    <img src="./assets/hero.svg" width="100%" alt="Tuhin Das — $0NU. Mechanical engineering student and open-source systems builder. Systems, QA and automation. Kolkata, India.">
+    <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
+    <img src="./assets/hero.svg" alt="Tuhin Das — $0NU. Mechanical engineering student and open-source systems builder. Systems, QA and automation. Kolkata, India.">
   </picture>
   <br>
   <br>
-  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><img src="./assets/button-resume.svg" width="195" alt="Open Tuhin Das resume folder"></a>
-  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><img src="./assets/button-gallery.svg" width="195" alt="Open Tuhin Das work gallery"></a>
+  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><picture><source media="(max-width: 767px)" srcset="./assets/button-resume-mobile.svg"><img src="./assets/button-resume.svg" alt="Open Tuhin Das resume folder"></picture></a>
+  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><picture><source media="(max-width: 767px)" srcset="./assets/button-gallery-mobile.svg"><img src="./assets/button-gallery.svg" alt="Open Tuhin Das work gallery"></picture></a>
 </p>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 767px)" srcset="./assets/path-mobile.svg">
-    <img src="./assets/path.svg" width="100%" alt="Learning path: diploma in automobile engineering completed; B.Tech in mechanical engineering in progress; building open-source Linux, QA and automation projects.">
+    <source media="(max-width: 600px)" srcset="./assets/path-mobile.svg">
+    <img src="./assets/path.svg" alt="Learning path: diploma in automobile engineering completed; B.Tech in mechanical engineering in progress; building open-source Linux, QA and automation projects.">
   </picture>
 </p>
 
@@ -24,35 +24,35 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 767px)" srcset="./assets/stack-mobile.svg">
-    <img src="./assets/stack.svg" width="100%" alt="Technology stack: Linux, Kali Linux, Python, Go, Bash, Git, GitHub Actions, systemd, GTK, X11, software QA and automation">
+    <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg">
+    <img src="./assets/stack.svg" alt="Technology stack: Linux, Kali Linux, Python, Go, Bash, Git, GitHub Actions, systemd, GTK, X11, software QA and automation">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 767px)" srcset="./assets/creative-suite-mobile.svg">
-    <img src="./assets/creative-suite.svg" width="100%" alt="Creative and engineering skills: photo editing, video editing, marketing automation and SolidWorks 3D CAD">
+    <source media="(max-width: 600px)" srcset="./assets/creative-suite-mobile.svg">
+    <img src="./assets/creative-suite.svg" alt="Creative and engineering skills: photo editing, video editing, marketing automation and SolidWorks 3D CAD">
   </picture>
 </p>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <p align="center">
-  <a href="https://ethnicbnb.com/"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></a>
-  <a href="https://puremilk.co.in/"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></a>
+  <a href="https://ethnicbnb.com/"><picture><source media="(max-width: 767px)" srcset="./assets/live-ethnicbnb-mobile.svg"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></picture></a>
+  <a href="https://puremilk.co.in/"><picture><source media="(max-width: 767px)" srcset="./assets/live-puremilk-mobile.svg"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></picture></a>
 </p>
 
 <p align="center">
-  <img src="./assets/focus-quality.svg" width="390" alt="Quality systems: manual QA, workflow testing, verification and improvement.">
-  <img src="./assets/focus-automation.svg" width="390" alt="Automation lab: Linux, agents and tooling with Python and systemd.">
+  <picture><source media="(max-width: 767px)" srcset="./assets/focus-quality-mobile.svg"><img src="./assets/focus-quality.svg" width="390" alt="Quality systems: manual QA, workflow testing, verification and improvement."></picture>
+  <picture><source media="(max-width: 767px)" srcset="./assets/focus-automation-mobile.svg"><img src="./assets/focus-automation.svg" width="390" alt="Automation lab: Linux, agents and tooling with Python and systemd."></picture>
 </p>
 
 <p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 767px)" srcset="./assets/footer-mobile.svg">
-    <img src="./assets/footer.svg" width="100%" alt="Tuhin Das: understand, build, test, automate, repeat">
+    <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
+    <img src="./assets/footer.svg" alt="Tuhin Das: understand, build, test, automate, repeat">
   </picture>
 </p>

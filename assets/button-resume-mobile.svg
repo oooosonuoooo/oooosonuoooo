@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="48" viewBox="0 0 136 48" role="img" aria-labelledby="title desc">
+  <title id="title">Open resume folder</title>
+  <desc id="desc">Compact resume link button.</desc>
+  <rect x="1" y="1" width="134" height="46" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <g transform="translate(12 11)" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 1H15L21 7V26H2Z"/><path d="M15 1V7H21M7 13H16M7 18H16M7 23H13"/>
+  </g>
+  <text x="43" y="30" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Resume</text>
+  <path d="M117 19L122 24L117 29M111 24H122" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

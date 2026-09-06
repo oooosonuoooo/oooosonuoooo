@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="48" viewBox="0 0 136 48" role="img" aria-labelledby="title desc">
+  <title id="title">Open work gallery</title>
+  <desc id="desc">Compact work gallery link button.</desc>
+  <rect x="1" y="1" width="134" height="46" rx="10" fill="#161b22" stroke="#3fb950" stroke-width="1.5"/>
+  <g transform="translate(11 12)" fill="none" stroke="#56d364" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="1" width="25" height="23" rx="3"/><circle cx="8" cy="8" r="2"/><path d="M3 21L9 15L14 19L20 12L25 19"/>
+  </g>
+  <text x="43" y="30" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Gallery</text>
+  <path d="M117 19L122 24L117 29M111 24H122" fill="none" stroke="#56d364" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
