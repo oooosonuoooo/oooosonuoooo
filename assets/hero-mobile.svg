@@ -34,7 +34,7 @@
 
   <text x="20" y="240" fill="#f0f6fc" font-size="38" font-weight="800" letter-spacing="-1.2">TUHIN DAS</text>
   <path d="M20 255H126" stroke="#58a6ff" stroke-width="2"/><path d="M132 255H340" stroke="#30363d"/>
-  <text x="20" y="282" fill="#58a6ff" font-size="19" font-weight="650">Mechanical engineering.</text>
+  <text x="20" y="282" fill="#58a6ff" font-size="19" font-weight="650">Automobile engineering.</text>
   <text x="20" y="307" fill="#56d364" font-size="19" font-weight="650">Digital systems.</text>
 
   <text x="20" y="337" fill="#f0f6fc" font-size="17" font-weight="550">Systems / QA / Automation</text>

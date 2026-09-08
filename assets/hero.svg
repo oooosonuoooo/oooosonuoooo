@@ -59,7 +59,7 @@
     <g transform="translate(74 424)">
       <rect width="736" height="48" rx="6" fill="#0d1117" fill-opacity="0.86" stroke="#58a6ff" stroke-opacity="0.64"/>
       <rect width="6" height="48" rx="4" fill="#58a6ff"/>
-      <text x="26" y="32" class="sans" fill="#58a6ff" font-size="26" font-weight="600" letter-spacing="0.3">MECHANICAL ENGINEERING // DIGITAL SYSTEMS</text>
+      <text x="26" y="32" class="sans" fill="#58a6ff" font-size="26" font-weight="600" letter-spacing="0.3">AUTOMOBILE ENGINEERING // DIGITAL SYSTEMS</text>
     </g>
 
     <text x="76" y="505" class="mono" fill="#f0f6fc" font-size="28" font-weight="600" letter-spacing="0.7">SYSTEMS / QA / AUTOMATION</text>
@@ -71,7 +71,7 @@
     <g transform="translate(76 675)">
       <path d="M0 0H188" stroke="#3fb950" stroke-width="3"/>
       <path d="M206 0H480" stroke="#30363d" stroke-width="2"/>
-      <text x="0" y="43" fill="#f0f6fc" font-size="30" font-weight="700" letter-spacing="0.5">MECHANICAL ROOTS.</text>
+      <text x="0" y="43" fill="#f0f6fc" font-size="30" font-weight="700" letter-spacing="0.5">AUTOMOBILE ROOTS.</text>
       <text x="0" y="84" fill="#56d364" font-size="30" font-weight="700" letter-spacing="0.5">DIGITAL BUILDS.</text>
     </g>
   </g>
