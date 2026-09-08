@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="520" viewBox="0 108 1672 725" role="img" aria-labelledby="hero-title hero-desc">
-  <title id="hero-title">Tuhin Das — mechanical engineering student and open-source systems builder</title>
+  <title id="hero-title">Tuhin Das — open-source systems builder</title>
   <desc id="hero-desc">A green, black, blue, and white highway portrait banner with Tuhin Das's profile, engineering focus, systems skills, education, and Kolkata location.</desc>
   <defs>
     <linearGradient id="hero-left-shade" x1="0" y1="0" x2="1" y2="0">
@@ -63,7 +63,7 @@
     </g>
 
     <text x="76" y="505" class="mono" fill="#f0f6fc" font-size="28" font-weight="600" letter-spacing="0.7">SYSTEMS / QA / AUTOMATION</text>
-    <text x="76" y="537" class="mono" fill="#8b949e" font-size="26" font-weight="500" letter-spacing="0">B.TECH STUDENT + OPEN-SOURCE BUILDER</text>
+    <text x="76" y="537" class="mono" fill="#8b949e" font-size="26" font-weight="500" letter-spacing="0">OPEN-SOURCE BUILDER</text>
     <g transform="translate(76 569)">
       <text x="0" y="1" class="mono" fill="#8b949e" font-size="26" font-weight="500" letter-spacing="1">KOLKATA // INDIA</text>
     </g>
