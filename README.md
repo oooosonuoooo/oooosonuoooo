@@ -1,4 +1,4 @@
-<!-- profile-data-synced: 2026-09-04 -->
+<!-- profile-data-synced: 2026-09-08 -->
 
 <p align="center">
   <picture>
@@ -16,7 +16,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/path-mobile.svg">
-    <img src="./assets/path.svg" alt="Learning path: diploma in automobile engineering completed; B.Tech in mechanical engineering in progress; building open-source Linux, QA and automation projects.">
+    <img src="./assets/path.svg" alt="Learning path: diploma in automobile engineering completed; building open-source Linux, QA and automation projects.">
   </picture>
 </p>
 

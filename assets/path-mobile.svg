@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="278" viewBox="0 0 360 278" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="206" viewBox="0 0 360 206" role="img" aria-labelledby="title desc">
   <title id="title">Engineering learning path</title>
-  <desc id="desc">Completed diploma in automobile engineering; current B.Tech in mechanical engineering; ongoing open-source Linux, QA and automation work.</desc>
+  <desc id="desc">Completed diploma in automobile engineering; ongoing open-source Linux, QA and automation work.</desc>
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
     <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:Consolas,"Liberation Mono",monospace}</style>
 
   </defs>
-  <rect x="1" y="1" width="358" height="276" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="358" height="204" rx="18" fill="#0d1117" stroke="#30363d"/>
   <path d="M20 1H340" stroke="url(#edge)" stroke-width="2"/>
-  <text x="20" y="35" font-size="23" fill="#f0f6fc" font-weight="700" >Learning path</text><rect x="20" y="54" width="320" height="62" rx="12" fill="#161b22" stroke="#30363d"/><path d="M21 66V104" stroke="#58a6ff" stroke-width="2"/><text x="34" y="79" font-size="20" fill="#f0f6fc" font-weight="700" >Diploma</text><text x="326" y="78" font-size="13" fill="#58a6ff" font-weight="600" text-anchor="end">Completed</text><text x="34" y="103" font-size="17" fill="#b1bac4" font-weight="500" >Automobile engineering</text><rect x="20" y="126" width="320" height="62" rx="12" fill="#161b22" stroke="#30363d"/><path d="M21 138V176" stroke="#56d364" stroke-width="2"/><text x="34" y="151" font-size="20" fill="#f0f6fc" font-weight="700" >B.Tech</text><text x="326" y="150" font-size="13" fill="#56d364" font-weight="600" text-anchor="end">In progress</text><text x="34" y="175" font-size="17" fill="#b1bac4" font-weight="500" >Mechanical engineering</text><rect x="20" y="198" width="320" height="62" rx="12" fill="#161b22" stroke="#30363d"/><path d="M21 210V248" stroke="#58a6ff" stroke-width="2"/><text x="34" y="223" font-size="20" fill="#f0f6fc" font-weight="700" >Open source</text><text x="326" y="222" font-size="13" fill="#58a6ff" font-weight="600" text-anchor="end">Building now</text><text x="34" y="247" font-size="17" fill="#b1bac4" font-weight="500" >Linux / QA / Automation</text>
+  <text x="20" y="35" font-size="23" fill="#f0f6fc" font-weight="700" >Learning path</text><rect x="20" y="54" width="320" height="62" rx="12" fill="#161b22" stroke="#30363d"/><path d="M21 66V104" stroke="#58a6ff" stroke-width="2"/><text x="34" y="79" font-size="20" fill="#f0f6fc" font-weight="700" >Diploma</text><text x="326" y="78" font-size="13" fill="#58a6ff" font-weight="600" text-anchor="end">Completed</text><text x="34" y="103" font-size="17" fill="#b1bac4" font-weight="500" >Automobile engineering</text><rect x="20" y="126" width="320" height="62" rx="12" fill="#161b22" stroke="#30363d"/><path d="M21 138V176" stroke="#56d364" stroke-width="2"/><text x="34" y="151" font-size="20" fill="#f0f6fc" font-weight="700" >Open source</text><text x="326" y="150" font-size="13" fill="#56d364" font-weight="600" text-anchor="end">Building now</text><text x="34" y="175" font-size="17" fill="#b1bac4" font-weight="500" >Linux / QA / Automation</text>
 </svg>
+
