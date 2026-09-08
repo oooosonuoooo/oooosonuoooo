@@ -3,7 +3,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-    <img src="./assets/hero.svg" alt="Tuhin Das — $0NU. Mechanical engineering student and open-source systems builder. Systems, QA and automation. Kolkata, India.">
+    <img src="./assets/hero.svg" alt="Tuhin Das — $0NU. Open-source systems builder. Systems, QA and automation. Kolkata, India.">
   </picture>
   <br>
   <br>

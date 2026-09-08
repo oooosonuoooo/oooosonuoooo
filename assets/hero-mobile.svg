@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="402" viewBox="0 0 360 402" role="img" aria-labelledby="title desc">
   <title id="title">Tuhin Das — $0NU</title>
-  <desc id="desc">The complete highway portrait of Tuhin Das above a compact profile for a mechanical engineering student and open-source systems builder in Kolkata, India.</desc>
+  <desc id="desc">The complete highway portrait of Tuhin Das above a compact profile for an open-source systems builder in Kolkata, India.</desc>
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset="0.52" stop-color="#1f6feb"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
     <linearGradient id="image-shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.56" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117" stop-opacity=".72"/></linearGradient>
@@ -38,7 +38,7 @@
   <text x="20" y="307" fill="#56d364" font-size="19" font-weight="650">Digital systems.</text>
 
   <text x="20" y="337" fill="#f0f6fc" font-size="17" font-weight="550">Systems / QA / Automation</text>
-  <text x="20" y="360" fill="#b1bac4" font-size="14.5" font-weight="500">B.Tech student · Open-source builder</text>
+  <text x="20" y="360" fill="#b1bac4" font-size="14.5" font-weight="500">Open-source builder</text>
   <text x="20" y="387" fill="#b1bac4" font-size="14.5" font-weight="500">Kolkata, India</text>
   <text x="340" y="386" class="mono" text-anchor="end" fill="#8b949e" font-size="10" font-weight="600">BUILD / TEST / EVOLVE</text>
 </svg>
