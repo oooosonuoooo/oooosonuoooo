@@ -1,58 +1,46 @@
-<!-- profile-data-synced: 2026-09-08 -->
-
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-    <img src="./assets/hero.svg" alt="Tuhin Das — $0NU. Open-source systems builder. Systems, QA and automation. Kolkata, India.">
-  </picture>
-  <br>
-  <br>
-  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><picture><source media="(max-width: 600px)" srcset="./assets/button-resume-mobile.svg"><img src="./assets/button-resume.svg" alt="Open Tuhin Das resume folder"></picture></a>
-  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><picture><source media="(max-width: 600px)" srcset="./assets/button-gallery-mobile.svg"><img src="./assets/button-gallery.svg" alt="Open Tuhin Das work gallery"></picture></a>
-</p>
-
-<p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/path-mobile.svg">
-    <img src="./assets/path.svg" alt="Learning path: diploma in automobile engineering completed; building open-source Linux, QA and automation projects.">
+    <source media="(max-width: 900px)" srcset="./assets/hero-mobile.svg">
+    <img src="./assets/hero.svg" alt="Tuhin Das, also known as $0NU. Open-source systems builder in Kolkata, India.">
   </picture>
 </p>
 
-<p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
+**[Résumé](https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing)** · **[Work gallery](https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing)** · **[GitHub activity](https://github.com/oooosonuoooo#js-contribution-activity-description)**
+
+## About
+
+I'm a software developer in Kolkata, India. I build Linux desktop tools and use scripting, system services and local AI tooling to automate day-to-day work. Manual QA and workflow testing are part of how I build and troubleshoot software.
+
+I completed a diploma in **automobile engineering**. My creative work includes photo and video editing, marketing automation and 3D CAD in SolidWorks.
+
+## Technology stack
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg">
-    <img src="./assets/stack.svg" alt="Technology stack: Linux, Kali Linux, Python, Go, Bash, Git, GitHub Actions, systemd, GTK, X11, software QA and automation">
+    <source media="(max-width: 1000px)" srcset="./assets/stack-mobile.svg">
+    <img src="./assets/stack.svg" alt="Programming and web development: Python, PHP, JavaScript, TypeScript, Node.js, Go, Bash, HTML5 and CSS3. Development and systems: Linux, Kali Linux, Git, GitHub, GitHub Actions, systemd, GTK, X11, automation and software QA.">
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/creative-suite-mobile.svg">
-    <img src="./assets/creative-suite.svg" alt="Creative and engineering skills: photo editing, video editing, marketing automation and SolidWorks 3D CAD">
-  </picture>
-</p>
-
-<p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
+## Selected projects
 
 <p align="center">
-  <a href="https://ethnicbnb.com/"><picture><source media="(max-width: 900px)" srcset="./assets/live-ethnicbnb-mobile.svg"><img src="./assets/live-ethnicbnb.svg" width="390" alt="EthnicBNB live project: heritage-stay booking platform. Open the live site."></picture></a>
-  <a href="https://puremilk.co.in/"><picture><source media="(max-width: 900px)" srcset="./assets/live-puremilk-mobile.svg"><img src="./assets/live-puremilk.svg" width="390" alt="Puremilk live project: farm-fresh dairy delivery storefront. Open the live site."></picture></a>
+  <a href="https://ethnicbnb.com/"><picture>
+    <source media="(max-width: 600px)" srcset="./assets/live-ethnicbnb-mobile.svg">
+    <img src="./assets/live-ethnicbnb.svg" width="392" alt="EthnicBNB, a heritage-stay booking platform. Visit the live site.">
+  </picture></a>
+  <a href="https://puremilk.co.in/"><picture>
+    <source media="(max-width: 600px)" srcset="./assets/live-puremilk-mobile.svg">
+    <img src="./assets/live-puremilk.svg" width="392" alt="Puremilk, a storefront for farm-fresh dairy delivery in Kolkata. Visit the live site.">
+  </picture></a>
 </p>
 
-<p align="center">
-  <picture><source media="(max-width: 900px)" srcset="./assets/focus-quality-mobile.svg"><img src="./assets/focus-quality.svg" width="390" alt="Quality systems: manual QA, workflow testing, verification and improvement."></picture>
-  <picture><source media="(max-width: 900px)" srcset="./assets/focus-automation-mobile.svg"><img src="./assets/focus-automation.svg" width="390" alt="Automation lab: Linux, agents and tooling with Python and systemd."></picture>
-</p>
+### Open-source work
 
-<p align="center"><img src="./assets/neon-divider.svg" width="100%" alt=""></p>
+- **[Wall Blazer](https://github.com/oooosonuoooo/Wall-Blazer)** runs video playlists, streams and web pages as live wallpapers on Linux.
+- **[Kali Splash Pro](https://github.com/oooosonuoooo/Kali-Splash-Pro)** manages the boot splash screen on Kali Linux XFCE with systemd.
+- **[Friday Local LLM](https://github.com/oooosonuoooo/friday-local-llm)** documents how to configure and run a local AI assistant.
 
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
-    <img src="./assets/footer.svg" alt="Tuhin Das: understand, build, test, automate, repeat">
-  </picture>
-</p>
+<p align="center"><picture><img src="./assets/neon-divider.svg" alt=""></picture></p>
+
+<p align="center"><em>Understand, build, test, automate, repeat.</em></p>

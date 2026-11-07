@@ -1,61 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" preserveAspectRatio="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="16" viewBox="0 0 880 16">
+  <style>
+    svg { --line: #b8cbd2; --blue: #126c8d; --green: #157652; }
+    @media (prefers-color-scheme: dark) {
+      svg { --line: #385261; --blue: #62d3ff; --green: #77e7ad; }
+    }
+    .sweep { animation: sweep 3.8s ease-out; opacity: 0; }
+    @keyframes sweep {
+      from { transform: translateX(-140px); opacity: 0; }
+      18% { opacity: .82; }
+      82% { opacity: .82; }
+      to { transform: translateX(880px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; } }
+  </style>
   <defs>
-    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.1" />
-      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#1f6feb" stop-opacity="1" />
-      <stop offset="70%" stop-color="#3fb950" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.1" />
+    <linearGradient id="beam">
+      <stop stop-color="var(--blue)" stop-opacity="0"/>
+      <stop offset=".54" stop-color="var(--blue)"/>
+      <stop offset="1" stop-color="var(--green)" stop-opacity="0"/>
     </linearGradient>
-    <filter id="neon-glow" x="-20%" y="-100%" width="140%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <style>
-      @keyframes pulseBeam {
-        0% {
-          transform: translateX(-100%);
-        }
-        50% {
-          transform: translateX(0%);
-        }
-        100% {
-          transform: translateX(100%);
-        }
-      }
-      @keyframes glowFade {
-        0%, 100% { opacity: 0.6; }
-        50% { opacity: 1; }
-      }
-      .base-line {
-        stroke: #30363d;
-        stroke-width: 1;
-        opacity: 0.4;
-      }
-      .beam-group {
-        animation: pulseBeam 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-      .pulse-glow {
-        animation: glowFade 2s ease-in-out infinite;
-      }
-    </style>
   </defs>
-
-  <!-- Background guide track -->
-  <line x1="0" y1="12" x2="1200" y2="12" class="base-line" />
-
-  <!-- Center aesthetic diamond -->
-  <g transform="translate(600, 12)" class="pulse-glow">
-    <polygon points="0,-6 6,0 0,6 -6,0" fill="#58a6ff" filter="url(#neon-glow)" />
-    <circle cx="0" cy="0" r="2" fill="#f0f6fc" />
-  </g>
-
-  <!-- Glowing pulsing beam -->
-  <g class="beam-group" filter="url(#neon-glow)">
-    <rect x="300" y="10.5" width="600" height="3" rx="1.5" fill="url(#cyber-grad)" />
-    <circle cx="600" cy="12" r="3" fill="#f0f6fc" />
-  </g>
+  <path d="M1 8H423m34 0H879" stroke="var(--line)"/>
+  <path d="m440 3 5 5-5 5-5-5Z" fill="none" stroke="var(--blue)"/>
+  <circle cx="440" cy="8" r="1.5" fill="var(--green)"/>
+  <rect class="sweep" y="7" width="140" height="2" rx="1" fill="url(#beam)"/>
 </svg>
