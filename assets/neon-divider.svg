@@ -1,17 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="16" viewBox="0 0 880 16">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="24" viewBox="0 0 880 24">
   <style>
     svg { --line: #b8cbd2; --blue: #126c8d; --green: #157652; }
     @media (prefers-color-scheme: dark) {
       svg { --line: #385261; --blue: #62d3ff; --green: #77e7ad; }
     }
-    .sweep { animation: sweep 3.8s ease-out; opacity: 0; }
-    @keyframes sweep {
-      from { transform: translateX(-140px); opacity: 0; }
-      18% { opacity: .82; }
-      82% { opacity: .82; }
-      to { transform: translateX(880px); opacity: 0; }
+    .prism { transform-box: fill-box; transform-origin: center; }
+    .trails { opacity: 0; }
+    @media (prefers-reduced-motion: no-preference) {
+      .trails { animation: trails 4.5s cubic-bezier(.22,.61,.36,1); }
+      .prism { animation: turn 4.5s cubic-bezier(.22,.61,.36,1); }
     }
-    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; } }
+    @keyframes trails {
+      0%, 10% { transform: translateX(-190px); opacity: 0; }
+      23% { opacity: .8; }
+      55% { opacity: .75; }
+      84%, 100% { transform: translateX(880px); opacity: 0; }
+    }
+    @keyframes turn {
+      0%, 100% { transform: none; }
+      40% { transform: translateY(-2px) rotateY(54deg) rotate(-14deg) scale(1.25); }
+      63% { transform: rotateY(-25deg) rotate(7deg); }
+      80% { transform: none; }
+    }
   </style>
   <defs>
     <linearGradient id="beam">
@@ -20,8 +30,14 @@
       <stop offset="1" stop-color="var(--green)" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <path d="M1 8H423m34 0H879" stroke="var(--line)"/>
-  <path d="m440 3 5 5-5 5-5-5Z" fill="none" stroke="var(--blue)"/>
-  <circle cx="440" cy="8" r="1.5" fill="var(--green)"/>
-  <rect class="sweep" y="7" width="140" height="2" rx="1" fill="url(#beam)"/>
+  <path d="M1 12H423m34 0H879" stroke="var(--line)"/>
+  <g class="trails" fill="none" stroke="url(#beam)" stroke-linecap="round">
+    <path d="M1 12h188" stroke-width="2.2"/>
+    <path d="M34 8h96M66 16h96" stroke-width="1.15"/>
+  </g>
+  <g class="prism">
+    <path d="m440 7 6 6-6 6-6-6Z" fill="var(--green)" opacity=".2"/>
+    <path d="m440 5 6 6-6 6-6-6Z" fill="none" stroke="var(--blue)"/>
+    <path d="m440 9 2 2-2 2-2-2Z" fill="var(--green)"/>
+  </g>
 </svg>
