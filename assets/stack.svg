@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="278" viewBox="0 0 880 278" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="321" viewBox="0 0 880 321" role="img" aria-labelledby="title desc">
   <title id="title">Technology stack</title>
-  <desc id="desc">Programming and web: Python, PHP, JavaScript, TypeScript, Node.js, Go, Bash, HTML5, CSS3. Development and systems: Linux, Kali Linux, Git, GitHub, GitHub Actions, systemd, GTK, X11, Automation, Software QA.</desc>
+  <desc id="desc">Programming and web: Python, PHP, JavaScript, TypeScript, Node.js, Go, Bash, HTML5, CSS3. Development and systems: Linux, Kali Linux, Git, GitHub, GitHub Actions, systemd, GTK, X11, Automation, Software QA, System Design.</desc>
   <!-- Source and license details are in STACK-NOTICES.md. -->
   <style>
     svg {
@@ -82,9 +82,10 @@
     <symbol id="logo-systemd" viewBox="4 905.61 172 52"><path fill="var(--systemd)" d="M4 905.61v52h20v-8H12v-36h12v-8zm152 0v8h12v36h-12v8h20v-52z"/><path fill="#30d475" d="M94 931.61l36-20v40z"/><circle fill="#30d475" r="18" cy="931.611" cx="64.002"/></symbol>
     <symbol id="logo-automation" viewBox="0 0 24 24"><g fill="none" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="8.5" y="2.5" width="7" height="6" rx="1.4"/><rect x="2.5" y="15.5" width="7" height="6" rx="1.4"/><rect x="14.5" y="15.5" width="7" height="6" rx="1.4"/><path d="M12 9v3.5m-6 3v-3h12v3"/></g></symbol>
     <symbol id="logo-qa" viewBox="0 0 24 24"><g fill="none" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3.5" width="16" height="17" rx="3"/><path d="m8 12 2.7 2.7L16 9.3"/></g></symbol>
+    <symbol id="logo-system-design" viewBox="0 0 24 24"><path fill="none" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m12 3 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 16l9 5 9-5"/></symbol>
   </defs>
   <g class="web" transform="translate(1 1)">
-    <rect class="panel" x=".5" y=".5" width="431" height="275" rx="16"/>
+    <rect class="panel" x=".5" y=".5" width="431" height="318" rx="16"/>
     <path class="panel-accent" d="M19 1h64"/>
     <text class="index" x="18" y="36">01</text>
     <text class="heading" x="47" y="37">Programming &amp; web</text>
@@ -136,11 +137,11 @@
     </g>
   </g>
   <g class="systems" transform="translate(447 1)">
-    <rect class="panel" x=".5" y=".5" width="431" height="275" rx="16"/>
+    <rect class="panel" x=".5" y=".5" width="431" height="318" rx="16"/>
     <path class="panel-accent" d="M19 1h64"/>
     <text class="index" x="18" y="36">02</text>
     <text class="heading" x="47" y="37">Development &amp; systems</text>
-    <text class="count" x="414" y="36" text-anchor="end">10 TOOLS</text>
+    <text class="count" x="414" y="36" text-anchor="end">11 TOOLS</text>
     <g class="chip" transform="translate(16 53)">
       <rect width="196" height="38" rx="8"/>
       <use href="#logo-linux" x="11" y="8" width="24" height="22"/>
@@ -190,6 +191,11 @@
       <rect width="196" height="38" rx="8"/>
       <use href="#logo-qa" x="11" y="8" width="24" height="22"/>
       <text x="45" y="26">Software QA</text>
+    </g>
+    <g class="chip" transform="translate(16 268)">
+      <rect width="196" height="38" rx="8"/>
+      <use href="#logo-system-design" x="11" y="8" width="24" height="22"/>
+      <text x="45" y="26">System Design</text>
     </g>
   </g>
 </svg>

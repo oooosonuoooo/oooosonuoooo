@@ -17,7 +17,7 @@ Most monochrome logomarks come from [Simple Icons 16.36.0](https://github.com/si
 | GTK | [Andreas Nilsson, GTK logo](https://commons.wikimedia.org/wiki/File:GTK_logo.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The monochrome adaptation is available under the same license. |
 | X.Org (X11) | [Sven, X.Org SVG redraw](https://commons.wikimedia.org/wiki/File:X.Org_Logo.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The monochrome adaptation is available under the same license. |
 
-The Automation and Software QA pictograms were drawn for these graphics.
+The Automation, Software QA and System Design pictograms were drawn for these graphics.
 
 ## MIT notice for Bash and JavaScript
 

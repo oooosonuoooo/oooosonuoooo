@@ -18,7 +18,7 @@ I completed a diploma in **automobile engineering**. My creative work includes p
 <p align="center">
   <picture>
     <source media="(max-width: 1000px)" srcset="./assets/stack-mobile.svg">
-    <img src="./assets/stack.svg" alt="Programming and web development: Python, PHP, JavaScript, TypeScript, Node.js, Go, Bash, HTML5 and CSS3. Development and systems: Linux, Kali Linux, Git, GitHub, GitHub Actions, systemd, GTK, X11, automation and software QA.">
+    <img src="./assets/stack.svg" alt="Programming and web development: Python, PHP, JavaScript, TypeScript, Node.js, Go, Bash, HTML5 and CSS3. Development and systems: Linux, Kali Linux, Git, GitHub, GitHub Actions, systemd, GTK, X11, automation, software QA and system design.">
   </picture>
 </p>
 
