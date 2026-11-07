@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="226" height="66" viewBox="0 0 226 66" role="img" aria-labelledby="label">
+  <title id="label">Repositories</title>
+  <style>
+    svg { --panel: #f4f8fb; --ink: #162638; --accent: #654695; }
+    @media (prefers-color-scheme: dark) {
+      svg { --panel: #141f2c; --ink: #f1f7ff; --accent: #c5a9ff; }
+    }
+    text { font-family: system-ui, sans-serif; }
+    .trail { opacity: 0; }
+    .arrow { transform-box: fill-box; transform-origin: center; }
+    @media (prefers-reduced-motion: no-preference) {
+      .trail { animation: sweep 3.8s ease-in-out infinite; }
+      .arrow { animation: launch 3.8s ease-in-out infinite; }
+    }
+    @keyframes sweep {
+      0%, 12% { transform: translateX(-70px); opacity: 0; }
+      33% { opacity: .75; }
+      76%, 100% { transform: translateX(230px); opacity: 0; }
+    }
+    @keyframes launch {
+      0%, 100% { transform: none; }
+      46% { transform: translate(3px,-3px) rotateY(-27deg); }
+    }
+  </style>
+  <path d="M1 12 12 1h213v53l-11 11H1Z" fill="var(--panel)" stroke="var(--accent)"/>
+  <path d="M2 18V12l10-10h44m117 62h41l10-10v-6" fill="none" stroke="var(--accent)" stroke-width="2"/>
+  <path d="M8 6l-6 6 6 6m8-12 6 6-6 6m-3-15-2 18" transform="translate(17 20)" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M53 16v34" stroke="var(--accent)" opacity=".35"/>
+  <text x="65" y="27" font-size="9" font-weight="750" letter-spacing=".85" fill="var(--accent)">03 / SOURCE CODE</text>
+  <text x="65" y="47" font-size="18" font-weight="750" fill="var(--ink)">Repositories</text>
+  <path class="arrow" d="M190 40l11-11m-9 0h9v9" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="trail" d="M4 62h54m-38-3h29" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -5,7 +5,11 @@
   </picture>
 </p>
 
-**[Résumé](https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing)** · **[Work gallery](https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing)** · **[Repositories](https://github.com/oooosonuoooo?tab=repositories)**
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing"><img src="./assets/nav-resume.svg" width="226" alt="Résumé"></a>
+  <a href="https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing"><img src="./assets/nav-gallery.svg" width="226" alt="Work gallery"></a>
+  <a href="https://github.com/oooosonuoooo?tab=repositories"><img src="./assets/nav-repositories.svg" width="226" alt="Repositories"></a>
+</p>
 
 ## About
 
