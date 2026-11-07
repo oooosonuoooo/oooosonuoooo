@@ -1,61 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" preserveAspectRatio="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="24" viewBox="0 0 880 24">
+  <style>
+    svg { --line: #b8cbd2; --blue: #126c8d; --green: #157652; }
+    @media (prefers-color-scheme: dark) {
+      svg { --line: #385261; --blue: #62d3ff; --green: #77e7ad; }
+    }
+    .prism { transform-box: fill-box; transform-origin: center; }
+    .trails { opacity: 0; }
+    @media (prefers-reduced-motion: no-preference) {
+      .trails { animation: trails 4.5s cubic-bezier(.22,.61,.36,1); }
+      .prism { animation: turn 4.5s cubic-bezier(.22,.61,.36,1); }
+    }
+    @keyframes trails {
+      0%, 10% { transform: translateX(-190px); opacity: 0; }
+      23% { opacity: .8; }
+      55% { opacity: .75; }
+      84%, 100% { transform: translateX(880px); opacity: 0; }
+    }
+    @keyframes turn {
+      0%, 100% { transform: none; }
+      40% { transform: translateY(-2px) rotateY(54deg) rotate(-14deg) scale(1.25); }
+      63% { transform: rotateY(-25deg) rotate(7deg); }
+      80% { transform: none; }
+    }
+  </style>
   <defs>
-    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.1" />
-      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#1f6feb" stop-opacity="1" />
-      <stop offset="70%" stop-color="#3fb950" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.1" />
+    <linearGradient id="beam">
+      <stop stop-color="var(--blue)" stop-opacity="0"/>
+      <stop offset=".54" stop-color="var(--blue)"/>
+      <stop offset="1" stop-color="var(--green)" stop-opacity="0"/>
     </linearGradient>
-    <filter id="neon-glow" x="-20%" y="-100%" width="140%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <style>
-      @keyframes pulseBeam {
-        0% {
-          transform: translateX(-100%);
-        }
-        50% {
-          transform: translateX(0%);
-        }
-        100% {
-          transform: translateX(100%);
-        }
-      }
-      @keyframes glowFade {
-        0%, 100% { opacity: 0.6; }
-        50% { opacity: 1; }
-      }
-      .base-line {
-        stroke: #30363d;
-        stroke-width: 1;
-        opacity: 0.4;
-      }
-      .beam-group {
-        animation: pulseBeam 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-      .pulse-glow {
-        animation: glowFade 2s ease-in-out infinite;
-      }
-    </style>
   </defs>
-
-  <!-- Background guide track -->
-  <line x1="0" y1="12" x2="1200" y2="12" class="base-line" />
-
-  <!-- Center aesthetic diamond -->
-  <g transform="translate(600, 12)" class="pulse-glow">
-    <polygon points="0,-6 6,0 0,6 -6,0" fill="#58a6ff" filter="url(#neon-glow)" />
-    <circle cx="0" cy="0" r="2" fill="#f0f6fc" />
+  <path d="M1 12H423m34 0H879" stroke="var(--line)"/>
+  <g class="trails" fill="none" stroke="url(#beam)" stroke-linecap="round">
+    <path d="M1 12h188" stroke-width="2.2"/>
+    <path d="M34 8h96M66 16h96" stroke-width="1.15"/>
   </g>
-
-  <!-- Glowing pulsing beam -->
-  <g class="beam-group" filter="url(#neon-glow)">
-    <rect x="300" y="10.5" width="600" height="3" rx="1.5" fill="url(#cyber-grad)" />
-    <circle cx="600" cy="12" r="3" fill="#f0f6fc" />
+  <g class="prism">
+    <path d="m440 7 6 6-6 6-6-6Z" fill="var(--green)" opacity=".2"/>
+    <path d="m440 5 6 6-6 6-6-6Z" fill="none" stroke="var(--blue)"/>
+    <path d="m440 9 2 2-2 2-2-2Z" fill="var(--green)"/>
   </g>
 </svg>
