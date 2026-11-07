@@ -60,8 +60,8 @@
     .panel-speed-lines { stroke-width: 1.5; opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
       .panel-accent, .panel-speed-lines { transform-box: fill-box; transform-origin: center; }
-      .panel-accent { animation: panel-depth 2.8s cubic-bezier(.18, .78, .24, 1) both; }
-      .panel-speed-lines { animation: panel-sweep 2.8s ease-out both; }
+      .panel-accent { animation: panel-depth 5.6s cubic-bezier(.18, .78, .24, 1) both infinite; }
+      .panel-speed-lines { animation: panel-sweep 5.6s ease-out both infinite; }
       .systems .panel-accent, .systems .panel-speed-lines { animation-delay: .18s; }
     }
     @keyframes panel-depth {

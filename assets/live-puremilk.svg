@@ -16,9 +16,9 @@
     .preview { transform-box: fill-box; transform-origin: center; }
     .speed-lines { opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
-      .preview { animation: frame-tilt 4.4s cubic-bezier(.22,.61,.36,1); }
-      .speed-lines { animation: speed-lines 4.4s ease-out; }
-      .scenery { animation: scenery-drift 4.4s ease-in-out; }
+      .preview { animation: frame-tilt 4.4s cubic-bezier(.22,.61,.36,1) infinite; }
+      .speed-lines { animation: speed-lines 4.4s ease-out infinite; }
+      .scenery { animation: scenery-drift 4.4s ease-in-out infinite; }
     }
     @keyframes frame-tilt {
       0%, 100% { transform: none; }

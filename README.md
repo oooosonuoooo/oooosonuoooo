@@ -9,11 +9,15 @@
 
 ## About
 
+<p align="center"><picture><img src="./assets/motion-rail.svg" alt=""></picture></p>
+
 I'm a software developer in Kolkata, India. I build Linux desktop tools and use scripting, system services and local AI tooling to automate day-to-day work. Manual QA and workflow testing are part of how I build and troubleshoot software.
 
 I completed a diploma in **automobile engineering**. My creative work includes photo and video editing, marketing automation and 3D CAD in SolidWorks.
 
 ## Technology stack
+
+<p align="center"><picture><img src="./assets/motion-rail.svg" alt=""></picture></p>
 
 <p align="center">
   <picture>
@@ -24,12 +28,16 @@ I completed a diploma in **automobile engineering**. My creative work includes p
 
 ## Selected projects
 
+<p align="center"><picture><img src="./assets/motion-rail.svg" alt=""></picture></p>
+
 <p align="center">
   <a href="https://ethnicbnb.com/"><picture><source media="(max-width: 600px)" srcset="./assets/live-ethnicbnb-mobile.svg"><img src="./assets/live-ethnicbnb.svg" width="392" alt="EthnicBNB, a heritage-stay booking platform. Visit the live site."></picture></a>
   <a href="https://puremilk.co.in/"><picture><source media="(max-width: 600px)" srcset="./assets/live-puremilk-mobile.svg"><img src="./assets/live-puremilk.svg" width="392" alt="Puremilk, a storefront for farm-fresh dairy delivery in Kolkata. Visit the live site."></picture></a>
 </p>
 
 ### Open-source work
+
+<p align="center"><picture><img src="./assets/motion-rail.svg" alt=""></picture></p>
 
 - **[Wall Blazer](https://github.com/oooosonuoooo/Wall-Blazer)** runs video playlists, streams and web pages as live wallpapers on Linux.
 - **[Kali Splash Pro](https://github.com/oooosonuoooo/Kali-Splash-Pro)** manages the boot splash screen on Kali Linux XFCE with systemd.
