@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-**[Résumé](https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing)** · **[Work gallery](https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing)** · **[GitHub activity](https://github.com/oooosonuoooo#js-contribution-activity-description)**
+**[Résumé](https://drive.google.com/drive/folders/1MiTmV6D5hdOE4-om9eJdjg82zzI7LsYc?usp=sharing)** · **[Work gallery](https://drive.google.com/drive/folders/19pjViIKyjfyRd-ovCmQJS_MXIs93l74Q?usp=sharing)** · **[Repositories](https://github.com/oooosonuoooo?tab=repositories)**
 
 ## About
 
