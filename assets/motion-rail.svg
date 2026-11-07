@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="28" viewBox="0 0 880 28">
+  <style>
+    svg { --track: #a4bec9; --cyan: #087498; --green: #08764e; }
+    @media (prefers-color-scheme: dark) {
+      svg { --track: #405e6b; --cyan: #6cdcff; --green: #76eab5; }
+    }
+    .signal { opacity: 0; }
+    .gate { transform-box: fill-box; transform-origin: center; }
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: sweep 5.8s cubic-bezier(.22,.61,.36,1) infinite; }
+      .gate { animation: tilt 5.8s ease-in-out infinite; }
+    }
+    @keyframes sweep {
+      0%, 12% { transform: translateX(-160px); opacity: 0; }
+      25%, 65% { opacity: .86; }
+      90%, 100% { transform: translateX(890px); opacity: 0; }
+    }
+    @keyframes tilt {
+      0%, 100% { transform: none; }
+      42% { transform: translateY(-2px) rotateY(48deg) skewY(-9deg); }
+      72% { transform: rotateY(-24deg); }
+    }
+  </style>
+  <path d="M1 14h414m50 0h414" stroke="var(--track)"/>
+  <g class="gate" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m424 8 6 6-6 6m12-12 6 6-6 6m12-12 6 6-6 6"/>
+    <path d="m430 10 6 6-6 6m12-12 6 6-6 6m12-12 6 6-6 6" stroke="var(--green)" opacity=".4"/>
+  </g>
+  <g class="signal" fill="none" stroke-linecap="round">
+    <path d="M2 14h136" stroke="var(--cyan)" stroke-width="2"/>
+    <path d="M30 9h90m-62 10h84" stroke="var(--green)"/>
+  </g>
+</svg>

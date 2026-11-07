@@ -7,8 +7,8 @@
     .prism { transform-box: fill-box; transform-origin: center; }
     .trails { opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
-      .trails { animation: trails 4.5s cubic-bezier(.22,.61,.36,1); }
-      .prism { animation: turn 4.5s cubic-bezier(.22,.61,.36,1); }
+      .trails { animation: trails 4.5s cubic-bezier(.22,.61,.36,1) infinite; }
+      .prism { animation: turn 4.5s cubic-bezier(.22,.61,.36,1) infinite; }
     }
     @keyframes trails {
       0%, 10% { transform: translateX(-190px); opacity: 0; }

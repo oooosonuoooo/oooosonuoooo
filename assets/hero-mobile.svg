@@ -41,9 +41,9 @@
       .velocity-left { --travel: 24px; }
       .velocity-right { --travel: -24px; }
       @media (prefers-reduced-motion: no-preference) {
-        .portrait-depth { animation: portrait-parallax 4.6s ease-in-out; }
-        .portrait-rim { animation: rim-parallax 4.6s ease-in-out; }
-        .velocity { animation: velocity 2.55s ease-out; }
+        .portrait-depth { animation: portrait-parallax 4.6s ease-in-out infinite; }
+        .portrait-rim { animation: rim-parallax 4.6s ease-in-out infinite; }
+        .velocity { animation: velocity 2.55s ease-out infinite; }
         .velocity-right { animation-delay: 1.25s; }
         @supports (transform: perspective(900px) rotateY(4deg)) {
           .portrait-depth { animation-name: portrait-perspective; }
