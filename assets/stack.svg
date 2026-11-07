@@ -40,6 +40,7 @@
         --go: #00add8;
         --bash: #91d576;
         --css3: #6bbbf4;
+        --kali: #a6cde2;
         --actions: #72b8ff;
         --gtk: #7fe719;
         --xorg: #f28834;

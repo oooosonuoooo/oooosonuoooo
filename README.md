@@ -25,14 +25,8 @@ I completed a diploma in **automobile engineering**. My creative work includes p
 ## Selected projects
 
 <p align="center">
-  <a href="https://ethnicbnb.com/"><picture>
-    <source media="(max-width: 600px)" srcset="./assets/live-ethnicbnb-mobile.svg">
-    <img src="./assets/live-ethnicbnb.svg" width="392" alt="EthnicBNB, a heritage-stay booking platform. Visit the live site.">
-  </picture></a>
-  <a href="https://puremilk.co.in/"><picture>
-    <source media="(max-width: 600px)" srcset="./assets/live-puremilk-mobile.svg">
-    <img src="./assets/live-puremilk.svg" width="392" alt="Puremilk, a storefront for farm-fresh dairy delivery in Kolkata. Visit the live site.">
-  </picture></a>
+  <a href="https://ethnicbnb.com/"><picture><source media="(max-width: 600px)" srcset="./assets/live-ethnicbnb-mobile.svg"><img src="./assets/live-ethnicbnb.svg" width="392" alt="EthnicBNB, a heritage-stay booking platform. Visit the live site."></picture></a>
+  <a href="https://puremilk.co.in/"><picture><source media="(max-width: 600px)" srcset="./assets/live-puremilk-mobile.svg"><img src="./assets/live-puremilk.svg" width="392" alt="Puremilk, a storefront for farm-fresh dairy delivery in Kolkata. Visit the live site."></picture></a>
 </p>
 
 ### Open-source work
