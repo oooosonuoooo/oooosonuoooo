@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 900px)" srcset="./assets/hero-mobile.svg">
-    <img src="./assets/hero.svg" alt="Tuhin Das, also known as $0NU. Open-source systems builder in Kolkata, India.">
+    <source media="(max-width: 900px)" srcset="./assets/hero-still-mobile.svg">
+    <img src="./assets/hero-still.svg" alt="Tuhin Das, also known as $0NU. Open-source systems builder in Kolkata, India.">
   </picture>
 </p>
 
